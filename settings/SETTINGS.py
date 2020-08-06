@@ -9,7 +9,7 @@ staging =           True
 blogposts =         True
 ingamebugmessage =  True
 hotfixes =          True
-intervall = 30 # Under 15 Seconds is not allowed.
+intervall = 30 # Under 20 Seconds is not allowed.
 
 
 """ TWITTER_TOKEN
