@@ -1,0 +1,30 @@
+{
+  "status": 200,
+  "data": {
+    "hash": "cdbf9f93b6cb13bac01add7252bc4a1fd351f8bf",
+    "date": "2020-08-05T00:22:49Z",
+    "image": "https://cdn.fortnite-api.com/news/v2/cdbf9f93b6cb13bac01add7252bc4a1fd351f8bf.gif",
+    "motds": [
+      {
+        "id": "Teaser 4 - Bear",
+        "title": "August 5, 2020",
+        "tabTitle": "Coming Soon",
+        "body": "Don’t poke the bear.",
+        "image": "https://cdn2.unrealengine.com/valet-pickuptruckposter-1920x1080-1920x1080-648861155.jpg",
+        "tileImage": "https://cdn2.unrealengine.com/valet-pickuptruckposter-1024x512-1024x512-648860811.jpg",
+        "sortingPriority": 60
+      },
+      {
+        "id": "KENSHI YONEZU at Party Royale",
+        "title": "KENSHI YONEZU @ PARTY ROYALE",
+        "tabTitle": "Video Premiere at the Main Stage",
+        "body": "Watch Japanese sensation Kenshi Yonezu take a sonic journey in a video world premiere at the Main Stage on August 7 at 7 AM ET, 1 PM ET, & 7 PM ET.",
+        "image": "https://cdn2.unrealengine.com/13pr-kenshiyonezu-announce-motd-1920x1080-1920x1080-617038789.jpg",
+        "tileImage": "https://cdn2.unrealengine.com/13pr-kenshiyonezu-announce-motd-1024x512-1024x512-617036698.jpg",
+        "sortingPriority": 50
+      }
+    ],
+    "messages": [
+    ]
+  }
+}
