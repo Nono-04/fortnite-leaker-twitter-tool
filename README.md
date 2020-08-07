@@ -10,6 +10,7 @@ Features:
 - blog posts tracker
 - ingame bug tracker
 - hotfixes
+- featured islands
 
  # Setup and other Important Stuff:
 Run the *main.py* file with Python 3 
