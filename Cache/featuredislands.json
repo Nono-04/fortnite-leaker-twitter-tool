@@ -1,0 +1,82 @@
+{
+  "informations_by": "https://fortniteapi.io",
+  "featured_islands": [
+    {
+      "code": "0610-8304-3197",
+      "creator": "real_sackman",
+      "publishedDate": "2020-07-31T19:50:03+00:00",
+      "title": "Mini Royale 3",
+      "description": "2 - 16 Players - Versus - Drop into Mini Royale 3 today!",
+      "tags": [
+        "battle royale",
+        "casual",
+        "free for all",
+        "pvp"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/MiniBR3_512.jpg"
+    },
+    {
+      "code": "4484-4147-7979",
+      "creator": "gur4anov",
+      "publishedDate": "2020-06-20T13:46:24+00:00",
+      "title": "Aqua Drift Race",
+      "description": "Show your drifting skills and finish first",
+      "tags": [
+        "race",
+        "single player"
+      ],
+      "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/4484-4147-7979.png"
+    },
+    {
+      "code": "7198-6013-1924",
+      "creator": "fatal_creations",
+      "publishedDate": "2020-08-04T18:05:35+00:00",
+      "title": "Mansion Mayhem | Hide & Seek",
+      "description": "2 - 16 Players - Versus | Hide within a luxurious mansion. Read the game description before starting!",
+      "tags": [
+        "hide & seek",
+        "infection"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/MansionMayhem_Hide%26Seek_512.jpg"
+    },
+    {
+      "code": "7131-1256-6889",
+      "creator": "miss_sophieex",
+      "publishedDate": "2020-08-05T18:52:32+00:00",
+      "title": "The Ultimate Run!!",
+      "description": "1 Player - Difficulty: Hard - Test Yourself With 9 Levels Some Hard Some Easy & Some Inbetween!",
+      "tags": [
+        "deathrun",
+        "difficulty: hard",
+        "difficulty: medium",
+        "just for fun"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/TheUltimateRun_512.jpg"
+    },
+    {
+      "code": "9464-5951-7419",
+      "creator": "cross_mcpenna",
+      "publishedDate": "2020-08-04T18:27:42+00:00",
+      "title": "•  TITANS  •",
+      "description": "2 - 16 Players - Versus - 16 TITANS to choose from for a free for all deathmatch.",
+      "tags": [
+        "1v1"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/titans.jpg"
+    },
+    {
+      "code": "9562-2424-7221",
+      "creator": "shride",
+      "publishedDate": "2020-07-30T19:10:29+00:00",
+      "title": "The Co-Op Challenge!",
+      "description": "Co-Op with a friend and test your teamwork in up to 10 challenges! Can you beat the World Record?",
+      "tags": [
+        "deathrun",
+        "difficulty: medium",
+        "duo",
+        "puzzle"
+      ],
+      "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/9562-2424-7221.png"
+    }
+  ]
+}

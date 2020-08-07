@@ -9,6 +9,7 @@ staging =           True
 blogposts =         True
 ingamebugmessage =  True
 hotfixes =          True
+featuredislands =   True
 intervall = 30 # Under 20 Seconds is not allowed.
 
 
