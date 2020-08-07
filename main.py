@@ -11,7 +11,7 @@ except ImportError:
     try:
         import tweepy
     except ImportError:
-        print("Please install the Python Package: tweepy")
+        print("Please install the Python Package: tweepy\nOpen CMD and enter this:\n\npython -m pip install tweepy")
 
 import settings.SETTINGS as SETTINGS
 import settings.MODULES as MODULES
