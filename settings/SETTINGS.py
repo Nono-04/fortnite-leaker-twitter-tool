@@ -8,6 +8,7 @@ newsfeed =          True
 staging =           True
 blogposts =         True
 ingamebugmessage =  True
+playlists =         True
 hotfixes =          True
 featuredislands =   True
 intervall = 30 # Under 20 Seconds is not allowed.
@@ -16,7 +17,7 @@ intervall = 30 # Under 20 Seconds is not allowed.
 """ TWITTER_TOKEN
 Enter here you Twitter Tokens from https://developer.twitter.com/en/apps
 """
-TWITTER_TOKEN = {
+TWITTER_TOKEN = {   
     "consumer_key":        "xxxxxxxxxxxx",
     "consumer_secret":     "xxxxxxxxxxxx",
     "access_token_key":    "xxxxxxxxxxxx",
