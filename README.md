@@ -11,6 +11,7 @@ Features:
 - ingame bug tracker
 - hotfixes
 - featured islands
+- playlists
 
  # Setup and other Important Stuff:
 Run the *main.py* file with Python 3 
