@@ -9,7 +9,7 @@ staging =           True
 blogposts =         True
 ingamebugmessage =  True
 playlists =         True
-hotfixes =          True
+hotfixes =          False
 featuredislands =   True
 intervall = 30 # Under 20 Seconds is not allowed.
 
