@@ -1,6 +1,6 @@
  # Leaker Tool
 
-A Discord Bot for Leakers with many Settings.
+A Twitter Bot for Leakers with many Settings.
 
 Features:
 - new cosmetics
