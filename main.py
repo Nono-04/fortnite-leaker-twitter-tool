@@ -52,7 +52,7 @@ def check_shop():
         print("Item Shop posted")
 
 
-def other():
+def emergencynotice():
     try:
         with open('Cache/content.json', 'r') as file:
             Cached = json.load(file)
@@ -70,29 +70,6 @@ def other():
                 MODULES.post_text(text=f"{title}\n{body}\n#Fortnite")
         print("emergencynotice posted")
     with open('Cache/content.json', 'w') as file:
-        json.dump(new, file)
-
-
-def playlists():
-    try:
-        with open('Cache/playlists.json', 'r') as file:
-            Cached = json.load(file)
-        data = requests.get('https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game')
-        new = data.json()
-        if data.status_code != 200:
-            return
-    except:
-        return
-    if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"]["playlists"]:
-        for i in new["playlistinformation"]["playlist_info"]["playlists"]:
-            if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
-                playlist_name = i["playlist_name"]
-                _type = i["_type"]
-                image = i["image"]
-                MODULES.tweet_image(
-                    url=i["image"], message=f"New Playlist found: Playlistname:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
-        print("Playlist posted")
-    with open('Cache/playlists.json', 'w') as file:
         json.dump(new, file)
 
 
@@ -141,31 +118,6 @@ def staging():
             json.dump(new, file)
 
 
-def hotfixes():
-    with open('Cache/hotfix.json', 'r', encoding="utf8") as file:
-        old = json.load(file)
-    try:
-        req = requests.get("https://benbotfn.tk/api/v1/hotfixes")
-        if req.status_code != 200:
-            return
-        new = req.json()
-    except:
-        return
-    list = []
-    try:
-        for i in new[""]:
-            list.append(new[""][i])
-        if old != list:
-            print("NEW HOTFIXES")
-            for i in list:
-                if i not in old:
-                    MODULES.post_text(text=f"New Hotfix: \n\n{i}")
-            with open('Cache/hotfix.json', 'w', encoding="utf8") as file:
-                json.dump(list, file)
-    except:
-        return
-
-
 def news():
     with open('Cache/news.json', 'r', encoding="utf8") as file:
         old = json.load(file)
@@ -205,6 +157,28 @@ def featuredislands():
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
         json.dump(new, file)
 
+def playlists():
+    try:
+        with open('Cache/playlists.json', 'r') as file:
+            Cached = json.load(file)
+        data = requests.get(
+            'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game')
+        new = data.json()
+        if data.status_code != 200:
+            return
+    except:
+        return
+    if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"]["playlists"]:
+        for i in new["playlistinformation"]["playlist_info"]["playlists"]:
+            if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
+                playlist_name = i["playlist_name"]
+                _type = i["_type"]
+                image = i["image"]
+                MODULES.tweet_image(
+                    url=i["image"], message=f"New #Fortnite Playlist found:\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
+        print("Playlist gepostet")
+    with open('Cache/playlists.json', 'w') as file:
+        json.dump(new, file)
 
 if __name__ == "__main__":
     print("Twitter Bot Ready")
@@ -213,13 +187,9 @@ if __name__ == "__main__":
         if SETTINGS.new_cosmetics is True:
             check_leaks()
         if SETTINGS.ingamebugmessage is True:
-            other()
-        if SETTINGS.playlists is True:
-            playlists()
+            emergencynotice()
         if SETTINGS.shop is True:
             check_shop()
-        if SETTINGS.hotfixes is True:
-            hotfixes()
         if SETTINGS.staging is True:
             staging()
         if SETTINGS.blogposts is True:
@@ -228,6 +198,8 @@ if __name__ == "__main__":
             news()
         if SETTINGS.featuredislands is True:
             featuredislands()
+        if SETTINGS.playlist is True:
+            playlists()
         if SETTINGS.intervall < 20:
             time.sleep(20)
         else:

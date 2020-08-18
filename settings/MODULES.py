@@ -29,14 +29,26 @@ def tweet_image(url, message):
                                consumer_secret=SETTINGS.TWITTER_TOKEN["consumer_secret"])
     auth.set_access_token(key=SETTINGS.TWITTER_TOKEN["access_token_key"],
                           secret=SETTINGS.TWITTER_TOKEN["access_token_secret"])
-    api = tweepy.API(auth)
-    filename = 'Outpug/image.png'
+    client = tweepy.API(auth)
+    filename = 'image.png'
     request = requests.get(url, stream=True)
     if request.status_code == 200:
-        with open(filename, 'wb') as image:
+        with open("image.png", 'wb') as image:
             for chunk in request:
                 image.write(chunk)
-        api.update_with_media(filename, status=message)
-        os.remove(filename)
+                for tint in range(1, 11):
+                    temp = Image.open("image.png")
+                    x = int(round(temp.size[0] / tint))
+                    y = int(round(temp.size[1] / tint))
+                    temp = temp.resize((x, y), Image.ANTIALIAS)
+                    temp.save("image.png", optimize=True, quality=int(round(100 / tint)))
+                    temp.save(io.BytesIO(), format="PNG")
+                    try:
+                        client.update_with_media("image.png", status=message)
+                        break
+                    except tweepy.TweepError as ex:
+                        print(ex)
+                        continue
+                    os.remove(filename)
     else:
         print("Unable to download image")
