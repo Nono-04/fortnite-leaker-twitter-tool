@@ -157,9 +157,9 @@ def featuredislands():
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
         json.dump(new, file)
 
-def playlists():
+def playlist():
     try:
-        with open('Cache/playlists.json', 'r') as file:
+        with open('Cache/playlist.json', 'r') as file:
             Cached = json.load(file)
         data = requests.get(
             'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game')
@@ -177,7 +177,7 @@ def playlists():
                 MODULES.tweet_image(
                     url=i["image"], message=f"New #Fortnite Playlist found:\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
         print("Playlist gepostet")
-    with open('Cache/playlists.json', 'w') as file:
+    with open('Cache/playlist.json', 'w') as file:
         json.dump(new, file)
 
 if __name__ == "__main__":
@@ -199,7 +199,7 @@ if __name__ == "__main__":
         if SETTINGS.featuredislands is True:
             featuredislands()
         if SETTINGS.playlist is True:
-            playlists()
+            playlist()
         if SETTINGS.intervall < 20:
             time.sleep(20)
         else:
