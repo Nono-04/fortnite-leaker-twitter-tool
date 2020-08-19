@@ -157,6 +157,28 @@ def featuredislands():
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
         json.dump(new, file)
 
+def playlist():
+    try:
+        with open('Cache/playlist.json', 'r') as file:
+            Cached = json.load(file)
+        data = requests.get(
+            'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game')
+        new = data.json()
+        if data.status_code != 200:
+            return
+    except:
+        return
+    if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"]["playlists"]:
+        for i in new["playlistinformation"]["playlist_info"]["playlists"]:
+            if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
+                playlist_name = i["playlist_name"]
+                _type = i["_type"]
+                image = i["image"]
+                MODULES.tweet_image(
+                    url=i["image"], message=f"New #Fortnite Playlist found:\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
+        print("Playlist gepostet")
+    with open('Cache/playlist.json', 'w') as file:
+        json.dump(new, file)
 
 if __name__ == "__main__":
     print("Twitter Bot Ready")
@@ -176,6 +198,8 @@ if __name__ == "__main__":
             news()
         if SETTINGS.featuredislands is True:
             featuredislands()
+        if SETTINGS.playlist is True:
+            playlist()
         if SETTINGS.intervall < 20:
             time.sleep(20)
         else:
