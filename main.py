@@ -70,7 +70,7 @@ def emergencynotice():
                 MODULES.post_text(text=f"{title}\n{body}\n#Fortnite")
         print("emergencynotice posted")
     with open('Cache/content.json', 'w') as file:
-        json.dump(new, file)
+        json.dump(new, file, indent=3)
 
 
 def blogpost():
@@ -96,7 +96,7 @@ def blogpost():
             else:
                 MODULES.tweet_image(url=i["image"], message=f'https://www.epicgames.com/fortnite/{i["urlPattern"]}')
         with open('Cache/blog.json', 'w', encoding="utf8") as file:
-            json.dump(new, file)
+            json.dump(new, file, indent=3)
 
 
 def staging():
@@ -115,29 +115,26 @@ def staging():
         MODULES.post_text(text=f"Patch v{new['version']} was applied to the staging servers.\n\n"
                                f"You can expect we'll get v{new['version']} next week.")
         with open('Cache/staging.json', 'w', encoding="utf8") as file:
-            json.dump(new, file)
+            json.dump(new, file, indent=3)
 
 
 def news():
     with open('Cache/news.json', 'r', encoding="utf8") as file:
         old = json.load(file)
     try:
-        req = requests.get("https://fortnite-api.com/v2/news/br")
+        req = requests.get("https://fortnite-api.com/v2/news/br?lang=en")
         if req.status_code != 200:
             return
         new = req.json()
     except:
         return
-    list = []
     if old != new:
-        for i in new:
-            if not i in old:
+        for i in new["data"]["motds"]:
+            if not i in old["data"]["motds"]:
                 print("NEW news feed")
-                for i in list:
-                    if i not in old:
-                        MODULES.tweet_image(url=i["image"], message=f"BR News-Feed Update\n{i['title']}\n{i['body']}")
+                MODULES.tweet_image(url=i["image"], message=f"BR News-Feed Update\n{i['title']}\n{i['body']}")
                 with open('Cache/news.json', 'w', encoding="utf8") as file:
-                    json.dump(list, file)
+                    json.dump(new, file, indent=3)
 
 
 def featuredislands():
@@ -155,7 +152,7 @@ def featuredislands():
             if not i in old["featured_islands"]:
                 MODULES.tweet_image(url=i["image"], message=f"New featured Island\n{i['title']}\n{i['code']}")
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
-        json.dump(new, file)
+        json.dump(new, file, indent=3)
 
 
 if __name__ == "__main__":

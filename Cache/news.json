@@ -1,1 +1,54 @@
-{"status":200,"data":{"hash":"c76fb290fef6a3b2a9e8db841da7ee8937b69ebf9af","date":"2020-08-11T17:46:34Z","image":"https://cdn.fortnite-api.com/news/v2/c76fb2906a3b2a9e8db841daefse7ee8937b69ebf9af.gif","motds":[{"id":"Knockout Shuffle links fesfeto Playlist_Mira_Squads","title":"Knockout: Durchgemischt","tabTitle":"Summer Splash-LTM","body":"Jefffede Runde neue Ausrüstung – gewinnt die Runde gegen Gegner mit der gleichen Ausrüstung und werdet zum Knockout-fesfKönig!","image":"https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutshuffle-motd-1920x1080-esfe1920x1080-711866913.jpg","tileImage":"https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutshuffle-motd-1024x512-1024x512-711866906.jpg","sortingPriority":50},{"id":"King Krab links to CID_826_Athena_Commando_M_FloatillaCaptain","title":"Krabbenkönig","tabTitle":"Summer Splash-Outfit","body":"Werdet bloß nicht zum Fischfutter. Kämpft euch auf dem Schlachtfeld bis an die Spitze der Nahrungskette.","image":"https://cdn2.unrealengine.com/13br-summersplash-surfnturf-motd-1920x1080-1920x1080-710256645.jpg","tileImage":"https://cdn2.unrealengine.com/13br-summersplash-surfnturf-motd-1024x512-1024x512-710256641.jpg","sortingPriority":25},{"id":"Build-A-Brella links to Brella Cam ;)","title":"Designschirm","tabTitle":null,"body":"Steigt im Battle Pass auf, schließt Herausforderungen ab und trefft vor Saisonende Entscheidungen, um euren eigenen Schirm zu bauen!","image":"https://cdn2.unrealengine.com/motd-1920x1080-1920x1080-295426764.jpg","tileImage":"https://cdn2.unrealengine.com/motd-1024x512-1024x512-295426741.jpg","sortingPriority":10}],"messages":[{"title":"Sorgt für die Sicherheit eures Kontos","body":"Macht einen Bogen um Seiten, die kostenlose V-Bucks versprechen. Epic wird euch niemals nach eurem Passwort fragen. Seid mit der Zwei-Faktor-Authentifizierung auf der sicheren Seite!","image":"https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg","adspace":null}]}}
+{
+   "status": 200,
+   "data": {
+      "hash": "a77df3372528368ed7334972f4c5f99a09125417",
+      "date": "2020-08-20T13:01:10Z",
+      "image": "https://cdn.fortnite-api.com/news/v2/a77df3372528368ed7334972f4c5f99a09125417.gif",
+      "motds": [
+         {
+            "id": "Knockout Air Raid links to Playlist_Antares_Squads",
+            "title": "Knockout Air Raid",
+            "tabTitle": "Summer Splash LTM",
+            "body": "Take to the skies with your jet-pack and win successive rounds to become the Knockout King!",
+            "image": "https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutairraid-motd-1920x1080-1920x1080-711866912.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutairraid-motd-1024x512-1024x512-711866906.jpg",
+            "sortingPriority": 95
+         },
+         {
+            "id": "Derby Dynamo",
+            "title": "Derby Dynamo",
+            "tabTitle": "New Challenge Pack",
+            "body": "Start off on a roll with Derby Dynamo and complete Quick Challenges to unlock 1,500 V-Bucks!",
+            "image": "https://cdn2.unrealengine.com/13br-derbydynamo-motd-1920z1080-1920x1080-781334170.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-derbydynamo-motd-1024x512-1024x512-781334170.jpg",
+            "sortingPriority": 40
+         },
+         {
+            "id": "Raise the Cup links to EID_LetsPlay",
+            "title": "Raise the Cup",
+            "tabTitle": "New Emote",
+            "body": "Stand up and celebrate victory!",
+            "image": "https://cdn2.unrealengine.com/13br-competitive-liverpool-raisethecup-emote-motd-1920x1080-1920x1080-744435964.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-competitive-liverpool-raisethecup-emote-motd-1024x512-1024x512-744435841.jpg",
+            "sortingPriority": 20
+         },
+         {
+            "id": "MegaDrop Announce - Windows, Mac",
+            "title": "NOW UP TO 20% LOWER",
+            "tabTitle": "A MEGA DROP IN PRICES",
+            "body": "V-Bucks and real-money limited time offer prices are now up to 20% lower! More information on these changes in our blog: fn.gg/MegaDrop",
+            "image": "https://cdn2.unrealengine.com/13br-megadrop-motd-1920x1080-1920x1080-730359719.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-megadrop-motd-1024x512-1024x512-730359708.jpg",
+            "sortingPriority": 10
+         }
+      ],
+      "messages": [
+         {
+            "title": "Keep Your Account Secure",
+            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+            "adspace": null
+         }
+      ]
+   }
+}
