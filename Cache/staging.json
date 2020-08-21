@@ -1,1 +1,34 @@
-{"app": "fortnite", "serverDate": "2020-08-14T21:07:34.209Z", "overridePropertiesVersion": "unknown", "cln": "14110126", "build": "110", "moduleName": "Fortnite-Core", "buildDate": "2020-08-14T01:13:08.178Z", "version": "14.10", "branch": "Release-14.10", "modules": {"Epic-LightSwitch-AccessControlCore": {"cln": "13600496", "build": "b2095", "buildDate": "2020-08-13T08:45:46.094Z", "version": "1.0.0", "branch": "trunk"}, "epic-xmpp-api-v1-base": {"cln": "5131a23c1470acbd9c94fae695ef7d899c1a41d6", "build": "b3595", "buildDate": "2019-07-30T09:11:06.587Z", "version": "0.0.1", "branch": "master"}, "epic-common-core": {"cln": "14100626", "build": "2926", "buildDate": "2020-08-13T08:21:07.476Z", "version": "2.0", "branch": "TRUNK"}}}
+{
+   "app": "fortnite",
+   "serverDate": "2020-08-21T18:33:22.176Z",
+   "overridePropertiesVersion": "unknown",
+   "cln": "14162440",
+   "build": "393",
+   "moduleName": "Fortnite-Core",
+   "buildDate": "2020-08-21T06:25:26.623Z",
+   "version": "14.00",
+   "branch": "Release-14.00",
+   "modules": {
+      "Epic-LightSwitch-AccessControlCore": {
+         "cln": "13600496",
+         "build": "b2101",
+         "buildDate": "2020-08-20T21:33:05.960Z",
+         "version": "1.0.0",
+         "branch": "trunk"
+      },
+      "epic-xmpp-api-v1-base": {
+         "cln": "5131a23c1470acbd9c94fae695ef7d899c1a41d6",
+         "build": "b3595",
+         "buildDate": "2019-07-30T09:11:06.587Z",
+         "version": "0.0.1",
+         "branch": "master"
+      },
+      "epic-common-core": {
+         "cln": "14158148",
+         "build": "2937",
+         "buildDate": "2020-08-20T21:08:33.058Z",
+         "version": "2.0",
+         "branch": "TRUNK"
+      }
+   }
+}

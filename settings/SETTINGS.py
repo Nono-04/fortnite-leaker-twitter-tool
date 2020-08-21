@@ -3,15 +3,15 @@ What the bot should post on Twitter:
 If a Type is True than the Bot post it. (If a Type is False than the Bot dont post it)
 """
 
+lang = "en"
+
 # Leaks CONFIG
 leaks =             True
 leaksimagetext =    f"Fortnite Leaks" # Text in the Image
-leakstext =         f"Fortnite Leaks" # Text in the Tweet
 leaksimageurl =     "" # Need to be a URL | The best is a colored background
 # Shop CONFIG
 shop =              True
 shopimagetext =     f"Fortnite Item Shop" # Text in the Image
-shoptext =          f"Fortnite Item Shop" # Text in the Tweet
 shopimageurl =      "" # Need to be a URL | The best is a colored background
 #### OTHER Features ####
 newsfeed =          True

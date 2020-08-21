@@ -1,0 +1,26 @@
+{
+  "leaks": {
+    "en": "Fortnite new Leaks detected",
+    "de": "Fortnite neue Kosmetische Items enteckt."
+  },
+  "shop": {
+    "en": "Fortnite Shop changes detected",
+    "de": "der Fortnite Item Shop wurde geändert"
+  },
+  "news": {
+    "en": "BR News-Feed Update",
+    "de": "BR Neuigkeiten Update"
+  },
+  "staging": {
+    "en": "was added to the Staging Server\nYou can expect we'll get the Update next week",
+    "de": "wurde zu den Staging Servern hinzugefügt\nIhr könnt das Update nächste Woche erwarten"
+  },
+  "featuredislands": {
+    "en": "New Featured Island detected",
+    "de": "Eine neue Vorgestellte Insel wurde erkannt"
+  },
+  "playlist": {
+    "en": "New Playlist was updated in the API",
+    "de": "Ein LTM wurde geupdated"
+  }
+}

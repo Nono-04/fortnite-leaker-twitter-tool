@@ -3,7 +3,7 @@
    "_title": "Fortnite Game",
    "jcr:baseVersion": "a7ca237317f1e7883b3279-c38f-4aa7-a325-e099e4bf71e5",
    "_activeDate": "2017-08-30T03:20:48.050Z",
-   "lastModified": "2020-08-21T13:07:23.208Z",
+   "lastModified": "2020-08-21T17:27:42.354Z",
    "_locale": "en-US",
    "subgameinfo": {
       "battleroyale": {
@@ -96,7 +96,7 @@
                "videoVideoString": "FlareGun_Vid",
                "offerId": "v2:/d39b62a3f6de91d2f1d6e939e9278f2097b18c94dd57103d36426213f3c9aa6e",
                "id": "Castaway Jonesy links to CID_836_Athena_Commando_M_JonesyFlare",
-               "videoAutoplay": false,
+               "videoAutoplay": true,
                "videoFullscreen": false,
                "spotlight": false
             }
@@ -511,9 +511,9 @@
       "style": "None",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e7eb10350b-050b-4ad5-b117-2ccb83161e88",
+      "jcr:baseVersion": "a7ca237317f1e76d1ed9df-099d-4d03-bce5-a84c0421e646",
       "_activeDate": "2020-01-21T14:00:00.000Z",
-      "lastModified": "2020-08-21T12:55:22.953Z",
+      "lastModified": "2020-08-21T17:27:42.354Z",
       "_locale": "en-US"
    },
    "lobby": {

@@ -17,6 +17,17 @@ import settings.SETTINGS as SETTINGS
 import settings.MODULES as MODULES
 
 
+def get_text(type: str):
+    with open("lang.json") as lang:
+        data = json.loads(lang.read())
+
+        try:
+            output = str(data[type][SETTINGS.lang])
+        except:
+            output = str(data[type]["en"])
+        return output
+
+
 def check_leaks():
     try:
         with open('Cache/leaks.json', 'r') as file:
@@ -32,7 +43,7 @@ def check_leaks():
         url = "https://peely.de/leaks"
         if SETTINGS.leaksimageurl or SETTINGS.leaksimagetext != "":
             url = f"https://peely.de/api/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}"
-        MODULES.tweet_image(url=url, message=SETTINGS.leakstext)
+        MODULES.tweet_image(url=url, message=get_text("shop"))
         with open('Cache/leaks.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Leaks posted")
@@ -53,7 +64,7 @@ def check_shop():
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
             url = f"https://peely.de/api/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}"
         print(url)
-        MODULES.tweet_image(url=url, message=SETTINGS.shoptext)
+        MODULES.tweet_image(url=url, message=get_text("leaks"))
         with open('Cache/shop.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Item Shop posted")
@@ -63,7 +74,8 @@ def emergencynotice():
     try:
         with open('Cache/content.json', 'r') as file:
             Cached = json.load(file)
-        data = requests.get('https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game')
+        data = requests.get(
+            f'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game?lang={SETTINGS.lang}')
         new = data.json()
         if data.status_code != 200:
             return
@@ -74,7 +86,7 @@ def emergencynotice():
             if i not in Cached["emergencynotice"]["news"]["messages"]:
                 title = i["title"]
                 body = i["body"]
-                MODULES.post_text(text=f"{title}\n{body}\n#Fortnite")
+                MODULES.post_text(text=f"{title}\n{body}")
         print("emergencynotice posted")
     with open('Cache/content.json', 'w') as file:
         json.dump(new, file, indent=3)
@@ -85,7 +97,7 @@ def blogpost():
         with open('Cache/blog.json', 'r', encoding="utf8") as file:
             Cached = json.load(file)
         data = requests.get(
-            'https://www.epicgames.com/fortnite/api/blog/getPosts?category=&postsPerPage=6&offset=0&locale=en-US')
+            f'https://www.epicgames.com/fortnite/api/blog/getPosts?category=&postsPerPage=6&offset=0&locale={SETTINGS.lang}')
         new = data.json()
         if data.status_code != 200:
             return
@@ -119,8 +131,7 @@ def staging():
         return
     if Cached["version"] != new["version"]:
         print("Staging Server Updated")
-        MODULES.post_text(text=f"Patch v{new['version']} was applied to the staging servers.\n\n"
-                               f"You can expect we'll get v{new['version']} next week.")
+        MODULES.post_text(text=new["version"] + get_text("staging"))
         with open('Cache/staging.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 
@@ -129,7 +140,7 @@ def news():
     with open('Cache/news.json', 'r', encoding="utf8") as file:
         old = json.load(file)
     try:
-        req = requests.get("https://fortnite-api.com/v2/news/br?lang=en")
+        req = requests.get(f"https://fortnite-api.com/v2/news/br?lang={SETTINGS.lang}")
         if req.status_code != 200:
             return
         new = req.json()
@@ -139,7 +150,7 @@ def news():
         for i in new["data"]["motds"]:
             if not i in old["data"]["motds"]:
                 print("NEW news feed")
-                MODULES.tweet_image(url=i["image"], message=f"BR News-Feed Update\n{i['title']}\n{i['body']}")
+                MODULES.tweet_image(url=i["image"], message=get_text("news") + f"\n{i['title']}\n{i['body']}")
                 with open('Cache/news.json', 'w', encoding="utf8") as file:
                     json.dump(new, file, indent=3)
 
@@ -157,7 +168,8 @@ def featuredislands():
     if old != new:
         for i in new["featured_islands"]:
             if not i in old["featured_islands"]:
-                MODULES.tweet_image(url=i["image"], message=f"New featured Island\n{i['title']}\n{i['code']}")
+                MODULES.tweet_image(url=i["image"],
+                                    message=get_text("featuredislands") + f"\n{i['title']}\n{i['code']}")
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
         json.dump(new, file, indent=3)
 
@@ -167,7 +179,7 @@ def playlist():
         with open('Cache/playlist.json', 'r') as file:
             Cached = json.load(file)
         data = requests.get(
-            'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game')
+            f'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game?lang={SETTINGS.lang}')
         new = data.json()
         if data.status_code != 200:
             return
@@ -177,12 +189,17 @@ def playlist():
         "playlists"]:
         for i in new["playlistinformation"]["playlist_info"]["playlists"]:
             if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
-                playlist_name = i["playlist_name"]
-                _type = i["_type"]
-                image = i["image"]
-                MODULES.tweet_image(
-                    url=i["image"],
-                    message=f"New #Fortnite Playlist found:\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
+                # LINE 187 ZU WILD
+                try:
+                    playlist_name = i["playlist_name"]
+                    _type = i["_type"]
+                    image = i["image"]
+                    MODULES.tweet_image(
+                        url=i["image"],
+                        message=get_text(
+                            "playlist") + f"\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nLink:\n{image}")
+                except:
+                    MODULES.post_text(text=get_text("playlist") + f"\n\nName:\n{i['playlist_name']}")
         print("Playlist gepostet")
     with open('Cache/playlist.json', 'w') as file:
         json.dump(new, file)
