@@ -16,20 +16,6 @@
          "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/7662-4632-7482.png"
       },
       {
-         "code": "0992-2499-2882",
-         "creator": "adrianfort",
-         "publishedDate": "2020-08-14T18:02:13+00:00",
-         "title": "BOX FIGHTS ROBOT BATTLE",
-         "description": "2 - 10 Players - Versus - ENJOY a BOX FIGHT but with an amazing view of the ROBOTS vs THE CITY. Created by adrianfort",
-         "tags": [
-            "2v2",
-            "3v3",
-            "4v4",
-            "5v5"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/boxFightsRobotBattle.jpg"
-      },
-      {
          "code": "9430-2880-1209",
          "creator": "void-enderbite",
          "publishedDate": "2020-08-17T20:48:26+00:00",
@@ -84,6 +70,20 @@
             "team deathmatch"
          ],
          "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/lostWarzone.jpg"
+      },
+      {
+         "code": "7986-6528-3096",
+         "creator": "aquacw",
+         "publishedDate": "2020-08-19T14:10:38+00:00",
+         "title": "Aqua Beach Zonewars 2v2/3v3/4v4",
+         "description": "2 - 8 Players - Versus - This Island is to Honor Curacao Beautiful Beaches.",
+         "tags": [
+            "2v2",
+            "3v3",
+            "4v4",
+            "zonewars"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/aquaBeachZonewars.jpg"
       }
    ]
 }

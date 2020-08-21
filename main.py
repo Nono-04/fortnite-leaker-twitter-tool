@@ -29,7 +29,10 @@ def check_leaks():
         print(ex, "leaks")
         return
     if new != Cached:
-        MODULES.tweet_image(url=f"https://peely.de/leaks", message=f"New Cosmetics found!\n#Fortnite")
+        url = "https://peely.de/leaks"
+        if SETTINGS.leaksimageurl or SETTINGS.leaksimagetext != "":
+            url = f"https://peely.de/api/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}"
+        MODULES.tweet_image(url=url, message=SETTINGS.leakstext)
         with open('Cache/leaks.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Leaks posted")
@@ -46,7 +49,11 @@ def check_shop():
     except:
         return
     if new != Cached:
-        MODULES.tweet_image(url=new["discordurl"], message=f"New Shop detected!\n#Fortnite")
+        url = new["discordurl"]
+        if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
+            url = f"https://peely.de/api/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}"
+        print(url)
+        MODULES.tweet_image(url=url, message=SETTINGS.shoptext)
         with open('Cache/shop.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Item Shop posted")
@@ -154,6 +161,7 @@ def featuredislands():
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
         json.dump(new, file, indent=3)
 
+
 def playlist():
     try:
         with open('Cache/playlist.json', 'r') as file:
@@ -165,23 +173,26 @@ def playlist():
             return
     except:
         return
-    if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"]["playlists"]:
+    if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"][
+        "playlists"]:
         for i in new["playlistinformation"]["playlist_info"]["playlists"]:
             if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
                 playlist_name = i["playlist_name"]
                 _type = i["_type"]
                 image = i["image"]
                 MODULES.tweet_image(
-                    url=i["image"], message=f"New #Fortnite Playlist found:\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
+                    url=i["image"],
+                    message=f"New #Fortnite Playlist found:\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nImagelink:\n{image}")
         print("Playlist gepostet")
     with open('Cache/playlist.json', 'w') as file:
         json.dump(new, file)
+
 
 if __name__ == "__main__":
     print("Twitter Bot Ready")
     while True:
         print("Checking...")
-        if SETTINGS.new_cosmetics is True:
+        if SETTINGS.leaks is True:
             check_leaks()
         if SETTINGS.ingamebugmessage is True:
             emergencynotice()

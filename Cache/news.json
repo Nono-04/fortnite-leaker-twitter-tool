@@ -1,36 +1,27 @@
 {
    "status": 200,
    "data": {
-      "hash": "a77df3372528368ed7334972f4c5f99a09125417",
-      "date": "2020-08-20T13:01:10Z",
-      "image": "https://cdn.fortnite-api.com/news/v2/a77df3372528368ed7334972f4c5f99a09125417.gif",
+      "hash": "da4997a3b4e36f9d69f7a77cb453a037905dcc50",
+      "date": "2020-08-21T14:17:22Z",
+      "image": "https://cdn.fortnite-api.com/news/v2/da4997a3b4e36f9d69f7a77cb453a037905dcc50.gif",
       "motds": [
          {
-            "id": "Knockout Air Raid links to Playlist_Antares_Squads",
-            "title": "Knockout Air Raid",
-            "tabTitle": "Summer Splash LTM",
-            "body": "Take to the skies with your jet-pack and win successive rounds to become the Knockout King!",
-            "image": "https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutairraid-motd-1920x1080-1920x1080-711866912.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutairraid-motd-1024x512-1024x512-711866906.jpg",
-            "sortingPriority": 95
+            "id": "FFCup",
+            "title": "#FreeFortnite Cup",
+            "tabTitle": null,
+            "body": "Compete in the #FreeFortnite Cup on Sunday, August 23 for an opportunity to win the new Tart Tycoon Outfit and other prizes! Head to fn.gg/FreeFortniteCup to learn more.",
+            "image": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1920x1080-1920x1080-797340988.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1024x512-1024x512-797340982.jpg",
+            "sortingPriority": 50
          },
          {
-            "id": "Derby Dynamo",
-            "title": "Derby Dynamo",
-            "tabTitle": "New Challenge Pack",
-            "body": "Start off on a roll with Derby Dynamo and complete Quick Challenges to unlock 1,500 V-Bucks!",
-            "image": "https://cdn2.unrealengine.com/13br-derbydynamo-motd-1920z1080-1920x1080-781334170.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-derbydynamo-motd-1024x512-1024x512-781334170.jpg",
-            "sortingPriority": 40
-         },
-         {
-            "id": "Raise the Cup links to EID_LetsPlay",
-            "title": "Raise the Cup",
-            "tabTitle": "New Emote",
-            "body": "Stand up and celebrate victory!",
-            "image": "https://cdn2.unrealengine.com/13br-competitive-liverpool-raisethecup-emote-motd-1920x1080-1920x1080-744435964.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-competitive-liverpool-raisethecup-emote-motd-1024x512-1024x512-744435841.jpg",
-            "sortingPriority": 20
+            "id": "Castaway Jonesy links to CID_836_Athena_Commando_M_JonesyFlare",
+            "title": "Castaway Jonesy",
+            "tabTitle": "Summer Splash Outfit",
+            "body": "Deserted on an island? Have no fear, Jonesy is here!",
+            "image": "https://cdn2.unrealengine.com/13br-summersplash-castawayjonsey-motd-1920x1080-1920x1080-744729908.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-summersplash-castawayjonsey-motd-1024x512-1024x512-744729904.jpg",
+            "sortingPriority": 30
          },
          {
             "id": "MegaDrop Announce - Windows, Mac",
