@@ -184,12 +184,12 @@ def playlist():
         if data.status_code != 200:
             return
     except:
+# LINE 187 ZU WILD #
         return
     if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"][
         "playlists"]:
         for i in new["playlistinformation"]["playlist_info"]["playlists"]:
             if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
-                # LINE 187 ZU WILD
                 try:
                     playlist_name = i["playlist_name"]
                     _type = i["_type"]
