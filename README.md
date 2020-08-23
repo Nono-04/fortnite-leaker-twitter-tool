@@ -10,6 +10,7 @@ Features:
 - blog posts tracker
 - ingame bug tracker
 - featured islands
+- Multi Lang Support
 - playlist tracker (can be spam)
 
  # Setup and other Important Stuff:
