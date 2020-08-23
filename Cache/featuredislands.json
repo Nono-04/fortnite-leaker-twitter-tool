@@ -2,32 +2,18 @@
    "informations_by": "https://fortniteapi.io",
    "featured_islands": [
       {
-         "code": "7662-4632-7482",
-         "creator": "regirom",
-         "publishedDate": "2020-07-31T21:53:50+00:00",
-         "title": "Duo Disco Deathrun",
-         "description": "2 Players - Difficulty: Medium - Can your duo complete the Duo Disco Deathrun?",
+         "code": "3500-0019-7096",
+         "creator": "SundayCW",
+         "publishedDate": "2020-08-07T09:08:48+00:00",
+         "title": "Escape Room: The Trust Survey",
+         "description": "You and your friend have agreed to participate in a \"trust survey\" put on by a local university. Complete co-op puzzles each followed by a question.",
          "tags": [
             "co-op",
-            "deathrun",
-            "duo",
-            "just for fun"
+            "escape",
+            "event",
+            "mystery"
          ],
-         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/7662-4632-7482.png"
-      },
-      {
-         "code": "9430-2880-1209",
-         "creator": "void-enderbite",
-         "publishedDate": "2020-08-17T20:48:26+00:00",
-         "title": "Udder Chaos",
-         "description": "2 - 8 Players - Versus - Cows or Aliens? Do you enjoy some delicious cans or prefer ground beef?",
-         "tags": [
-            "arcade",
-            "difficulty: easy",
-            "minigame",
-            "party game"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/UdderChaos_512.jpg"
+         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/3500-0019-7096.png"
       },
       {
          "code": "1179-8403-2990",
@@ -84,6 +70,20 @@
             "zonewars"
          ],
          "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/aquaBeachZonewars.jpg"
+      },
+      {
+         "code": "8615-5534-1052",
+         "creator": "beario",
+         "publishedDate": "2020-08-21T20:32:29+00:00",
+         "title": "Prop Racers",
+         "description": "2 - 16 Players - Versus - Vote for the track of your choice, become a prop and race to the finish!",
+         "tags": [
+            "difficulty: easy",
+            "parkour",
+            "prop",
+            "race"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/PropRacers_512.jpg"
       }
    ]
 }

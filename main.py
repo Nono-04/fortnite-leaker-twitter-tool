@@ -64,7 +64,7 @@ def check_shop():
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
             url = f"https://peely.de/api/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}"
         print(url)
-        MODULES.tweet_image(url=url, message=get_text("leaks"))
+        MODULES.tweet_image(url=url, message=get_text("shop"))
         with open('Cache/shop.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Item Shop posted")
@@ -184,7 +184,6 @@ def playlist():
         if data.status_code != 200:
             return
     except:
-# LINE 187 ZU WILD #
         return
     if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"][
         "playlists"]:

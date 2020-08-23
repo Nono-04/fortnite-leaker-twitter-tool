@@ -43,6 +43,7 @@ def tweet_image(url, message):
         if SETTINGS.nopost is False:
             client.update_with_media("image.png", status=message)
     except tweepy.TweepError as ex:
+        print(ex)
         for tint in range(2, 11):
             temp = Image.open("image.png")
             x = int(round(temp.size[0] / tint))

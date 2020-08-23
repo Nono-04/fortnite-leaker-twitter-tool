@@ -1,10 +1,28 @@
 {
    "status": 200,
    "data": {
-      "hash": "da4997a3b4e36f9d69f7a77cb453a037905dcc50",
-      "date": "2020-08-21T14:17:22Z",
-      "image": "https://cdn.fortnite-api.com/news/v2/da4997a3b4e36f9d69f7a77cb453a037905dcc50.gif",
+      "hash": "f4ca9030bcd91e7ff66811104b340cb470a3ba9e",
+      "date": "2020-08-23T00:00:13Z",
+      "image": "https://cdn.fortnite-api.com/news/v2/f4ca9030bcd91e7ff66811104b340cb470a3ba9e.gif",
       "motds": [
+         {
+            "id": "Comic 1",
+            "title": "8.27.2020",
+            "tabTitle": "New Comic",
+            "body": "The Herald has found The Island. The prelude to War has begun. #FortniteSeason4",
+            "image": "https://cdn2.unrealengine.com/en-14br-teaser-day1-motd-1920x1080-1920x1080-810893971.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/en-14br-teaser-day1-motd-1024x512-1024x512-810892187.jpg",
+            "sortingPriority": 99
+         },
+         {
+            "id": "Blaze links to CID_784_Athena_Commando_F_RenegadeRaiderFire",
+            "title": "Blaze",
+            "tabTitle": null,
+            "body": "Rising from the ashes and ready to start a firefight!",
+            "image": "https://cdn2.unrealengine.com/13br-blaze-motd-1920x1080-1920x1080-319178199.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-blaze-motd-1024x512-1024x512-319178242.jpg",
+            "sortingPriority": 90
+         },
          {
             "id": "FFCup",
             "title": "#FreeFortnite Cup",
@@ -13,24 +31,6 @@
             "image": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1920x1080-1920x1080-797340988.jpg",
             "tileImage": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1024x512-1024x512-797340982.jpg",
             "sortingPriority": 50
-         },
-         {
-            "id": "Castaway Jonesy links to CID_836_Athena_Commando_M_JonesyFlare",
-            "title": "Castaway Jonesy",
-            "tabTitle": "Summer Splash Outfit",
-            "body": "Deserted on an island? Have no fear, Jonesy is here!",
-            "image": "https://cdn2.unrealengine.com/13br-summersplash-castawayjonsey-motd-1920x1080-1920x1080-744729908.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-summersplash-castawayjonsey-motd-1024x512-1024x512-744729904.jpg",
-            "sortingPriority": 30
-         },
-         {
-            "id": "MegaDrop Announce - Windows, Mac",
-            "title": "NOW UP TO 20% LOWER",
-            "tabTitle": "A MEGA DROP IN PRICES",
-            "body": "V-Bucks and real-money limited time offer prices are now up to 20% lower! More information on these changes in our blog: fn.gg/MegaDrop",
-            "image": "https://cdn2.unrealengine.com/13br-megadrop-motd-1920x1080-1920x1080-730359719.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-megadrop-motd-1024x512-1024x512-730359708.jpg",
-            "sortingPriority": 10
          }
       ],
       "messages": [
