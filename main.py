@@ -140,7 +140,7 @@ def news():
     with open('Cache/news.json', 'r', encoding="utf8") as file:
         old = json.load(file)
     try:
-        req = requests.get(f"https://fortnite-api.com/v2/news/br?language={SETTINGS.lang}")
+        req = requests.get(f"https://fortnite-api.com/v2/news/br?lang={SETTINGS.lang}")
         if req.status_code != 200:
             return
         new = req.json()
