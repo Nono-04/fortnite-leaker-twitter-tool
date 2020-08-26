@@ -1,1 +1,45 @@
-{"status":200,"data":{"hash":"c76fb290fef6a3b2a9e8db841da7ee8937b69ebf9af","date":"2020-08-11T17:46:34Z","image":"https://cdn.fortnite-api.com/news/v2/c76fb2906a3b2a9e8db841daefse7ee8937b69ebf9af.gif","motds":[{"id":"Knockout Shuffle links fesfeto Playlist_Mira_Squads","title":"Knockout: Durchgemischt","tabTitle":"Summer Splash-LTM","body":"Jefffede Runde neue Ausrüstung – gewinnt die Runde gegen Gegner mit der gleichen Ausrüstung und werdet zum Knockout-fesfKönig!","image":"https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutshuffle-motd-1920x1080-esfe1920x1080-711866913.jpg","tileImage":"https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutshuffle-motd-1024x512-1024x512-711866906.jpg","sortingPriority":50},{"id":"King Krab links to CID_826_Athena_Commando_M_FloatillaCaptain","title":"Krabbenkönig","tabTitle":"Summer Splash-Outfit","body":"Werdet bloß nicht zum Fischfutter. Kämpft euch auf dem Schlachtfeld bis an die Spitze der Nahrungskette.","image":"https://cdn2.unrealengine.com/13br-summersplash-surfnturf-motd-1920x1080-1920x1080-710256645.jpg","tileImage":"https://cdn2.unrealengine.com/13br-summersplash-surfnturf-motd-1024x512-1024x512-710256641.jpg","sortingPriority":25},{"id":"Build-A-Brella links to Brella Cam ;)","title":"Designschirm","tabTitle":null,"body":"Steigt im Battle Pass auf, schließt Herausforderungen ab und trefft vor Saisonende Entscheidungen, um euren eigenen Schirm zu bauen!","image":"https://cdn2.unrealengine.com/motd-1920x1080-1920x1080-295426764.jpg","tileImage":"https://cdn2.unrealengine.com/motd-1024x512-1024x512-295426741.jpg","sortingPriority":10}],"messages":[{"title":"Sorgt für die Sicherheit eures Kontos","body":"Macht einen Bogen um Seiten, die kostenlose V-Bucks versprechen. Epic wird euch niemals nach eurem Passwort fragen. Seid mit der Zwei-Faktor-Authentifizierung auf der sicheren Seite!","image":"https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg","adspace":null}]}}
+{
+   "status": 200,
+   "data": {
+      "hash": "f4ca9030bcd91e7ff66811104b340cb470a3ba9e",
+      "date": "2020-08-23T00:00:13Z",
+      "image": "https://cdn.fortnite-api.com/news/v2/f4ca9030bcd91e7ff66811104b340cb470a3ba9e.gif",
+      "motds": [
+         {
+            "id": "Comic 1",
+            "title": "8.27.2020",
+            "tabTitle": "New Comic",
+            "body": "The Herald has found The Island. The prelude to War has begun. #FortniteSeason4",
+            "image": "https://cdn2.unrealengine.com/en-14br-teaser-day1-motd-1920x1080-1920x1080-810893971.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/en-14br-teaser-day1-motd-1024x512-1024x512-810892187.jpg",
+            "sortingPriority": 99
+         },
+         {
+            "id": "Blaze links to CID_784_Athena_Commando_F_RenegadeRaiderFire",
+            "title": "Blaze",
+            "tabTitle": null,
+            "body": "Rising from the ashes and ready to start a firefight!",
+            "image": "https://cdn2.unrealengine.com/13br-blaze-motd-1920x1080-1920x1080-319178199.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-blaze-motd-1024x512-1024x512-319178242.jpg",
+            "sortingPriority": 90
+         },
+         {
+            "id": "FFCup",
+            "title": "#FreeFortnite Cup",
+            "tabTitle": null,
+            "body": "Compete in the #FreeFortnite Cup on Sunday, August 23 for an opportunity to win the new Tart Tycoon Outfit and other prizes! Head to fn.gg/FreeFortniteCup to learn more.",
+            "image": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1920x1080-1920x1080-797340988.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1024x512-1024x512-797340982.jpg",
+            "sortingPriority": 50
+         }
+      ],
+      "messages": [
+         {
+            "title": "Keep Your Account Secure",
+            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+            "adspace": null
+         }
+      ]
+   }
+}

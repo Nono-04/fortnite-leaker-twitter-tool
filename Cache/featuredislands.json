@@ -1,1 +1,89 @@
-{"informations_by": "https://fortniteapi.io", "featured_islands": [{"code": "0296-1383-9063", "creator": "lundleyt", "publishedDate": "2020-07-28T18:10:16+00:00", "title": "Ultimate Box Fight FFA", "description": "INFINITE RESPAWNS! Builds reset every 2 minutes. First to the score threshold wins!", "tags": ["action", "arena", "boxfight", "free for all"], "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/0296-1383-9063.png"}, {"code": "0058-9731-7736", "creator": "noob_hero", "publishedDate": "2020-08-11T21:54:58+00:00", "title": "Paradise Highway", "description": "2 - 16 Players - Versus - On this highway who can tell whats a prop and whats a player hiding as a prop", "tags": ["prop hunt"], "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/ParadiseHighway_512.jpg"}, {"code": "1495-8912-6512", "creator": "puzzler", "publishedDate": "2020-08-12T23:10:04+00:00", "title": "Push The Rarity", "description": "2 - 8 Players - Versus - Two Teams 1-4 Players Per Team.  Destroy your opponents objective! Go up or Down a Weapon Rarity Each Round!", "tags": ["2v2", "4v4", "objective", "party game"], "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/PushTheRarity_512.jpg"}, {"code": "0881-5888-0061", "creator": "callybelle", "publishedDate": "2020-02-02T08:36:07+00:00", "title": "Lost in the Woods", "description": "An easy two-player mini-adventure map by Callybelle and Jimmymoog. Work together to save a magic forest.", "tags": ["adventure", "casual", "co-op", "duo"], "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/0881-5888-0061.png"}, {"code": "3417-6860-1089", "creator": "pxw-jesus", "publishedDate": "2020-08-12T21:05:30+00:00", "title": "DEFAULT NEONRUN", "description": "1 - 16 Players - Difficulty: Easy - 50 Level Deathrun by PxW Jesus", "tags": ["deathrun", "difficulty: easy", "moving", "parkour"], "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/defaultNeonDeathrun.jpg"}, {"code": "1865-9315-0945", "creator": "teadoh", "publishedDate": "2020-08-13T22:32:32+00:00", "title": "\ud83c\udfaf Training Island - 2 Player \ud83d\udc65", "description": "2 Players - Versus - Practice your skills with a friend!", "tags": ["aim course", "edit course", "training"], "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/2PlayerTrainingIsland_512.jpg"}]}
+{
+   "informations_by": "https://fortniteapi.io",
+   "featured_islands": [
+      {
+         "code": "3500-0019-7096",
+         "creator": "SundayCW",
+         "publishedDate": "2020-08-07T09:08:48+00:00",
+         "title": "Escape Room: The Trust Survey",
+         "description": "You and your friend have agreed to participate in a \"trust survey\" put on by a local university. Complete co-op puzzles each followed by a question.",
+         "tags": [
+            "co-op",
+            "escape",
+            "event",
+            "mystery"
+         ],
+         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/3500-0019-7096.png"
+      },
+      {
+         "code": "1179-8403-2990",
+         "creator": "wert",
+         "publishedDate": "2020-08-06T10:24:37+00:00",
+         "title": "Paranoia Tantrum 3: Duality",
+         "description": "Experience life as Merilith, a small girl trapped in a loop of horrors. Can she escape the ever-repeating loop?",
+         "tags": [
+            "escape",
+            "horror",
+            "puzzle",
+            "story"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/ParanoiaTantrum3.jpg"
+      },
+      {
+         "code": "9446-8648-1927",
+         "creator": "weck",
+         "publishedDate": "2020-08-18T21:28:01+00:00",
+         "title": "FIND THE GOLDEN EGG",
+         "description": "1 - 16 Players - Difficulty: Medium - Find the Golden Egg to advance to the next level! Complete 6 levels to WIN!",
+         "tags": [
+            "artistic",
+            "friendly",
+            "just for fun",
+            "minigame"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/FindTheGoldenEgg_512.jpg"
+      },
+      {
+         "code": "8443-7649-9707",
+         "creator": "bootysmurff",
+         "publishedDate": "2020-08-18T17:01:15+00:00",
+         "title": "The Lost Warzone - Search and Destroy",
+         "description": "2 - 12 Players - Versus - Attackers search and destroy 1 of 3 bombsites. Defenders defend all 3. 5 classes, friendly fire enabled; Work as a team and win strategically",
+         "tags": [
+            "6v6",
+            "one life",
+            "search & destroy",
+            "team deathmatch"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/lostWarzone.jpg"
+      },
+      {
+         "code": "7986-6528-3096",
+         "creator": "aquacw",
+         "publishedDate": "2020-08-19T14:10:38+00:00",
+         "title": "Aqua Beach Zonewars 2v2/3v3/4v4",
+         "description": "2 - 8 Players - Versus - This Island is to Honor Curacao Beautiful Beaches.",
+         "tags": [
+            "2v2",
+            "3v3",
+            "4v4",
+            "zonewars"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/aquaBeachZonewars.jpg"
+      },
+      {
+         "code": "8615-5534-1052",
+         "creator": "beario",
+         "publishedDate": "2020-08-21T20:32:29+00:00",
+         "title": "Prop Racers",
+         "description": "2 - 16 Players - Versus - Vote for the track of your choice, become a prop and race to the finish!",
+         "tags": [
+            "difficulty: easy",
+            "parkour",
+            "prop",
+            "race"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/PropRacers_512.jpg"
+      }
+   ]
+}
