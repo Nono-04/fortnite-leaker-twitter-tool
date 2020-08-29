@@ -2,88 +2,73 @@
    "informations_by": "https://fortniteapi.io",
    "featured_islands": [
       {
-         "code": "3500-0019-7096",
-         "creator": "SundayCW",
-         "publishedDate": "2020-08-07T09:08:48+00:00",
-         "title": "Escape Room: The Trust Survey",
-         "description": "You and your friend have agreed to participate in a \"trust survey\" put on by a local university. Complete co-op puzzles each followed by a question.",
+         "code": "8143-6071-8195",
+         "creator": "shinohara",
+         "publishedDate": "2020-05-13T01:55:27+00:00",
+         "title": "Zodiac Library - Gun Game",
+         "description": "2~16 Players - A classic Gun Game using 20 weapons with different shooting styles!",
          "tags": [
-            "co-op",
-            "escape",
-            "event",
-            "mystery"
+            "action",
+            "free for all",
+            "gun game"
          ],
-         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/3500-0019-7096.png"
+         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/8143-6071-8195.png"
       },
       {
-         "code": "1179-8403-2990",
-         "creator": "wert",
-         "publishedDate": "2020-08-06T10:24:37+00:00",
-         "title": "Paranoia Tantrum 3: Duality",
-         "description": "Experience life as Merilith, a small girl trapped in a loop of horrors. Can she escape the ever-repeating loop?",
+         "code": "0347-7611-1836",
+         "creator": "ekkam04",
+         "publishedDate": "2020-08-24T21:56:05+00:00",
+         "title": "Match the Pairs!",
+         "description": "1 Player - Difficulty: Easy - Shoot the doors to open them, they have a gun behind them. Match all 8 pairs and try to get the fastest time or a highscore!",
          "tags": [
-            "escape",
-            "horror",
+            "minigame",
             "puzzle",
-            "story"
+            "skills",
+            "timed"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/ParanoiaTantrum3.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/MatchThePairs_512.jpg"
       },
       {
-         "code": "9446-8648-1927",
-         "creator": "weck",
-         "publishedDate": "2020-08-18T21:28:01+00:00",
-         "title": "FIND THE GOLDEN EGG",
-         "description": "1 - 16 Players - Difficulty: Medium - Find the Golden Egg to advance to the next level! Complete 6 levels to WIN!",
+         "code": "8105-5214-8828",
+         "creator": "punti_",
+         "publishedDate": "2020-08-26T20:58:02+00:00",
+         "title": "Galaxy Biom - Gun Game",
+         "description": "2 - 16 Players - Versus - Galaxy Biom Gun Game! 30 different weapons. The first player with 30 kills wins the game!",
          "tags": [
-            "artistic",
-            "friendly",
-            "just for fun",
+            "1v1",
+            "free for all",
+            "gun fight",
+            "shooter"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/GalaxyBiom_512.jpg"
+      },
+      {
+         "code": "2909-3633-6737",
+         "creator": "chasejackman",
+         "publishedDate": "2020-08-26T14:16:23+00:00",
+         "title": "Llama Rescuers",
+         "description": "2 - 10 Players - Versus - Race across the island avoiding sharks. Be the first to capture 5 llamas to win",
+         "tags": [
+            "action",
+            "arcade",
+            "collection",
             "minigame"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/FindTheGoldenEgg_512.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/llamaRescuers.jpg"
       },
       {
-         "code": "8443-7649-9707",
-         "creator": "bootysmurff",
-         "publishedDate": "2020-08-18T17:01:15+00:00",
-         "title": "The Lost Warzone - Search and Destroy",
-         "description": "2 - 12 Players - Versus - Attackers search and destroy 1 of 3 bombsites. Defenders defend all 3. 5 classes, friendly fire enabled; Work as a team and win strategically",
+         "code": "3217-6785-8734",
+         "creator": "Gamerzhits",
+         "publishedDate": "2020-08-26T21:46:13+00:00",
+         "title": "Gamerz's 20 Level Deathrun!",
+         "description": "1 - 16 Players - Difficulty: Medium - Can you complete this fun, unique and colorful deathrun?",
          "tags": [
-            "6v6",
-            "one life",
-            "search & destroy",
-            "team deathmatch"
+            "artistic",
+            "deathrun",
+            "difficulty: medium",
+            "minigame"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/lostWarzone.jpg"
-      },
-      {
-         "code": "7986-6528-3096",
-         "creator": "aquacw",
-         "publishedDate": "2020-08-19T14:10:38+00:00",
-         "title": "Aqua Beach Zonewars 2v2/3v3/4v4",
-         "description": "2 - 8 Players - Versus - This Island is to Honor Curacao Beautiful Beaches.",
-         "tags": [
-            "2v2",
-            "3v3",
-            "4v4",
-            "zonewars"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/aquaBeachZonewars.jpg"
-      },
-      {
-         "code": "8615-5534-1052",
-         "creator": "beario",
-         "publishedDate": "2020-08-21T20:32:29+00:00",
-         "title": "Prop Racers",
-         "description": "2 - 16 Players - Versus - Vote for the track of your choice, become a prop and race to the finish!",
-         "tags": [
-            "difficulty: easy",
-            "parkour",
-            "prop",
-            "race"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/PropRacers_512.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/gamerz20LevelDeathrun.jpg"
       }
    ]
 }

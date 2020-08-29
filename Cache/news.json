@@ -1,36 +1,27 @@
 {
    "status": 200,
    "data": {
-      "hash": "f4ca9030bcd91e7ff66811104b340cb470a3ba9e",
-      "date": "2020-08-23T00:00:13Z",
-      "image": "https://cdn.fortnite-api.com/news/v2/f4ca9030bcd91e7ff66811104b340cb470a3ba9e.gif",
+      "hash": "ab81a061fb20143a399cb589c7ba20796af79cfe",
+      "date": "2020-08-29T00:00:12Z",
+      "image": "https://cdn.fortnite-api.com/news/v2/ab81a061fb20143a399cb589c7ba20796af79cfe.gif",
       "motds": [
          {
-            "id": "Comic 1",
-            "title": "8.27.2020",
-            "tabTitle": "New Comic",
-            "body": "The Herald has found The Island. The prelude to War has begun. #FortniteSeason4",
-            "image": "https://cdn2.unrealengine.com/en-14br-teaser-day1-motd-1920x1080-1920x1080-810893971.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/en-14br-teaser-day1-motd-1024x512-1024x512-810892187.jpg",
-            "sortingPriority": 99
-         },
-         {
-            "id": "Blaze links to CID_784_Athena_Commando_F_RenegadeRaiderFire",
-            "title": "Blaze",
-            "tabTitle": null,
-            "body": "Rising from the ashes and ready to start a firefight!",
-            "image": "https://cdn2.unrealengine.com/13br-blaze-motd-1920x1080-1920x1080-319178199.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-blaze-motd-1024x512-1024x512-319178242.jpg",
+            "id": "Battle Pass",
+            "title": "Nexus War",
+            "tabTitle": "Join the Team",
+            "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
+            "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
             "sortingPriority": 90
          },
          {
-            "id": "FFCup",
-            "title": "#FreeFortnite Cup",
+            "id": "Dark Bomber links to CID_229_Athena_Commando_F_DarkBomber",
+            "title": "Dark Bomber",
             "tabTitle": null,
-            "body": "Compete in the #FreeFortnite Cup on Sunday, August 23 for an opportunity to win the new Tart Tycoon Outfit and other prizes! Head to fn.gg/FreeFortniteCup to learn more.",
-            "image": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1920x1080-1920x1080-797340988.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-freefortnitecup-motd-1024x512-1024x512-797340982.jpg",
-            "sortingPriority": 50
+            "body": "Renewed with darkness and on the path to victory.",
+            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1920x1080-1920x1080-09c371c10511294793089ad79d81aa396252bdc9.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1024x512-1024x512-0a21e6a0a06a10401bb6658025b5b2de69fc1ce5.jpg",
+            "sortingPriority": 80
          }
       ],
       "messages": [
