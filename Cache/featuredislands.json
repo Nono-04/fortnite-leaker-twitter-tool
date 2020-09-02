@@ -2,74 +2,88 @@
    "informations_by": "https://fortniteapi.io",
    "featured_islands": [
       {
-         "code": "6246-0397-0789",
-         "creator": "zahame",
-         "publishedDate": "2020-08-28T19:52:18+00:00",
-         "title": "DORAGON VALLEY",
-         "description": "4 - 8 Players - Versus - Welcome to the Doragon Valley ! A map created by Vertigo and Zaham\u00e9 ! Type : Attack/Defense | Playable from 2 VS 2 to 4 VS 4 | Random teams.",
+         "code": "3500-0019-7096",
+         "creator": "SundayCW",
+         "publishedDate": "2020-08-07T09:08:48+00:00",
+         "title": "Escape Room: The Trust Survey",
+         "description": "You and your friend have agreed to participate in a \"trust survey\" put on by a local university. Complete co-op puzzles each followed by a question.",
          "tags": [
-            "attack",
-            "defend",
-            "objective",
-            "teams"
+            "co-op",
+            "escape",
+            "event",
+            "mystery"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/TheDaragonValley_512.jpg"
+         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/3500-0019-7096.png"
       },
       {
-         "code": "1602-0715-7383",
-         "creator": "prudiz",
-         "publishedDate": "2020-08-28T16:50:12+00:00",
-         "title": "Complete Destruction Royale",
-         "description": "2 - 16 Players - Versus - Battle Royale... BUT you can destroy EVERYTHING! Last man standing wins.",
+         "code": "1179-8403-2990",
+         "creator": "wert",
+         "publishedDate": "2020-08-06T10:24:37+00:00",
+         "title": "Paranoia Tantrum 3: Duality",
+         "description": "Experience life as Merilith, a small girl trapped in a loop of horrors. Can she escape the ever-repeating loop?",
+         "tags": [
+            "escape",
+            "horror",
+            "puzzle",
+            "story"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/ParanoiaTantrum3.jpg"
+      },
+      {
+         "code": "9446-8648-1927",
+         "creator": "weck",
+         "publishedDate": "2020-08-18T21:28:01+00:00",
+         "title": "FIND THE GOLDEN EGG",
+         "description": "1 - 16 Players - Difficulty: Medium - Find the Golden Egg to advance to the next level! Complete 6 levels to WIN!",
          "tags": [
             "artistic",
-            "battle royale",
-            "free for all",
-            "one life"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/completeDestructionRoyale.jpg"
-      },
-      {
-         "code": "5660-7675-2978",
-         "creator": "straykite",
-         "publishedDate": "2020-08-31T20:01:46+00:00",
-         "title": "Llama Master",
-         "description": "6 - 10 Players - Versus - Eliminate the LLAMA MASTER. Become the LLAMA MASTER. Defeat your enemies. Become a legend.",
-         "tags": [
-            "action",
-            "co-op",
-            "free for all",
-            "pvp"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/LlamaMaster_512.jpg"
-      },
-      {
-         "code": "5344-3264-7834",
-         "creator": "bunni_",
-         "publishedDate": "2020-04-15T18:42:25+00:00",
-         "title": "Fortnite Fashion Show",
-         "description": "Show off your style in this fashion competition!",
-         "tags": [
-            "fashion",
             "friendly",
             "just for fun",
             "minigame"
          ],
-         "image": "https://static-assets-prod.epicgames.com/fn/static/creative/fashionShow.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/FindTheGoldenEgg_512.jpg"
       },
       {
-         "code": "1734-1345-6465",
-         "creator": "troxwe",
-         "publishedDate": "2020-08-27T15:11:03+00:00",
-         "title": "Musicrun",
-         "description": "1 - 6 Players - Difficulty: Medium - Play the song and sort the notes in the correct order!",
+         "code": "8443-7649-9707",
+         "creator": "bootysmurff",
+         "publishedDate": "2020-08-18T17:01:15+00:00",
+         "title": "The Lost Warzone - Search and Destroy",
+         "description": "2 - 12 Players - Versus - Attackers search and destroy 1 of 3 bombsites. Defenders defend all 3. 5 classes, friendly fire enabled; Work as a team and win strategically",
          "tags": [
-            "co-op",
-            "difficulty: medium",
-            "music",
-            "puzzle"
+            "6v6",
+            "one life",
+            "search & destroy",
+            "team deathmatch"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/Musicrun_512.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/lostWarzone.jpg"
+      },
+      {
+         "code": "7986-6528-3096",
+         "creator": "aquacw",
+         "publishedDate": "2020-08-19T14:10:38+00:00",
+         "title": "Aqua Beach Zonewars 2v2/3v3/4v4",
+         "description": "2 - 8 Players - Versus - This Island is to Honor Curacao Beautiful Beaches.",
+         "tags": [
+            "2v2",
+            "3v3",
+            "4v4",
+            "zonewars"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/aquaBeachZonewars.jpg"
+      },
+      {
+         "code": "8615-5534-1052",
+         "creator": "beario",
+         "publishedDate": "2020-08-21T20:32:29+00:00",
+         "title": "Prop Racers",
+         "description": "2 - 16 Players - Versus - Vote for the track of your choice, become a prop and race to the finish!",
+         "tags": [
+            "difficulty: easy",
+            "parkour",
+            "prop",
+            "race"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/PropRacers_512.jpg"
       }
    ]
 }

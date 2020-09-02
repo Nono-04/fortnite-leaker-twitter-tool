@@ -1,18 +1,18 @@
 {
    "app": "fortnite",
-   "serverDate": "2020-09-02T20:54:42.206Z",
+   "serverDate": "2020-08-21T18:33:22.176Z",
    "overridePropertiesVersion": "unknown",
-   "cln": "14219245",
-   "build": "280",
+   "cln": "14162440",
+   "build": "393",
    "moduleName": "Fortnite-Core",
-   "buildDate": "2020-08-31T14:51:43.455Z",
-   "version": "14.10",
-   "branch": "Release-14.10",
+   "buildDate": "2020-08-21T06:25:26.623Z",
+   "version": "14.00",
+   "branch": "Release-14.00",
    "modules": {
       "Epic-LightSwitch-AccessControlCore": {
          "cln": "13600496",
-         "build": "b2109",
-         "buildDate": "2020-08-29T00:17:59.983Z",
+         "build": "b2101",
+         "buildDate": "2020-08-20T21:33:05.960Z",
          "version": "1.0.0",
          "branch": "trunk"
       },
