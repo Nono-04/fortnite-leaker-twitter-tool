@@ -14,7 +14,8 @@ shop =              True
 shopimagetext =     f"Fortnite Item Shop" # Text in the Image
 shopimageurl =      "" # Need to be a URL | The best is a colored background
 #### OTHER Features ####
-newsfeed =          True
+brnews =            True
+stwnews =           True
 staging =           True
 blogposts =         True
 ingamebugmessage =  True
