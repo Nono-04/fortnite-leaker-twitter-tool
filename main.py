@@ -1,29 +1,24 @@
 import json
-import os
 import time
 
 import requests
 
 try:
     import tweepy
-except ImportError:
-    os.system('python -m pip install tweepy')
-    try:
-        import tweepy
-    except ImportError:
-        print("Please install the Python Package: tweepy\nOpen CMD and enter this:\n\npython -m pip install tweepy")
+except Exception as ex:
+    raise ImportError("Tweepy is not installed " + str(ex))
 
-import settings.SETTINGS as SETTINGS
-import settings.MODULES as MODULES
+from settings import SETTINGS as SETTINGS
+from settings import MODULES as MODULES
 
 
 def get_text(type: str):
     with open("lang.json") as lang:
         data = json.loads(lang.read())
-
         try:
             output = str(data[type][SETTINGS.lang])
         except:
+            print("Lang is not defind")
             output = str(data[type]["en"])
         return output
 
@@ -43,7 +38,10 @@ def check_leaks():
         url = "https://peely.de/leaks"
         if SETTINGS.leaksimageurl or SETTINGS.leaksimagetext != "":
             url = f"https://peely.de/api/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}"
-        MODULES.tweet_image(url=url, message=get_text("shop"))
+        try:
+            MODULES.tweet_image(url=url, message=get_text("shop"))
+        except Exception as ex:
+            raise tweepy.TweepError(ex)
         with open('Cache/leaks.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Leaks posted")
@@ -63,8 +61,10 @@ def check_shop():
         url = new["discordurl"]
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
             url = f"https://peely.de/api/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}"
-        print(url)
-        MODULES.tweet_image(url=url, message=get_text("shop"))
+        try:
+            MODULES.tweet_image(url=url, message=get_text("shop"))
+        except Exception as ex:
+            raise tweepy.TweepError(ex)
         with open('Cache/shop.json', 'w') as file:
             json.dump(new, file, indent=3)
         print("Item Shop posted")
@@ -108,7 +108,7 @@ def blogpost():
         for i in new["blogList"]:
             old = False
             for i2 in Cached["blogList"]:
-                if i["title"] == i2["title"]:
+                if i["_id"] == i2["_id"]:
                     old = True
             if old is True:
                 continue
@@ -136,8 +136,8 @@ def staging():
             json.dump(new, file, indent=3)
 
 
-def news():
-    with open('Cache/news.json', 'r', encoding="utf8") as file:
+def brnews():
+    with open('Cache/brnews.json', 'r', encoding="utf8") as file:
         old = json.load(file)
     try:
         req = requests.get(f"https://fortnite-api.com/v2/news/br?lang={SETTINGS.lang}")
@@ -147,12 +147,38 @@ def news():
     except:
         return
     if old != new:
-        for i in new["data"]["motds"]:
-            if not i in old["data"]["motds"]:
-                print("NEW news feed")
-                MODULES.tweet_image(url=i["image"], message=get_text("news") + f"\n{i['title']}\n{i['body']}")
-                with open('Cache/news.json', 'w', encoding="utf8") as file:
-                    json.dump(new, file, indent=3)
+        try:
+            for i in new["data"]["motds"]:
+                if not i in old["data"]["motds"]:
+                    print("NEW BR news")
+                    MODULES.tweet_image(url=i["image"], message=get_text("brnews") + f"\n{i['title']}\n{i['body']}")
+        except:
+            pass
+        with open('Cache/brnews.json', 'w', encoding="utf8") as file:
+            json.dump(new, file, indent=3)
+
+
+def stwnews():
+    with open('Cache/stwnews.json', 'r', encoding="utf8") as file:
+        old = json.load(file)
+    try:
+        req = requests.get(
+            f"https://fortnite-api.com/v2/news/stw?lang={SETTINGS.lang}")
+        if req.status_code != 200:
+            return
+        new = req.json()
+    except:
+        return
+    if old != new:
+        try:
+            for i in new["data"]["messages"]:
+                if not i in old["data"]["messages"]:
+                    print("NEW STW news")
+                    MODULES.tweet_image(url=i["image"], message=get_text("stwnews") + f"\n{i['title']}\n{i['body']}")
+        except:
+            pass
+        with open('Cache/stwnews.json', 'w', encoding="utf8") as file:
+            json.dump(new, file, indent=3)
 
 
 def featuredislands():
@@ -218,12 +244,15 @@ if __name__ == "__main__":
             staging()
         if SETTINGS.blogposts is True:
             blogpost()
-        if SETTINGS.newsfeed is True:
-            news()
+        if SETTINGS.brnews is True:
+            brnews()
+        if SETTINGS.stwnews is True:
+            stwnews()
         if SETTINGS.featuredislands is True:
             featuredislands()
         if SETTINGS.playlist is True:
             playlist()
+        # --------------------------------- #
         if SETTINGS.intervall < 20:
             time.sleep(20)
         else:

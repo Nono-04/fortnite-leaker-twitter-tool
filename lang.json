@@ -7,9 +7,13 @@
     "en": "Fortnite Shop changes detected",
     "de": "der Fortnite Item Shop wurde geändert"
   },
-  "news": {
+  "brnews": {
     "en": "BR News-Feed Update",
     "de": "BR Neuigkeiten Update"
+  },
+  "stwnews": {
+    "en": "STW News-Feed Update",
+    "de": "STW Neuigkeiten Update"
   },
   "staging": {
     "en": "was added to the Staging Server\nYou can expect we'll get the Update next week",

@@ -6,11 +6,12 @@ import requests
 try:
     import tweepy
 except ImportError:
-    os.system('python -m pip install tweepy')
+    raise ImportError("Tweepy is not installed")
+
 try:
     from PIL import Image
 except ImportError:
-    os.system('python -m pip install pillow')
+    raise ImportError("PIP is not installed")
 
 import settings.SETTINGS as SETTINGS
 
@@ -21,6 +22,10 @@ def post_text(text: str):
     auth.set_access_token(key=SETTINGS.TWITTER_TOKEN["access_token_key"],
                           secret=SETTINGS.TWITTER_TOKEN["access_token_secret"])
     client = tweepy.API(auth)
+    try:
+        auth.get_username()
+    except tweepy.TweepError as ex:
+        raise ex
     if SETTINGS.nopost is False:
         client.update_status(status=text)
     return
@@ -32,6 +37,10 @@ def tweet_image(url, message):
     auth.set_access_token(key=SETTINGS.TWITTER_TOKEN["access_token_key"],
                           secret=SETTINGS.TWITTER_TOKEN["access_token_secret"])
     client = tweepy.API(auth)
+    try:
+        auth.get_username()
+    except tweepy.TweepError as ex:
+        raise ex
     request = requests.get(url, stream=True)
     if request.status_code == 200:
         with open("image.png", 'wb') as image:
