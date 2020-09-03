@@ -3,7 +3,7 @@
    "_title": "Fortnite Game",
    "jcr:baseVersion": "a7ca237317f1e7883b3279-c38f-4aa7-a325-e099e4bf71e5",
    "_activeDate": "2017-08-30T03:20:48.050Z",
-   "lastModified": "2020-08-29T11:37:25.139Z",
+   "lastModified": "2020-09-02T23:07:56.788Z",
    "_locale": "en-US",
    "subgameinfo": {
       "battleroyale": {
@@ -75,29 +75,379 @@
    },
    "battleroyalenews": {
       "news": {
-         "motds": [
+         "motds": [],
+         "_type": "Battle Royale News",
+         "messages": [
             {
-               "entryType": "Item",
-               "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1920x1080-1920x1080-09c371c10511294793089ad79d81aa396252bdc9.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1024x512-1024x512-0a21e6a0a06a10401bb6658025b5b2de69fc1ce5.jpg",
+               "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
                "hidden": false,
-               "videoMute": false,
-               "_type": "CommonUI Simple Message MOTD",
-               "title": "Dark Bomber",
-               "body": "Renewed with darkness and on the path to victory. ",
-               "videoLoop": false,
-               "videoStreamingEnabled": false,
-               "sortingPriority": 80,
-               "buttonTextOverride": "Get it Now",
-               "offerId": "v2:/a92e860e56e64df0fa126989f84c2e3e1baa0def011a88981e0b3a549c8a01e4",
-               "id": "Dark Bomber links to CID_229_Athena_Commando_F_DarkBomber",
-               "videoAutoplay": false,
-               "videoFullscreen": false,
+               "messagetype": "normal",
+               "_type": "CommonUI Simple Message Base",
+               "title": "Keep Your Account Secure",
+               "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
                "spotlight": false
             }
          ],
-         "_type": "Battle Royale News",
          "platform_motds": [
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "switch"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "windows"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "android"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "XBoxOne"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "PS4"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Pack ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Street Serpent Pack",
+                  "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 55,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "3861E37541DC53BC9A0C848DDB2F87FF",
+                  "id": "Street Serpent Pack",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "windows"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Pack ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Street Serpent Pack",
+                  "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 55,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "3861E37541DC53BC9A0C848DDB2F87FF",
+                  "id": "Street Serpent Pack",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "android"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Pack ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Street Serpent Pack",
+                  "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 55,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "3861E37541DC53BC9A0C848DDB2F87FF",
+                  "id": "Street Serpent Pack",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "XBoxOne"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Pack ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Street Serpent Pack",
+                  "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 55,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "3861E37541DC53BC9A0C848DDB2F87FF",
+                  "id": "Street Serpent Pack",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "PS4"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "playlistId": "Playlist_Nitrogen12_Duos",
+                  "entryType": "Playlist",
+                  "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+                  "videoMute": false,
+                  "hidden": true,
+                  "tabTitleOverride": "New LTM ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Tilted Taxis",
+                  "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 60,
+                  "buttonTextOverride": "Play Now ",
+                  "id": "Tilted Taxi Taxi links to Playlist_Nitrogen12_Duos",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "switch"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "playlistId": "Playlist_Nitrogen12_Duos",
+                  "entryType": "Playlist",
+                  "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+                  "videoMute": false,
+                  "hidden": true,
+                  "tabTitleOverride": "New LTM ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Tilted Taxis",
+                  "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 60,
+                  "buttonTextOverride": "Play Now ",
+                  "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "windows"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "playlistId": "Playlist_Nitrogen12_Duos",
+                  "entryType": "Playlist",
+                  "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+                  "videoMute": false,
+                  "hidden": true,
+                  "tabTitleOverride": "New LTM ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Tilted Taxis",
+                  "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 60,
+                  "buttonTextOverride": "Play Now ",
+                  "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "android"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "playlistId": "Playlist_Nitrogen12_Duos",
+                  "entryType": "Playlist",
+                  "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+                  "videoMute": false,
+                  "hidden": true,
+                  "tabTitleOverride": "New LTM ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Tilted Taxis",
+                  "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 60,
+                  "buttonTextOverride": "Play Now ",
+                  "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "XBoxOne"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "playlistId": "Playlist_Nitrogen12_Duos",
+                  "entryType": "Playlist",
+                  "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+                  "videoMute": false,
+                  "hidden": true,
+                  "tabTitleOverride": "New LTM ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Tilted Taxis",
+                  "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 60,
+                  "buttonTextOverride": "Play Now ",
+                  "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "PS4"
+            },
             {
                "hidden": false,
                "_type": "CommonUI Simple Message MOTD Platform",
@@ -112,8 +462,7 @@
                   "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
                   "videoLoop": false,
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 95,
-                  "id": "C2S4_Apple",
+                  "id": "Apple Sustained Release",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
@@ -134,8 +483,7 @@
                   "body": "With the launch of Season 4, players on Google Play will be unable to play the new Season. On this platform, players can still play version v13.40.",
                   "videoLoop": false,
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 95,
-                  "id": "C2S4_Google",
+                  "id": "Google Sustained Release",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
@@ -156,161 +504,12 @@
                   "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
                   "videoLoop": false,
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 95,
-                  "id": "C2S4_Apple",
+                  "id": "Apple Sustained Release",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
                },
                "platform": "ios"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToSpatialScreen",
-                  "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
-                  "hidden": true,
-                  "videoMute": false,
-                  "tabTitleOverride": "Join the Team",
-                  "experiment_id": 1,
-                  "_type": "CommonUI Simple Message MOTD",
-                  "cameraTag": "ERG.Camera.MainRoom.BattlePass",
-                  "title": "Nexus War",
-                  "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 90,
-                  "buttonTextOverride": "View the Battle Pass",
-                  "id": "Battle Pass ",
-                  "videoAutoplay": false,
-                  "experiment_percent": 95,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "switch"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToSpatialScreen",
-                  "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
-                  "hidden": true,
-                  "videoMute": false,
-                  "tabTitleOverride": "Join the Team",
-                  "experiment_id": 1,
-                  "_type": "CommonUI Simple Message MOTD",
-                  "cameraTag": "ERG.Camera.MainRoom.BattlePass",
-                  "title": "Nexus War",
-                  "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 90,
-                  "buttonTextOverride": "View the Battle Pass",
-                  "id": "Battle Pass ",
-                  "videoAutoplay": false,
-                  "experiment_percent": 95,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "windows"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToSpatialScreen",
-                  "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
-                  "hidden": true,
-                  "videoMute": false,
-                  "tabTitleOverride": "Join the Team",
-                  "experiment_id": 1,
-                  "_type": "CommonUI Simple Message MOTD",
-                  "cameraTag": "ERG.Camera.MainRoom.BattlePass",
-                  "title": "Nexus War",
-                  "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 90,
-                  "buttonTextOverride": "View the Battle Pass",
-                  "id": "Battle Pass ",
-                  "videoAutoplay": false,
-                  "experiment_percent": 95,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "android"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToSpatialScreen",
-                  "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
-                  "hidden": true,
-                  "videoMute": false,
-                  "tabTitleOverride": "Join the Team",
-                  "experiment_id": 1,
-                  "_type": "CommonUI Simple Message MOTD",
-                  "cameraTag": "ERG.Camera.MainRoom.BattlePass",
-                  "title": "Nexus War",
-                  "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 90,
-                  "buttonTextOverride": "View the Battle Pass",
-                  "id": "Battle Pass ",
-                  "videoAutoplay": false,
-                  "experiment_percent": 95,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "XBoxOne"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToSpatialScreen",
-                  "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
-                  "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "Join the Team",
-                  "experiment_id": 1,
-                  "_type": "CommonUI Simple Message MOTD",
-                  "cameraTag": "ERG.Camera.MainRoom.BattlePass",
-                  "title": "Nexus War",
-                  "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
-                  "videoLoop": false,
-                  "websiteButtonText": "",
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 90,
-                  "websiteURL": "",
-                  "buttonTextOverride": "View the Battle Pass",
-                  "id": "Battle Pass ",
-                  "videoAutoplay": false,
-                  "experiment_percent": 95,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "PS4"
-            }
-         ],
-         "messages": [
-            {
-               "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
-               "hidden": false,
-               "messagetype": "normal",
-               "_type": "CommonUI Simple Message Base",
-               "title": "Keep Your Account Secure",
-               "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
-               "spotlight": false
             }
          ]
       },
@@ -320,9 +519,9 @@
       "style": "None",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e7d215e40f-90c2-452a-9a2e-e1edc76deecd",
+      "jcr:baseVersion": "a7ca237317f1e74ceede9c-f7d0-4ba9-a0d4-0db436828366",
       "_activeDate": "2020-01-21T14:00:00.000Z",
-      "lastModified": "2020-08-28T23:41:34.301Z",
+      "lastModified": "2020-09-02T23:06:24.333Z",
       "_locale": "en-US"
    },
    "lobby": {
@@ -338,36 +537,18 @@
          "motds": [
             {
                "entryType": "Text",
-               "image": "https://cdn2.unrealengine.com/14-0-03-gamerztwentyleveldeathrun-1920x1080-1920x1080-865882910.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14-0-03-gamerztwentyleveldeathrun-1024x512-1024x512-865882904.jpg",
+               "image": "https://cdn2.unrealengine.com/14-0-07-musicrun-1920x1080-1920x1080-865882937.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14-0-07-musicrun-1024x512-1024x512-865882926.jpg",
                "tabTitleOverride": "New Featured Island",
                "hidden": false,
                "videoMute": false,
                "_type": "CommonUI Simple Message MOTD",
-               "title": "Gamerz's 20 Level Deathrun!",
-               "body": "Deathrun, Difficulty: Medium, Artistic, Minigame\nGo play the community made Featured Island by Gamerz Hits",
+               "title": "Musicrun",
+               "body": "Co-Op, Difficulty Medium, Music, Puzzle\nGo play the community made Featured Island by TroxWe",
                "videoLoop": false,
                "videoStreamingEnabled": false,
-               "id": "Gamerz's 20 Level Deathrun! New Featured Island",
-               "videoAutoplay": false,
-               "videoFullscreen": false,
-               "spotlight": false
-            },
-            {
-               "entryType": "Item",
-               "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1920x1080-1920x1080-09c371c10511294793089ad79d81aa396252bdc9.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1024x512-1024x512-0a21e6a0a06a10401bb6658025b5b2de69fc1ce5.jpg",
-               "hidden": false,
-               "videoMute": false,
-               "_type": "CommonUI Simple Message MOTD",
-               "title": "Dark Bomber",
-               "body": "Renewed with darkness and on the path to victory. ",
-               "videoLoop": false,
-               "videoStreamingEnabled": false,
-               "sortingPriority": 70,
-               "buttonTextOverride": "Get it Now",
-               "offerId": "v2:/a92e860e56e64df0fa126989f84c2e3e1baa0def011a88981e0b3a549c8a01e4",
-               "id": "Dark Bomber links to CID_229_Athena_Commando_F_DarkBomber",
+               "sortingPriority": 50,
+               "id": "Musicrun New Featured Island",
                "videoAutoplay": false,
                "videoFullscreen": false,
                "spotlight": false
@@ -385,7 +566,204 @@
                "spotlight": false
             }
          ],
-         "platform_motds": []
+         "platform_motds": [
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "switch"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "windows"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "android"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "XBoxOne"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "NavigateToTab",
+                  "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "hidden": true,
+                  "videoMute": false,
+                  "tabTitleOverride": "New Back Bling",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Flytrap",
+                  "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 80,
+                  "buttonTextOverride": "Check it Out",
+                  "offerId": "v2:/701338835f2ad8b4ac646dd78ef3564da92562ef1df0ce8c1326489579507dfe",
+                  "id": "Flytrap links to Item Shop",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "PS4"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "Text",
+                  "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
+                  "hidden": true,
+                  "videoMute": false,
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Chapter 2 - Season 4 Notice",
+                  "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 99,
+                  "id": "Apple Sustained Release",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "mac"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "Text",
+                  "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
+                  "hidden": true,
+                  "videoMute": false,
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Chapter 2 - Season 4 Notice",
+                  "body": "With the launch of Season 4, players on Google Play will be unable to play the new Season. On this platform, players can still play version v13.40.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 99,
+                  "id": "Google Sustained Release",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "androidGP"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "Text",
+                  "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
+                  "hidden": true,
+                  "videoMute": false,
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Chapter 2 - Season 4 Notice",
+                  "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
+                  "videoLoop": false,
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 99,
+                  "id": "Apple Sustained Release",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "ios"
+            }
+         ]
       },
       "jcr:isCheckedOut": true,
       "_title": "Creativenews",
@@ -393,9 +771,9 @@
       "style": "None",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e71c16d111-6427-43f9-a076-37f8bf528c56",
+      "jcr:baseVersion": "a7ca237317f1e77fb347c6-4dd0-4a63-86ea-9eeef1fa1680",
       "_activeDate": "2020-01-22T00:00:00.000Z",
-      "lastModified": "2020-08-29T11:37:25.139Z",
+      "lastModified": "2020-09-02T23:07:56.788Z",
       "_locale": "en-US"
    },
    "savetheworldnews": {
@@ -403,12 +781,12 @@
          "_type": "Battle Royale News",
          "messages": [
             {
-               "image": "https://cdn2.unrealengine.com/10stw-social-main-stage-quinn-motd-1024x512-682778371.jpg",
+               "image": "https://cdn2.unrealengine.com/13stw-directorriggs-motd-1024x512-1024x512-682778399.jpg",
                "hidden": false,
                "_type": "CommonUI Simple Message Base",
-               "adspace": "SEASON EVENT",
-               "title": "Quinn HITS THE ROAD FOR PART 3!",
-               "body": "Quinn makes her way back to the Radio Station to broadcast Part 3 of her Song of the Summer. It\u2019s time to Hit the Road to unlock a new loading screen!",
+               "adspace": "LEAVING SOON!",
+               "title": "Yarr's Return",
+               "body": "Blakebeard\u2019s ghost is having trouble fitting in with the other ghost pirates. He has no legacy to draw from and Ray wants to help him out!",
                "spotlight": false
             },
             {
@@ -421,12 +799,12 @@
                "spotlight": false
             },
             {
-               "image": "https://cdn2.unrealengine.com/13stw-tacticalassaultsledgehammer-motd-1024x512-1024x512-796686484.jpg",
+               "image": "https://cdn2.unrealengine.com/13stw-dennis-motd-1024x512-1024x512-538021446.jpg",
                "hidden": false,
                "_type": "CommonUI Simple Message Base",
-               "adspace": "EVENT STORE",
-               "title": "Tactical Assault Sledgehammer",
-               "body": "Breach the Husks with Tactical Assault Sledgehammer!",
+               "adspace": "LEAVING SOON!",
+               "title": "Impostor",
+               "body": "Search the newly discovered Blasted Badlands for a true Hero! Train Dennis to become a warrior in the new Blasted Badlands Venture Zone to unlock Homebase\u2019s own burger boss!",
                "spotlight": false
             }
          ]
@@ -435,14 +813,59 @@
       "_title": "SaveTheWorldNews",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e7393bdb6d-7ca5-4cf5-a606-d8ea66f58c4c",
+      "jcr:baseVersion": "a7ca237317f1e72dc8a632-798a-48f6-85c0-b5f0f7bf1005",
       "_activeDate": "2020-01-22T00:00:00.000Z",
-      "lastModified": "2020-08-29T00:05:47.876Z",
+      "lastModified": "2020-09-02T00:58:51.889Z",
       "_locale": "en-US"
    },
    "playersurvey": {
       "s": {
          "s": [
+            {
+               "q": [
+                  {
+                     "mc": {
+                        "s": "standard",
+                        "c": [
+                           {
+                              "t": "Test1",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Test2",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Test3",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "Test",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  }
+               ],
+               "rt": true,
+               "r": "rm",
+               "pr": {
+                  "_type": "Player Survey - Message"
+               },
+               "hidden": false,
+               "t": "Test",
+               "sg": [
+                  "a"
+               ],
+               "e": false,
+               "_type": "Player Survey - Survey",
+               "cm": {
+                  "_type": "Player Survey - Message"
+               },
+               "id": "200901_testsurvey_1",
+               "po": {
+                  "_type": "Player Survey - Message"
+               }
+            },
             {
                "rt": false,
                "pr": {
@@ -10209,9 +10632,9 @@
       "jcr:isCheckedOut": true,
       "_title": "playersurvey",
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e77b62e375-f7ef-45dc-8dde-838b1147a49a",
+      "jcr:baseVersion": "a7ca237317f1e71350fb8c-8886-4de5-aaf2-0f9b08e58ffa",
       "_activeDate": "2019-10-15T07:50:00.000Z",
-      "lastModified": "2020-08-28T17:15:24.226Z",
+      "lastModified": "2020-09-01T19:33:07.586Z",
       "_locale": "en-US"
    },
    "battlepassaboutmessages": {
@@ -10254,7 +10677,6 @@
    },
    "emergencynotice": {
       "news": {
-         "platform_messages": [],
          "_type": "Battle Royale News",
          "messages": [],
          "region_messages": [
@@ -10289,9 +10711,9 @@
       "_title": "emergencynotice",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e71c41ef5a-6486-4716-82be-ce7bff1f7cff",
+      "jcr:baseVersion": "a7ca237317f1e799fe3c05-bab1-4b3d-b95f-ee873757eb1d",
       "_activeDate": "2018-08-06T19:00:26.217Z",
-      "lastModified": "2020-08-27T21:56:04.852Z",
+      "lastModified": "2020-09-02T16:58:45.705Z",
       "_locale": "en-US"
    },
    "koreancafe": {
@@ -10412,6 +10834,12 @@
    "playlistinformation": {
       "is_tile_hidden": true,
       "frontend_matchmaking_header_style": "None",
+      "conversion_config": {
+         "containerName": "playlist_info",
+         "_type": "Conversion Config",
+         "enableReferences": false,
+         "contentName": "playlists"
+      },
       "jcr:isCheckedOut": true,
       "show_ad_violator": false,
       "_title": "playlistinformation",
@@ -10427,6 +10855,20 @@
                "violator": "",
                "_type": "FortPlaylistInfo",
                "description": "Welcome to Party Royale, a new experimental and evolving space. Leave your weapons and mats behind and hang out with friends, play games and enjoy live entertainment. Catch live shows. Race around obstacle courses by land or sea. Go fishing with friends, perfect your skydive, and get up close and connect with some of your favorite artists. Hop on the party bus and enjoy the ride."
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-890727217.jpg",
+               "playlist_name": "Playlist_Nitrogen12_Trios",
+               "hidden": false,
+               "violator": "NEW",
+               "_type": "FortPlaylistInfo"
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-890727217.jpg",
+               "playlist_name": "Playlist_Nitrogen12_Duos",
+               "hidden": false,
+               "violator": "NEW",
+               "_type": "FortPlaylistInfo"
             },
             {
                "image": "https://cdn2.unrealengine.com/13br-summersplash-ltm-knockoutairraid-motd-1024x512-1024x512-674280089.jpg",
@@ -11646,9 +12088,9 @@
          ]
       },
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e79f83db7e-a01a-4822-b0fc-b0646f3e1e32",
+      "jcr:baseVersion": "a7ca237317f1e7e36ddec7-d981-4b2d-a017-a559d8a897f0",
       "_activeDate": "2018-04-25T15:05:39.956Z",
-      "lastModified": "2020-08-27T04:17:02.205Z",
+      "lastModified": "2020-09-02T05:46:49.026Z",
       "_locale": "en-US"
    },
    "creativeFeatures": {
@@ -11666,6 +12108,240 @@
       "jcr:isCheckedOut": true,
       "tournament_info": {
          "tournaments": [
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_eu_finals",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 19th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-2-750x1080-319776257.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_naw_finals",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 13th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-2-750x1080-319776257.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_nae_finals",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 18th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-2-750x1080-319776257.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_eu_semifinals",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 19th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-1-750x1080-319779191.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Semi Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 100 players will advance to Stage 3. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_naw_semifinals",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 13th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-1-750x1080-319779191.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Semi Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 100 players will advance to Stage 3. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_nae_semifinals",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 18th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-1-750x1080-319779191.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Semi Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 100 players will advance to Stage 3. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_eu_heats",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 19th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-3-750x1080-319773361.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Heats",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 750 players will advance to Stage 2. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_naw_heats",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 12th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-3-750x1080-319773361.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Heats",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 750 players will advance to Stage 2. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack_nae_heats",
+               "highlight_color": "FFED27",
+               "schedule_info": "September 17th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-3-750x1080-319773361.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Heats",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 750 players will advance to Stage 2. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "base_color": "FFFFFF"
+            },
             {
                "loading_screen_image": "https://cdn2.unrealengine.com/13br-ingamefreefortnitecup-modetile-1024x512-797572800.jpg",
                "title_color": "FFFFFF",
@@ -11752,15 +12428,15 @@
                "_type": "Tournament Display Info",
                "tournament_display_id": "s13_stage0_qualifier",
                "highlight_color": "25fff4",
-               "schedule_info": "8/22 - 8/23",
+               "schedule_info": "Sept 6",
                "primary_color": "00ff8b",
-               "flavor_description": "\u9ad8\u6821\u6700\u5f37\u3092\u76ee\u6307\u305b\uff0145\u30c1\u30fc\u30e090\u540d\u304c\u6c7a\u52dd\u3078\uff01",
+               "flavor_description": "\u9ad8\u6821\u6700\u5f37\u3092\u76ee\u6307\u305b\uff01\u6c7a\u52dd\u5927\u4f1a\u3078\u9032\u3080\u306e\u306f\u8ab0\u3060\uff01\uff1f",
                "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-stage0-poster-front-750x1080-716461714.jpg",
                "short_format_title": "\u30aa\u30f3\u30e9\u30a4\u30f3\u4e88\u9078",
                "title_line_2": "\u30aa\u30f3\u30e9\u30a4\u30f3\u4e88\u9078",
                "title_line_1": "STAGE:0",
                "shadow_color": "00736D",
-               "details_description": "\u9ad8\u6821e\u30b9\u30dd\u30fc\u30c4\u306e\u796d\u5178\u300eSTAGE:0\u300f\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8\u90e8\u9580\u306f\u3001 8\u670822\u65e5\uff08\u571f\uff0923\uff08\u65e5\uff09\u4e88\u9078\u5927\u4f1a\u21929\u670819\u65e5\uff08\u571f\uff09\u6c7a\u52dd\u5927\u4f1a\uff01 \u4e88\u9078\u306e\u901a\u904e\u800545\u30c1\u30fc\u30e090\u540d\u306f\u3001\u6c7a\u52dd\u306e\u30b9\u30c6\u30fc\u30b8\u3078\uff01 1400\u4ee5\u4e0a\u306e\u30c1\u30fc\u30e0\u306e\u4e2d\u304b\u3089\u3001STAGE:0\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8\u9ad8\u6821\u751f\u6700\u5f37\u306e\u5ea7\u3092\u63b4\u3080\u306e\u306f\u8ab0\u3060\uff01\uff1f \u8a73\u7d30\u60c5\u5831\u3084\u30dd\u30a4\u30f3\u30c8\u5236\u306a\u3069\u30eb\u30fc\u30eb\u306f\u300c\u30b9\u30c6\u30fc\u30b8\u30bc\u30ed\u300d\u3067\u691c\u7d22\u3057\u3066\u516c\u5f0f\u30b5\u30a4\u30c8\u3078\uff01 ",
+               "details_description": "\"\u9ad8\u6821e\u30b9\u30dd\u30fc\u30c4\u306e\u796d\u5178\u300eSTAGE:0\u300f\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8\u90e8\u9580\u306f\u3001 9\u670819\u65e5\uff08\u571f\uff09\u306b\u6c7a\u52dd\u5927\u4f1a\u3092\u958b\u50ac\uff01 \u6c7a\u52dd\u5927\u4f1a\u3078\u306e\u5207\u7b26\u3092\u304b\u3051\u3066\u30019\u67086\u65e5\u306b\u4e88\u9078\u5927\u4f1a\u3092\u8ffd\u52a0\u958b\u50ac\u3057\u307e\u3059\u3002  1400\u4ee5\u4e0a\u306e\u30c1\u30fc\u30e0\u306e\u4e2d\u304b\u3089\u3001STAGE:0\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8\u9ad8\u6821\u751f\u6700\u5f37\u306e\u5ea7\u3092\u63b4\u3080\u306e\u306f\u8ab0\u3060\uff01\uff1f \u8a73\u7d30\u60c5\u5831\u3084\u30dd\u30a4\u30f3\u30c8\u5236\u306a\u3069\u30eb\u30fc\u30eb\u306f\u300c\u30b9\u30c6\u30fc\u30b8\u30bc\u30ed\u300d\u3067\u691c\u7d22\u3057\u3066\u516c\u5f0f\u30b5\u30a4\u30c8\u3078\uff01\"",
                "background_left_color": "00b7a4",
                "long_format_title": "STAGE:0 \u30aa\u30f3\u30e9\u30a4\u30f3\u4e88\u9078",
                "poster_fade_color": "00a3a9",
@@ -18846,9 +19522,9 @@
       },
       "_title": "tournamentinformation",
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e741947ed8-34a2-433c-b1d8-772ec895efc8",
+      "jcr:baseVersion": "a7ca237317f1e7ca73df6b-d11f-43af-b54b-37d52d5270cd",
       "_activeDate": "2018-11-13T22:32:47.734Z",
-      "lastModified": "2020-08-27T19:42:38.757Z",
+      "lastModified": "2020-09-01T16:32:15.799Z",
       "_locale": "en-US"
    },
    "creativeAds": {
@@ -18906,7 +19582,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "landingPriority": 200,
@@ -18920,7 +19598,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "landingPriority": 190,
@@ -18934,7 +19614,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Daily",
@@ -18947,7 +19629,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Special",
@@ -18960,7 +19644,114 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "StarWars",
+               "bShowTimer": true,
+               "sectionDisplayName": "Star Wars",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "Marvel",
+               "bShowTimer": true,
+               "sectionDisplayName": "Marvel",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "CustomizeHero",
+               "bShowTimer": true,
+               "sectionDisplayName": "Customize Your Hero!",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "HeroGear",
+               "bShowTimer": true,
+               "sectionDisplayName": "Hero Gear",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "Fortnitemares",
+               "bShowTimer": true,
+               "sectionDisplayName": "Fortnitemares",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "BannerBrigade",
+               "bShowTimer": true,
+               "sectionDisplayName": "Banner Brigade",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
+               },
+               "_type": "ShopSection",
+               "sectionId": "BannerGear",
+               "bShowTimer": true,
+               "sectionDisplayName": "Banner Gear",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Bundles",
@@ -18973,7 +19764,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Characters",
@@ -18986,7 +19779,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "landingPriority": 180,
@@ -19000,7 +19795,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Pickaxes",
@@ -19013,7 +19810,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Gliders",
@@ -19026,7 +19825,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "MusicPacks",
@@ -19039,7 +19840,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": true,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "sectionId": "Wraps",
@@ -19052,7 +19855,9 @@
                "bShowIneligibleOffersIfGiftable": false,
                "bEnableToastNotification": false,
                "background": {
-                  "_type": "DynamicBackground"
+                  "stage": "default",
+                  "_type": "DynamicBackground",
+                  "key": "vault"
                },
                "_type": "ShopSection",
                "landingPriority": 1000,
@@ -19064,9 +19869,9 @@
          ]
       },
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e796a9c6b7-b58a-4acb-baef-7b6599fe3f5c",
+      "jcr:baseVersion": "a7ca237317f1e7aa2dac3a-6f1d-4896-a7e4-dffea99c24d5",
       "_activeDate": "2020-07-10T14:19:30.741Z",
-      "lastModified": "2020-08-27T20:16:04.115Z",
+      "lastModified": "2020-08-31T17:48:24.741Z",
       "_locale": "en-US"
    },
    "_suggestedPrefetch": []

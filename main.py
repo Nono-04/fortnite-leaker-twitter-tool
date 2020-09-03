@@ -113,7 +113,7 @@ def blogpost():
             if old is True:
                 continue
             else:
-                MODULES.tweet_image(url=i["image"], message=f'https://www.epicgames.com/fortnite{i["urlPattern"]}')
+                MODULES.tweet_image(url=i["image"], message=get_text("blogpost") + f'\nhttps://www.epicgames.com/fortnite{i["urlPattern"]}')
         with open('Cache/blog.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 

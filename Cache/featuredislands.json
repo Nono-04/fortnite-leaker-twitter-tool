@@ -2,73 +2,72 @@
    "informations_by": "https://fortniteapi.io",
    "featured_islands": [
       {
-         "code": "8143-6071-8195",
-         "creator": "shinohara",
-         "publishedDate": "2020-05-13T01:55:27+00:00",
-         "title": "Zodiac Library - Gun Game",
-         "description": "2~16 Players - A classic Gun Game using 20 weapons with different shooting styles!",
-         "tags": [
-            "action",
-            "free for all",
-            "gun game"
-         ],
-         "image": "http://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/8143-6071-8195.png"
-      },
-      {
-         "code": "0347-7611-1836",
-         "creator": "ekkam04",
-         "publishedDate": "2020-08-24T21:56:05+00:00",
-         "title": "Match the Pairs!",
-         "description": "1 Player - Difficulty: Easy - Shoot the doors to open them, they have a gun behind them. Match all 8 pairs and try to get the fastest time or a highscore!",
-         "tags": [
-            "minigame",
-            "puzzle",
-            "skills",
-            "timed"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/MatchThePairs_512.jpg"
-      },
-      {
-         "code": "8105-5214-8828",
-         "creator": "punti_",
-         "publishedDate": "2020-08-26T20:58:02+00:00",
-         "title": "Galaxy Biom - Gun Game",
-         "description": "2 - 16 Players - Versus - Galaxy Biom Gun Game! 30 different weapons. The first player with 30 kills wins the game!",
-         "tags": [
-            "1v1",
-            "free for all",
-            "gun fight",
-            "shooter"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/GalaxyBiom_512.jpg"
-      },
-      {
-         "code": "2909-3633-6737",
-         "creator": "chasejackman",
-         "publishedDate": "2020-08-26T14:16:23+00:00",
-         "title": "Llama Rescuers",
-         "description": "2 - 10 Players - Versus - Race across the island avoiding sharks. Be the first to capture 5 llamas to win",
-         "tags": [
-            "action",
-            "arcade",
-            "collection",
-            "minigame"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/llamaRescuers.jpg"
-      },
-      {
-         "code": "3217-6785-8734",
-         "creator": "Gamerzhits",
-         "publishedDate": "2020-08-26T21:46:13+00:00",
-         "title": "Gamerz's 20 Level Deathrun!",
-         "description": "1 - 16 Players - Difficulty: Medium - Can you complete this fun, unique and colorful deathrun?",
+         "code": "1602-0715-7383",
+         "creator": "prudiz",
+         "publishedDate": "2020-08-28T16:50:12+00:00",
+         "title": "Complete Destruction Royale",
+         "description": "2 - 16 Players - Versus - Battle Royale... BUT you can destroy EVERYTHING! Last man standing wins.",
          "tags": [
             "artistic",
-            "deathrun",
-            "difficulty: medium",
+            "battle royale",
+            "free for all",
+            "one life"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/completeDestructionRoyale.jpg"
+      },
+      {
+         "code": "5660-7675-2978",
+         "creator": "straykite",
+         "publishedDate": "2020-08-31T20:01:46+00:00",
+         "title": "Llama Master",
+         "description": "6 - 10 Players - Versus - Eliminate the LLAMA MASTER. Become the LLAMA MASTER. Defeat your enemies. Become a legend.",
+         "tags": [
+            "action",
+            "co-op",
+            "free for all",
+            "pvp"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/LlamaMaster_512.jpg"
+      },
+      {
+         "code": "5344-3264-7834",
+         "creator": "bunni_",
+         "publishedDate": "2020-04-15T18:42:25+00:00",
+         "title": "Fortnite Fashion Show",
+         "description": "Show off your style in this fashion competition!",
+         "tags": [
+            "fashion",
+            "friendly",
+            "just for fun",
             "minigame"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/gamerz20LevelDeathrun.jpg"
+         "image": "https://static-assets-prod.epicgames.com/fn/static/creative/fashionShow.jpg"
+      },
+      {
+         "code": "1734-1345-6465",
+         "creator": "troxwe",
+         "publishedDate": "2020-08-27T15:11:03+00:00",
+         "title": "Musicrun",
+         "description": "1 - 6 Players - Difficulty: Medium - Play the song and sort the notes in the correct order!",
+         "tags": [
+            "co-op",
+            "difficulty: medium",
+            "music",
+            "puzzle"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/Musicrun_512.jpg"
+      },
+      {
+         "code": "3706-0604-4789",
+         "creator": "TreyJTH",
+         "publishedDate": "2020-08-28T16:52:50+00:00",
+         "title": "Dungeon Dodgers",
+         "description": "1 - 16 Players - Versus - Compete with friends in this fast paced barrier dodging mini-game! Try to be the last one alive.",
+         "tags": [
+            "action",
+            "competitive"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/DungeonDodgers_512.jpg"
       }
    ]
 }

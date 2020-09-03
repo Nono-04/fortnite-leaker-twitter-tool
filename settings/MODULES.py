@@ -17,6 +17,8 @@ import settings.SETTINGS as SETTINGS
 
 
 def post_text(text: str):
+    if SETTINGS.nopost is True:
+        return
     auth = tweepy.OAuthHandler(consumer_key=SETTINGS.TWITTER_TOKEN["consumer_key"],
                                consumer_secret=SETTINGS.TWITTER_TOKEN["consumer_secret"])
     auth.set_access_token(key=SETTINGS.TWITTER_TOKEN["access_token_key"],
@@ -26,12 +28,13 @@ def post_text(text: str):
         auth.get_username()
     except tweepy.TweepError as ex:
         raise ex
-    if SETTINGS.nopost is False:
-        client.update_status(status=text)
+    client.update_status(status=text)
     return
 
 
 def tweet_image(url, message):
+    if SETTINGS.nopost is True:
+        return
     auth = tweepy.OAuthHandler(consumer_key=SETTINGS.TWITTER_TOKEN["consumer_key"],
                                consumer_secret=SETTINGS.TWITTER_TOKEN["consumer_secret"])
     auth.set_access_token(key=SETTINGS.TWITTER_TOKEN["access_token_key"],
@@ -61,8 +64,7 @@ def tweet_image(url, message):
             temp.save("image.png", optimize=True, quality=int(round(100 / tint)))
             temp.save(io.BytesIO(), format="PNG")
             try:
-                if SETTINGS.nopost is False:
-                    client.update_with_media("image.png", status=message)
+                client.update_with_media("image.png", status=message)
                 break
             except tweepy.TweepError as ex:
                 print(ex)

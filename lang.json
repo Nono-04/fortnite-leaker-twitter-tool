@@ -22,5 +22,10 @@
   "playlist": {
     "en": "New Playlist was updated in the API",
     "de": "Ein LTM wurde geupdated"
+  },
+  "blogpost": {
+    "notices!": "DONT OVERLARGE THE TEXT LENGH!!!! I RECOMMEND TO LEAVE IT EMPTY!!!! (Twitter Text lengh)",
+    "en": "",
+    "de": ""
   }
 }

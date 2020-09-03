@@ -1,27 +1,36 @@
 {
    "status": 200,
    "data": {
-      "hash": "ab81a061fb20143a399cb589c7ba20796af79cfe",
-      "date": "2020-08-29T00:00:12Z",
-      "image": "https://cdn.fortnite-api.com/news/v2/ab81a061fb20143a399cb589c7ba20796af79cfe.gif",
+      "hash": "9c415ae114e3d37e56946ac90caa1e798df42980",
+      "date": "2020-09-03T00:00:41Z",
+      "image": "https://cdn.fortnite-api.com/news/v2/9c415ae114e3d37e56946ac90caa1e798df42980.gif",
       "motds": [
          {
-            "id": "Battle Pass",
-            "title": "Nexus War",
-            "tabTitle": "Join the Team",
-            "body": "A new danger threatens to destroy all of Reality. Suit up as Marvel\u2019s finest Heroes and Villains to prepare for your toughest battle yet.",
-            "image": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1920x1080-1920x1080-865288491.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-social-bplaunch-lineup-motd-1024x512-1024x512-865288480.jpg",
-            "sortingPriority": 90
+            "id": "Flytrap links to Item Shop",
+            "title": "Flytrap",
+            "tabTitle": "New Back Bling",
+            "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+            "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+            "sortingPriority": 80
          },
          {
-            "id": "Dark Bomber links to CID_229_Athena_Commando_F_DarkBomber",
-            "title": "Dark Bomber",
-            "tabTitle": null,
-            "body": "Renewed with darkness and on the path to victory.",
-            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1920x1080-1920x1080-09c371c10511294793089ad79d81aa396252bdc9.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/1240/12BR_DarkBomber_MOTD_1024x512-1024x512-0a21e6a0a06a10401bb6658025b5b2de69fc1ce5.jpg",
-            "sortingPriority": 80
+            "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
+            "title": "Tilted Taxis",
+            "tabTitle": "New LTM ",
+            "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+            "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+            "sortingPriority": 60
+         },
+         {
+            "id": "Street Serpent Pack",
+            "title": "Street Serpent Pack",
+            "tabTitle": "New Pack ",
+            "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
+            "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
+            "sortingPriority": 55
          }
       ],
       "messages": [
