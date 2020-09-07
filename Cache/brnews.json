@@ -1,0 +1,204 @@
+{
+   "status": 200,
+   "message": "Everything should work fine",
+   "data": {
+      "image": "https://api.peely.de/cdn/unique/br_news_89950510772553836405.gif",
+      "motds": [
+         {
+            "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
+            "title": "Starflare",
+            "body": "Stars always burn bright, yet this flare shines even brighter.",
+            "id": "Starflare links to Item Shop",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+            "title": "Tilted Taxis",
+            "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+            "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
+            "title": "Doom's Domain",
+            "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
+            "id": "Dooms Domain",
+            "spotlight": false
+         }
+      ],
+      "messages": [
+         {
+            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+            "messagetype": "normal",
+            "title": "Keep Your Account Secure",
+            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+            "spotlight": false
+         }
+      ],
+      "platform_motds": {
+         "switch": [
+            {
+               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
+               "title": "Starflare",
+               "body": "Stars always burn bright, yet this flare shines even brighter.",
+               "id": "Starflare links to Item Shop",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+               "title": "Tilted Taxis",
+               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
+               "title": "Doom's Domain",
+               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
+               "id": "Dooms Domain",
+               "spotlight": false
+            }
+         ],
+         "windows": [
+            {
+               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
+               "title": "Starflare",
+               "body": "Stars always burn bright, yet this flare shines even brighter.",
+               "id": "Starflare links to Item Shop",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+               "title": "Tilted Taxis",
+               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
+               "title": "Doom's Domain",
+               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
+               "id": "Dooms Domain",
+               "spotlight": false
+            }
+         ],
+         "android": [
+            {
+               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
+               "title": "Starflare",
+               "body": "Stars always burn bright, yet this flare shines even brighter.",
+               "id": "Starflare links to Item Shop",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+               "title": "Tilted Taxis",
+               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
+               "title": "Doom's Domain",
+               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
+               "id": "Dooms Domain",
+               "spotlight": false
+            }
+         ],
+         "XBoxOne": [
+            {
+               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
+               "title": "Starflare",
+               "body": "Stars always burn bright, yet this flare shines even brighter.",
+               "id": "Starflare links to Item Shop",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+               "title": "Tilted Taxis",
+               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
+               "title": "Doom's Domain",
+               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
+               "id": "Dooms Domain",
+               "spotlight": false
+            }
+         ],
+         "PS4": [
+            {
+               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
+               "title": "Starflare",
+               "body": "Stars always burn bright, yet this flare shines even brighter.",
+               "id": "Starflare links to Item Shop",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+               "title": "Tilted Taxis",
+               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
+               "title": "Doom's Domain",
+               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
+               "id": "Dooms Domain",
+               "spotlight": false
+            }
+         ],
+         "mac": [
+            {
+               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
+               "title": "Chapter 2 - Season 4 Notice",
+               "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
+               "id": "Apple Sustained Release",
+               "spotlight": false
+            }
+         ],
+         "androidGP": [
+            {
+               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
+               "title": "Chapter 2 - Season 4 Notice",
+               "body": "With the launch of Season 4, players on Google Play will be unable to play the new Season. On this platform, players can still play version v13.40.",
+               "id": "Google Sustained Release",
+               "spotlight": false
+            }
+         ],
+         "ios": [
+            {
+               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
+               "title": "Chapter 2 - Season 4 Notice",
+               "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
+               "id": "Apple Sustained Release",
+               "spotlight": false
+            }
+         ]
+      }
+   }
+}

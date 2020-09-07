@@ -1,0 +1,827 @@
+{
+   "status": 200,
+   "message": "Everything should work fine",
+   "data": {
+      "blogposts": [
+         {
+            "title": "Season 4 Hype Cup Official Rules",
+            "description": "Season 4 Hype Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgcddcscames.com\/fortnite\/news\/season-4-hype-cup-official-rules",
+            "date": "2020-08-27T23:39:30.828Z"
+         },
+         {
+            "title": "Fortnite Competitive Integrity Update",
+            "description": "Fortnite Competitive Integrity Update",
+            "author": "The Competitive Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-competitive-integrity-update",
+            "date": "2020-08-26T14:00:00.000Z"
+         },
+         {
+            "title": "#FreeFortnite Cup Official Rules",
+            "description": "#FreeFortnite Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/freefortnite-cup-official-rules",
+            "date": "2020-08-18T21:56:20.524Z"
+         },
+         {
+            "title": "Watch The FNCS Grand Finals in Party Royale",
+            "description": "You can now watch the FNCS Grand Finals in Fortnite! Hop into Party Royale on August 16th at 1:00pm ET to watch the broadcast in game.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/watch-the-fncs-grand-finals-in-party-royale",
+            "date": "2020-08-14T07:00:00.000Z"
+         },
+         {
+            "title": "Raise the Cup Tournament - Official Rules",
+            "description": "Raise the Cup Tournament - Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/raise-the-cup-cup---official-rules",
+            "date": "2020-08-07T14:40:16.097Z"
+         },
+         {
+            "title": "Dreamhack Online Open - Official Rules August 2020",
+            "description": "Dreamhack Online Open - Official Rules August 2020",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/dreamhack-online-open---official-rules-august-2020",
+            "date": "2020-07-29T20:43:52.052Z"
+         },
+         {
+            "title": "Throwback Cup Official Rules",
+            "description": "Throwback Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/throwback-cup-official-rules",
+            "date": "2020-07-22T21:15:01.719Z"
+         },
+         {
+            "title": "Galaxy Cup Official Rules",
+            "description": "Galaxy Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/galaxy-cup-official-rules",
+            "date": "2020-07-20T13:00:00.000Z"
+         },
+         {
+            "title": "Fortnite Champion Series: Chapter 2 Season 3 Official Rules",
+            "description": "Fortnite Champion Series: Chapter 2 Season 3 Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-chapter-2-season-3-official-rules",
+            "date": "2020-07-17T22:04:25.450Z"
+         },
+         {
+            "title": "FNCS Chapter 2 - Season 3 Broadcast Schedule and Twitch Drops",
+            "description": "Check out the FNCS Chapter 2 Season 3 broadcast schedule that starts on August 1, 2020. Also, find out how to get Fortnite Twitch drops from watching FNCS!",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-chapter-2-season-3-broadcast-schedule-and-twitch-drops",
+            "date": "2020-07-14T17:18:28.127Z"
+         },
+         {
+            "title": "CDF - Fundamental Official Rules",
+            "description": "CDF - Fundamental Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/cdf---fundamental-official-rules",
+            "date": "2020-07-01T20:10:57.099Z"
+         },
+         {
+            "title": "Jacob Tournament Official Rules",
+            "description": "Jacob Tournament Official Rules",
+            "author": "The Competitive Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/jacob-tournament-official-rules",
+            "date": "2020-07-01T16:34:29.405Z"
+         },
+         {
+            "title": "Dreamhack Online Open Official Rules - July 2020",
+            "description": "Dreamhack Online Open Official Rules - July 2020",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/dreamhack-online-open-official-rules---july-2020",
+            "date": "2020-06-29T21:38:40.331Z"
+         },
+         {
+            "title": "TFTW Stars Official Rules",
+            "description": "TFTW Stars Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/tftw-stars-official-rules",
+            "date": "2020-06-23T20:24:08.267Z"
+         },
+         {
+            "title": "Amar Trios Cup Official Rules",
+            "description": "Amar Trios Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/amar-trios-cup-official-rules",
+            "date": "2020-06-23T19:54:50.051Z"
+         },
+         {
+            "title": "Lachy's Trio Cup Official Rules",
+            "description": "Lachy's Trio Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/lachys-trio-cup-official-rules",
+            "date": "2020-06-23T19:33:51.927Z"
+         },
+         {
+            "title": "Fortnite Daily Cups: Chapter 2 Season 3 Official Rules",
+            "description": "Fortnite Daily Cups: Chapter 2 Season 3 Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/daily-trios-cups-chapter-2-season-3-official-rules",
+            "date": "2020-06-18T18:42:04.395Z"
+         },
+         {
+            "title": "Fortnite Cash Cups: Chapter 2 Season 3 Official Rules",
+            "description": "Fortnite Cash Cups: Chapter 2 Season 3 Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/cash-cups-chapter-2-season-3-official-rules",
+            "date": "2020-06-18T18:40:01.990Z"
+         },
+         {
+            "title": "Fortnite Hype Nite: Chapter 2 Season 3 Official Rules",
+            "description": "Fortnite Hype Nite: Chapter 2 Season 3 Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/hype-nite-chapter-2-season-3-official-rules",
+            "date": "2020-06-18T18:37:24.409Z"
+         },
+         {
+            "title": "Fortnite Competitive Updates - Chapter 2; Season 3",
+            "description": "Fortnite Competitive Updates - Chapter 2; Season 3",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-competitive-updates---chapter-2-season-3",
+            "date": "2020-06-16T21:52:23.116Z"
+         },
+         {
+            "title": "Fortnite FNCS Axe of Champions",
+            "description": "Fortnite FNCS Axe of Champions",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-axe-of-champions",
+            "date": "2020-04-25T09:30:00.000Z"
+         },
+         {
+            "title": "FNCS Invitational Official Rules",
+            "description": "FNCS Invitational Official Rules\n\nFortnite Champion Series Invitational Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-invitational-official-rules",
+            "date": "2020-04-24T09:00:00.000Z"
+         },
+         {
+            "title": "Announcing the FNCS Invitational!",
+            "description": "Announcing the FNCS Invitational.",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/announcing-the-fncs-invitational",
+            "date": "2020-04-24T07:00:00.000Z"
+         },
+         {
+            "title": "Lantern Cup Official Rules",
+            "description": "Lantern Cup Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/lantern-cup-official-rules",
+            "date": "2020-04-22T22:38:08.649Z"
+         },
+         {
+            "title": "Cash Cups -  Chapter 2 Season 2 Official Rules [Season Extension]",
+            "description": "Cash Cups - \u00a0Chapter 2 Season 2 Official Rules [Season Extension]",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/cash-cups-chapter-2-season-2-official-rules-season-extension",
+            "date": "2020-04-22T22:35:17.081Z"
+         },
+         {
+            "title": "WATCH THE FNCS FINALS & SCORE TWITCH DROPS",
+            "description": "FNCS: Chapter 2 - Season 2 Finals",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-chapter-2-season-2-finals",
+            "date": "2020-04-15T13:00:00.000Z"
+         },
+         {
+            "title": "Cash Cups Chapter 2 Season 2 Official Rules v2",
+            "description": "Cash Cups Chapter 2 Season 2 Official Rules v2",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/updated-chapter-2-season-2-cash-cup-rules",
+            "date": "2020-03-20T16:05:37.068Z"
+         },
+         {
+            "title": "Fortnite Daily Duos Cups: Chapter 2 Season 2 Official Rules",
+            "description": "Fortnite Daily Duos Cups: Chapter 2 Season 2 Official Rules",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-daily-duos-cups-chapter-2-season-2-official-rules",
+            "date": "2020-03-19T18:35:20.695Z"
+         },
+         {
+            "title": "Activating all Agents for the return of FNCS: Chapter 2 - Season 2",
+            "description": "FNCS Returns",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-returns-c2s2",
+            "date": "2020-03-09T15:00:00.000Z"
+         },
+         {
+            "title": "FNCS - Chapter 2 Season 2 Official Rules",
+            "description": "FNCS - Chapter 2 Season 2 Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-chapter-2-season-2-official-rules",
+            "date": "2020-03-09T14:00:00.000Z"
+         },
+         {
+            "title": "Cash Cups Chapter 2 Season 2 Official Rules v1",
+            "description": "Cash Cups Chapter 2 Season 2 Official Rules v1",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-2-cash-cups-official-rules",
+            "date": "2020-03-09T14:00:00.000Z"
+         },
+         {
+            "title": "Fortnite Hype Nite and Hype Nite+ in Chapter 2 - Season 2",
+            "description": "Calling All Operatives:",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/season-2-hype-nite-and-hype-nite-plus",
+            "date": "2020-03-05T16:11:07.476Z"
+         },
+         {
+            "title": "Hype Nite Chapter 2 Season 2 Official Rules",
+            "description": "Hype Nite Chapter 2 Season 2 Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/hype-nite-chapter-2-season-2-official-rules",
+            "date": "2020-02-21T22:35:23.433Z"
+         },
+         {
+            "title": "Fortnite Celebration Cup - Only on PlayStation 4",
+            "description": "Calling all PlayStation 4 players! Drop-in Fortnite on February 15 and 16 to compete in the Fortnite Celebration Cup for an opportunity to earn in-game items and cash prizes! Learn more here.",
+            "author": "The Fortnite Team ",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/celebration-cup-only-on-ps4",
+            "date": "2020-02-03T14:00:00.000Z"
+         },
+         {
+            "title": "Celebration Cup \u2018Only on PS4\u2019 Official Rules",
+            "description": "Celebration Cup \u2018Only on PlayStation\u2019 Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/celebration-cup-only-on-ps4-official-rules",
+            "date": "2020-02-03T13:59:00.000Z"
+         },
+         {
+            "title": "Australian Open Summer Smash Featuring Fortnite Returns",
+            "description": "The Australian Summer Smash featuring Fortnite is back! Read about the event at the Australian Open and the online tournament!",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/australian-open-summer-smash-featuring-fortnite-returns",
+            "date": "2020-01-29T18:00:00.000Z"
+         },
+         {
+            "title": "Summer Smash Cup Official Rules",
+            "description": "Summer Smash Cup Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-smash-cup-official-rules",
+            "date": "2020-01-21T20:41:03.582Z"
+         },
+         {
+            "title": "Signaling Update - Competitive Fortnite 2020",
+            "description": "Signaling Update - Competitive Fortnite 2020",
+            "author": "The Competitive Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/signaling-update-competitive-fortnite-2020",
+            "date": "2020-01-20T18:30:00.000Z"
+         },
+         {
+            "title": "Winter Royale 2019 - Leaderboards and Payments Update",
+            "description": "Winter Royale 2019 - Leaderboards and Payments Update",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/winter-royale-2019-leaderboards-and-payments-update",
+            "date": "2020-01-17T15:30:00.000Z"
+         },
+         {
+            "title": "Chapter 2 Season 1 Hype Nite 2020 Official Rules",
+            "description": "Chapter 2 Season 1 Hype Nite 2020 Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-1-hype-nite-2020-official-rules",
+            "date": "2020-01-13T19:45:27.548Z"
+         },
+         {
+            "title": "Chapter 2 - Season 1 Cash Cups - 2020 Official Rules",
+            "description": "Chapter 2 - Season 1 Cash Cups - 2020 Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-1-cash-cups-2020-official-rules",
+            "date": "2020-01-13T15:58:25.620Z"
+         },
+         {
+            "title": "Watch the FNCS Finals on Twitch to earn drops, plus Winter Royale 2019 is coming!",
+            "description": "twitch drops",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/twitch-drops",
+            "date": "2019-12-05T17:00:00.000Z"
+         },
+         {
+            "title": "2019 Winter Royale Official Rules ",
+            "description": "2019 Winter Royale Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/2019-winter-royale-official-rules",
+            "date": "2019-12-03T17:35:36.968Z"
+         },
+         {
+            "title": "Abandon Match Issues in FNCS",
+            "description": "Abandon Match Issues in FNCS",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/abandon-match-issues-in-fncs",
+            "date": "2019-11-21T21:00:00.000Z"
+         },
+         {
+            "title": "Chapter 2 - Season 1 Cash Cups Official Rules v2",
+            "description": "Chapter 2 - Season 1 Cash Cups Official Rules v2",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-1-cash-cups-official-rules-v2",
+            "date": "2019-11-11T18:21:09.813Z"
+         },
+         {
+            "title": "Fortnite Champion Series: Chapter 2 - Season 1 Week 1 Official Rules",
+            "description": "Fortnite Champion Series: Chapter 2 - Season 1 Week 1 Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-champion-series-chapter-2---season-1-week-1-official-rules",
+            "date": "2019-11-01T00:00:00.000Z"
+         },
+         {
+            "title": "Chapter 2 - Season 1 Friday Nite Fortnite Official Rules",
+            "description": "Chapter 2 - Season 1 Friday Nite Fortnite Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-1-friday-nite-fortnite-official-rules",
+            "date": "2019-10-29T18:00:00.000Z"
+         },
+         {
+            "title": "Chapter 2 - Season 1 Cash Cups Official Rules",
+            "description": "Chapter 2 - Season 1 Cash Cups Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-1-cash-cups-official-rules",
+            "date": "2019-10-29T16:00:00.000Z"
+         },
+         {
+            "title": "Chapter 2 - Season 1 Hype Nite Official Rules",
+            "description": "Chapter 2 - Season 1 Hype Nite Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/chapter-2-season-1-hype-nite-official-rules",
+            "date": "2019-10-29T16:00:00.000Z"
+         },
+         {
+            "title": "What\u2019s New for Competitive in Chapter 2",
+            "description": "What\u2019s New for Competitive in Chapter 2",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/whats-new-for-competitive-in-chapter-2",
+            "date": "2019-10-18T16:00:00.000Z"
+         },
+         {
+            "title": "Season X FNCS Finals Summary",
+            "description": "Season X FNCS Finals Summary",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/season-x-fncs-finals-summary",
+            "date": "2019-09-27T17:30:00.000Z"
+         },
+         {
+            "title": "Fortnite Champion Series Season X Finals Schedule",
+            "description": "Watch the Fortnite Champion Series Season X Finals live Friday, September 20 at 2 PM ET!",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-champion-series-season-x-finals-schedule",
+            "date": "2019-09-16T04:00:00.000Z"
+         },
+         {
+            "title": "Last Call: FNCS Update",
+            "description": "Last Call: FNCS Update",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/last-call-fncs-update",
+            "date": "2019-09-13T06:00:00.000Z"
+         },
+         {
+            "title": "FNCS Season Finals: Qualified Players and Heats",
+            "description": "FNCS Season Finals: Qualified Players and Heats",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-season-finals-qualified-players-and-heats",
+            "date": "2019-09-12T15:00:00.000Z"
+         },
+         {
+            "title": "Competitive Rules Reminder, Payments Update, and FNCS Issues",
+            "description": "Competitive Rules Reminder, Payments Update, and FNCS Issues",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-rules-reminder-payments-update-and-fncs-issues",
+            "date": "2019-09-06T18:00:00.000Z"
+         },
+         {
+            "title": "FNCS Week 1 Recap and Upcoming Community Events",
+            "description": "FNCS Week 1 Recap and Upcoming Community Events",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-week-1-recap-and-upcoming-community-events",
+            "date": "2019-08-21T22:53:10.539Z"
+         },
+         {
+            "title": "Season X Cash Cups Official Rules",
+            "description": "Season X Cash Cups Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/season-x-cash-cups-official-rules",
+            "date": "2019-08-19T14:44:30.480Z"
+         },
+         {
+            "title": "FNCS Broadcast Plan & Server Replays",
+            "description": "Find information on the broadcast plan for the Fortnite Champion Series, Server Replays, and more in the FNCS Broadcast Plan & Server Replays blog.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fncs-broadcast-plan-server-replays",
+            "date": "2019-08-16T13:33:00.000Z"
+         },
+         {
+            "title": "Fortnite Champion Series: Season X Official Rules",
+            "description": "Fortnite Champion Series: Season X Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-champion-series-season-x-official-rules",
+            "date": "2019-08-14T14:26:24.522Z"
+         },
+         {
+            "title": "Season X Competitive Launch Update",
+            "description": "Find information on the Fortnite Champion Series, competitive payments, and more in the Season X Competitive Launch Update blog!",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/season-x-competitive-launch-update",
+            "date": "2019-08-09T13:00:00.000Z"
+         },
+         {
+            "title": "What\u2019s Next for Competitive Fortnite? ",
+            "description": "What\u2019s Next for Competitive Fortnite?",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/what-s-next-for-competitive-fortnite",
+            "date": "2019-08-02T14:18:00.000Z"
+         },
+         {
+            "title": "The Fortnite World Cup | A Record-Setting Tournament",
+            "description": "Over 40 million players participated. Only the Fortnite World Cup Champions remain standing. The best Fortnite players in the world met in New York City July 26 - 28 to compete in the $30 million Fortnite World Cup Solo and Duos Finals, $3 million Creative Finals and $3 million Charity Pro-Am. This event was the culmination of 10 weeks of $1 million Online Open Qualifiers with more than 200 countries participating.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/the-fortnite-world-cup-a-record-setting-tournament",
+            "date": "2019-07-31T15:01:33.675Z"
+         },
+         {
+            "title": "Road To The Fortnite World Cup Finals - Part 1",
+            "description": "Part 1 - Competitive Veterans",
+            "author": "Cameron \u201cSUND0WN\u201d McGrory",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/road-to-the-fortnite-world-cup-finals---part-1",
+            "date": "2019-07-22T15:47:03.476Z"
+         },
+         {
+            "title": "Road To The Fortnite World Cup Finals - Part 4",
+            "description": "Part 4 - Adapting to Worlds",
+            "author": "Cameron \u201cSUND0WN\u201d McGrory",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/road-to-the-fortnite-world-cup-finals---part-4",
+            "date": "2019-07-22T15:47:03.476Z"
+         },
+         {
+            "title": "Road To The Fortnite World Cup Finals - Part 3",
+            "description": "Part 3 - Crossing Paths",
+            "author": "Cameron \u201cSUND0WN\u201d McGrory",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/road-to-the-fortnite-world-cup-finals---part-3",
+            "date": "2019-07-22T15:47:03.476Z"
+         },
+         {
+            "title": "Road To The Fortnite World Cup Finals - Part 2",
+            "description": "Part 2 - Dark Horses",
+            "author": "Cameron \u201cSUND0WN\u201d McGrory",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/road-to-the-fortnite-world-cup-finals---part-2",
+            "date": "2019-07-22T15:47:03.476Z"
+         },
+         {
+            "title": "Update on Trios, Xbox Cup and the Fortnite World Cup Finals",
+            "description": "Update on Trios, Xbox Cup and the Fortnite World Cup Finals",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/update-on-trios-xbox-cup-and-the-fortnite-world-cup-finals",
+            "date": "2019-07-19T17:16:00.000Z"
+         },
+         {
+            "title": "Trios Cash Cup Official Rules",
+            "description": "Trios Cash Cup Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/trios-cash-cup-official-rules",
+            "date": "2019-07-18T19:05:12.501Z"
+         },
+         {
+            "title": "Trios Cash Cup and Prizing Updates",
+            "description": "Trios Cash Cup and Prizing Updates",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/trios-cash-cup-and-prizing-updates",
+            "date": "2019-07-12T16:47:00.000Z"
+         },
+         {
+            "title": "Tickets for the Fortnite World Cup Finals",
+            "description": "A limited number of additional tickets have been made available to the previously sold-out Fortnite World Cup Finals!",
+            "author": "Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/tickets-for-the-fortnite-world-cup-finals",
+            "date": "2019-07-09T18:24:25.841Z"
+         },
+         {
+            "title": "Fortnite Xbox Cup Official Rules",
+            "description": "2019 Fortnite Xbox Cup Official Rules",
+            "author": "Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-xbox-cup-official-rules",
+            "date": "2019-07-08T18:52:11.334Z"
+         },
+         {
+            "title": "World Cup Finals Details and Schedule",
+            "description": "World Cup Finals Details and Schedule",
+            "author": "Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/world-cup-finals-details-and-schedule",
+            "date": "2019-06-20T21:25:00.000Z"
+         },
+         {
+            "title": "Week 10 - World Cup Week 10 Online Open Info",
+            "description": "Get the details for the Week 10 World Cup Qualifier here!",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/week-10-world-cup-week-10-online-open-info",
+            "date": "2019-06-20T18:54:00.000Z"
+         },
+         {
+            "title": "Competitive Payment Process Update",
+            "description": "Details on future improvements to the Competitive Payment process and more.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-payment-process-update",
+            "date": "2019-06-18T05:36:00.000Z"
+         },
+         {
+            "title": "Week 10 Qualifiers, Competitive Rulings and Payments Update",
+            "description": "Week 10 Qualifiers, Competitive Rulings and Payments Update",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/week-10-qualifiers-competitive-rulings-and-payments-update",
+            "date": "2019-06-07T16:51:35.091Z"
+         },
+         {
+            "title": "Competitive AMA Transcript",
+            "description": "Competitive AMA Transcript",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-ama-transcript",
+            "date": "2019-06-01T23:07:51.286Z"
+         },
+         {
+            "title": "Event License Agreement Update",
+            "description": "Community Tournaments Update",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/community-tournaments-update",
+            "date": "2019-05-24T19:33:18.686Z"
+         },
+         {
+            "title": "Arena Matchmaking Improvements & Upcoming AMA",
+            "description": "Arena Matchmaking Improvements & Upcoming AMA",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/arena-matchmaking-improvements-upcoming-ama",
+            "date": "2019-05-24T12:00:00.000Z"
+         },
+         {
+            "title": "Performance and Competitive Communication Update",
+            "description": "Performance and Competitive Communication Update",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/performance-and-competitive-communication-update",
+            "date": "2019-05-17T17:00:00.000Z"
+         },
+         {
+            "title": "Drum Gun, LTMs as Tournaments, and Disconnecting Duos",
+            "description": "Drum Gun, LTMs as Tournaments, and Disconnecting Duos",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/drum-gun-ltms-as-tournaments-and-disconnecting-duos",
+            "date": "2019-05-07T18:57:41.620Z"
+         },
+         {
+            "title": "Weekend Issues Update and Competitive Ruling 5\/3\/19",
+            "description": "Weekend Issues Update and Competitive Ruling 5\/2\/19",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/weekend-issues-update-and-competitive-ruling-5-2-19",
+            "date": "2019-05-03T16:00:00.000Z"
+         },
+         {
+            "title": "World Cup Creative Trials",
+            "description": "Details on the Word Cup Creative Trials",
+            "author": "",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/world-cup-creative-trials",
+            "date": "2019-05-02T23:19:22.586Z"
+         },
+         {
+            "title": "ONLINE OPEN WEEK 2 RECAP",
+            "description": "Week 2 recap",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/online-open-week-2-recap",
+            "date": "2019-04-26T21:04:00.000Z"
+         },
+         {
+            "title": "Fortnite Competitive Development Update",
+            "description": "Fortnite Competitive Development Update",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-competitive-development-update",
+            "date": "2019-04-26T17:28:15.598Z"
+         },
+         {
+            "title": "Fortnite - Competitive Game Integrity",
+            "description": "Fortnite - Competitive Game Integrity",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-game-integrity",
+            "date": "2019-04-19T19:36:12.305Z"
+         },
+         {
+            "title": "Fortnite World Cup - Creative",
+            "description": "We\u2019re proud to announce Fortnite World Cup - Creative!",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-world-cup-creative",
+            "date": "2019-04-18T13:55:29.278Z"
+         },
+         {
+            "title": "Online Open Week 1 Recap",
+            "description": "Week 1 Recap",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/online-open-week-1-recap",
+            "date": "2019-04-17T21:17:43.920Z"
+         },
+         {
+            "title": "Fortnite World Cup Finals Ticket Pre-Registration - Available Now",
+            "description": "Fortnite World Cup Finals Ticket Pre-Registration - Available Now",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-world-cup-finals-ticket-pre-registration",
+            "date": "2019-04-08T12:00:00.000Z"
+         },
+         {
+            "title": "Competitive Fortnite State of Development",
+            "description": "Competitive Fortnite State of Development\n\nApril 3rd, 2019",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-fortnite-state-of-development-4-3-19",
+            "date": "2019-04-03T17:30:54.231Z"
+         },
+         {
+            "title": "Fortnite World Cup Warmup Official Rules",
+            "description": "Fortnite World Cup Warmup Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-world-cup-warmup-official-rules",
+            "date": "2019-03-29T21:04:07.784Z"
+         },
+         {
+            "title": "Luxe Cup Official Rules",
+            "description": "Luxe Cup Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/luxe-cup-official-rules",
+            "date": "2019-03-26T15:22:49.120Z"
+         },
+         {
+            "title": "Fortnite World Cup Starts April 13!",
+            "description": "World Cup Details",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-world-cup-starts-april-13",
+            "date": "2019-03-25T07:19:00.000Z"
+         },
+         {
+            "title": "Blackheart Cup Official Rules",
+            "description": "Blackheart Cup Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/blackheart-cup-official-rules",
+            "date": "2019-03-20T23:19:37.396Z"
+         },
+         {
+            "title": "Scallywag Cup Official Rules",
+            "description": "Scallywag Cup Official Rules",
+            "author": "Fortnite",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/scallywag-cup-official-rules",
+            "date": "2019-03-14T14:40:35.900Z"
+         },
+         {
+            "title": "Fortnite World Cup Details and 2019 Prize Pool Info",
+            "description": "To wrap up our Competitive Fortnite three-part blog series, we are sharing the first details on the Fortnite World Cup and the $100,000,000 competitive prize pool for 2019.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fortnite-world-cup-details",
+            "date": "2019-02-22T15:01:36.565Z"
+         },
+         {
+            "title": "Competitive Fortnite State of Development - Part 2",
+            "description": "We're back with Part 2 of our Competitive Fortnite series, and ready to share more information about what's coming, and our vision for 2019 and beyond.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-fortnite-state-of-development-part-2",
+            "date": "2019-02-01T15:00:00.000Z"
+         },
+         {
+            "title": "Secret Skirmish Announcement",
+            "description": "Secret Skirmish Announcement",
+            "author": "The Fortnite Competitive Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/secret-skirmish-announcement",
+            "date": "2019-01-18T15:00:00.000Z"
+         },
+         {
+            "title": "Competitive Fortnite State of Development - Part 1",
+            "description": "This year has been an invaluable learning experience for the entire Fortnite Competitive team. In the past six months there have been 33 official, online North American and European competitions and two major offline competitions. Those competitions tallied to approximately $20 million in prizes awarded to nearly 1,000 players. Each one of these competitions is helping to grow, evolve and shape the competitive Fortnite experience.",
+            "author": "Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/competitive-fortnite-state-of-development-part-1",
+            "date": "2019-01-17T17:09:55.924Z"
+         },
+         {
+            "title": "Winter Royale Tournament Announcement",
+            "description": "Jump in and explore the new updates to the Online Tournament system, along with information on the Fortnite Winter Royale.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/winter-royale-tournament-announcement",
+            "date": "2018-11-20T15:26:10.920Z"
+         },
+         {
+            "title": "In-Game Tournaments Announcement",
+            "description": "A brand new way to compete in Fortnite Battle Royale",
+            "author": "The Fortnite Esports Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/in-game-tournaments-announcement",
+            "date": "2018-10-11T21:27:40.033Z"
+         },
+         {
+            "title": "Fall Skirmish Details",
+            "description": "Get all the details on Week 1 of Fall Skirmish and the new Clubs!",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fall-skirmish-details",
+            "date": "2018-09-20T14:00:00.000Z"
+         },
+         {
+            "title": "Fall Skirmish Announcement",
+            "description": "On the heels of our PAX West finale to the Summer Skirmish, we\u2019re ready to get started on Fall!",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/fall-skirmish-announcement",
+            "date": "2018-09-20T14:00:00.000Z"
+         },
+         {
+            "title": "Summer Skirmish Week 8 Standings",
+            "description": "Summer Skirmish Week 8 Standings",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-8-standings",
+            "date": "2018-08-27T20:50:50.958Z"
+         },
+         {
+            "title": "Summer Skirmish Week 7 Standings",
+            "description": "Summer Skirmish Week 7 Standings",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-7-standings",
+            "date": "2018-08-21T15:18:48.920Z"
+         },
+         {
+            "title": "PAX West 2018 Summer Skirmish Details",
+            "description": "PAX West 2018 Format and Details",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/pax-west-2018-summer-skirmish-details",
+            "date": "2018-08-21T14:00:17.897Z"
+         },
+         {
+            "title": "Summer Skirmish Week 6 Standings",
+            "description": "Standings for Week 6 Summer Skirmish",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-6-standings",
+            "date": "2018-08-16T19:02:26.409Z"
+         },
+         {
+            "title": "Summer Skirmish Midway Recap",
+            "description": "Recap of Summer Skirmish weeks 1 through 4.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-midway-recap",
+            "date": "2018-08-13T20:00:00.000Z"
+         },
+         {
+            "title": "Summer Skirmish Week 5 Standings (Saturday)",
+            "description": "Week 5 Summer Skirmish - (Friday) Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-5-standings-saturday",
+            "date": "2018-08-10T19:31:36.510Z"
+         },
+         {
+            "title": "Summer Skirmish Week 5 Standings (Friday)",
+            "description": "Week 5 Summer Skirmish - (Friday) Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-5-standings-friday",
+            "date": "2018-08-09T18:58:00.014Z"
+         },
+         {
+            "title": "Summer Skirmish Week 4 Standings (Saturday)",
+            "description": "Week 4 Summer Skirmish - (Saturday) Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-4-standings-saturday",
+            "date": "2018-08-06T15:16:45.366Z"
+         },
+         {
+            "title": "Summer Skirmish Week 4 Standings (Friday)",
+            "description": "Week 4 Summer Skirmish - (Friday) Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-4-standings-friday",
+            "date": "2018-08-06T15:12:37.744Z"
+         },
+         {
+            "title": "Summer Skirmish Week 3 Standings (Saturday)",
+            "description": "Week 3 Summer Skirmish - (Saturday) Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-3-standings-saturday",
+            "date": "2018-07-27T18:31:52.914Z"
+         },
+         {
+            "title": "Summer Skirmish Week 3 Standings (Friday)",
+            "description": "Week 3 Summer Skirmish - (Friday) Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-3-standings-friday",
+            "date": "2018-07-27T18:19:26.386Z"
+         },
+         {
+            "title": "Summer Skirmish Week 2 (Saturday)",
+            "description": "Week 2 Summer Skirmish - Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-2-saturday",
+            "date": "2018-07-21T15:49:27.159Z"
+         },
+         {
+            "title": "Summer Skirmish Week 2 Standings (Friday)",
+            "description": "Week 2 Summer Skirmish - Current Standings and Rules",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-2-standings-friday",
+            "date": "2018-07-20T15:07:28.386Z"
+         },
+         {
+            "title": "Summer Skirmish Week 1: Postmortem",
+            "description": "Learnings and takeaways from Summer Skirmish Week 1",
+            "author": "",
+            "url": "https:\/\/www.epicgames.com\/fortnite\/news\/summer-skirmish-week-1-postmortem",
+            "date": "2018-07-17T22:19:21.867Z"
+         },
+         {
+            "title": "$8,000,000 Fortnite Summedewdwer Skirmish series - Online Competition",
+            "description": "The Fortniteededdw Summer Skirmish is a limited run series of online competitions.",
+            "author": "The Fortnite Team",
+            "url": "https:\/\/wwwefwefeww.epicgames.com\/fortnite\/news\/fortnite-summer-skirmish",
+            "date": "2018-07-11T14:00:00.000Z"
+         }
+      ]
+   }
+}

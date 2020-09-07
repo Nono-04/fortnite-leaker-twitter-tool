@@ -7,10 +7,6 @@
     "en": "Fortnite Shop changes detected",
     "de": "der Fortnite Item Shop wurde geändert"
   },
-  "news": {
-    "en": "BR News-Feed Update",
-    "de": "BR Neuigkeiten Update"
-  },
   "staging": {
     "en": "was added to the Staging Server\nYou can expect we'll get the Update next week",
     "de": "wurde zu den Staging Servern hinzugefügt\nIhr könnt das Update nächste Woche erwarten"
@@ -25,7 +21,29 @@
   },
   "blogpost": {
     "notices!": "DONT OVERLARGE THE TEXT LENGH!!!! I RECOMMEND TO LEAVE IT EMPTY!!!! (Twitter Text lengh)",
+    "en": "New/updated Blogpost detected",
+    "de": "Neuer/angepasster Blogpost erkannt"
+  },
+  "compblogpost": {
+    "notices!": "DONT OVERLARGE THE TEXT LENGH!!!! I RECOMMEND TO LEAVE IT EMPTY!!!! (Twitter Text lengh)",
+    "en": "New/updated Competitive Blogpost detected",
+    "de": "Neuer/angepasster Competitive Blogpost erkannt"
+  },
+  "brnews": {
+    "en": "BR News-Feed Update",
+    "de": "BR Neuigkeiten Update"
+  },
+  "stwnews": {
+    "notices!": "DONT OVERLARGE THE TEXT LENGH!!!! I RECOMMEND TO LEAVE IT EMPTY!!!! (Twitter Text lengh)",
     "en": "",
     "de": ""
+  },
+  "creativenews": {
+    "en": "Creative News-Feed Update",
+    "de": "Kreativmodus Neuigkeiten Update"
+  },
+  "tournament": {
+    "en": "New Tournament detected",
+    "de": "Neues Turnier entdeckt"
   }
 }

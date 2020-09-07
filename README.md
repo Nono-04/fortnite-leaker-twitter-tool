@@ -1,13 +1,14 @@
- # Leaker Tool
+# Leaker Tool
 
 A Twitter Bot for Leakers with many Settings.
 
 Features:
 - new cosmetics
 - shop
-- news feed
+- BR, Creative & STW News Feed
 - staging server update
 - blog posts tracker
+- competitive blog posts tracker
 - ingame bug tracker
 - featured islands
 - Multi Lang Support

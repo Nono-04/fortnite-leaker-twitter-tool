@@ -2,34 +2,6 @@
    "informations_by": "https://fortniteapi.io",
    "featured_islands": [
       {
-         "code": "1602-0715-7383",
-         "creator": "prudiz",
-         "publishedDate": "2020-08-28T16:50:12+00:00",
-         "title": "Complete Destruction Royale",
-         "description": "2 - 16 Players - Versus - Battle Royale... BUT you can destroy EVERYTHING! Last man standing wins.",
-         "tags": [
-            "artistic",
-            "battle royale",
-            "free for all",
-            "one life"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/completeDestructionRoyale.jpg"
-      },
-      {
-         "code": "5660-7675-2978",
-         "creator": "straykite",
-         "publishedDate": "2020-08-31T20:01:46+00:00",
-         "title": "Llama Master",
-         "description": "6 - 10 Players - Versus - Eliminate the LLAMA MASTER. Become the LLAMA MASTER. Defeat your enemies. Become a legend.",
-         "tags": [
-            "action",
-            "co-op",
-            "free for all",
-            "pvp"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/LlamaMaster_512.jpg"
-      },
-      {
          "code": "5344-3264-7834",
          "creator": "bunni_",
          "publishedDate": "2020-04-15T18:42:25+00:00",
@@ -44,30 +16,59 @@
          "image": "https://static-assets-prod.epicgames.com/fn/static/creative/fashionShow.jpg"
       },
       {
-         "code": "1734-1345-6465",
-         "creator": "troxwe",
-         "publishedDate": "2020-08-27T15:11:03+00:00",
-         "title": "Musicrun",
-         "description": "1 - 6 Players - Difficulty: Medium - Play the song and sort the notes in the correct order!",
+         "code": "9202-9100-2294",
+         "creator": "JoJos",
+         "publishedDate": "2020-08-31T20:00:24+00:00",
+         "title": "Prophunt: The residence",
+         "description": "2 - 16 Players - Versus - Prophunt / A residence has recently been put up for sale but strange things have been occuring. The city hired hunters to investigate.",
          "tags": [
-            "co-op",
-            "difficulty: medium",
-            "music",
-            "puzzle"
+            "just for fun",
+            "prop",
+            "prop hunt"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/Musicrun_512.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.0_09_Residence_512.jpg"
       },
       {
-         "code": "3706-0604-4789",
-         "creator": "TreyJTH",
-         "publishedDate": "2020-08-28T16:52:50+00:00",
-         "title": "Dungeon Dodgers",
-         "description": "1 - 16 Players - Versus - Compete with friends in this fast paced barrier dodging mini-game! Try to be the last one alive.",
+         "code": "9223-0773-2089",
+         "creator": "hazza_5238",
+         "publishedDate": "2020-09-02T21:40:49+00:00",
+         "title": "100 Rooms",
+         "description": "1-16 Players - Difficulty: Medium - The ultimate test, designed to test your parkour, exploration and investigation skills. Will you be able to escape all 100 rooms?",
          "tags": [
-            "action",
-            "competitive"
+            "adventure",
+            "escape",
+            "exploration",
+            "parkour"
          ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/DungeonDodgers_512.jpg"
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/100Rooms_512.jpg"
+      },
+      {
+         "code": "6708-4909-2131",
+         "creator": "s-k-a-v-i",
+         "publishedDate": "2020-09-02T21:04:32+00:00",
+         "title": "FishBall",
+         "description": "4 - 12 Players - Versus - 2 Teams (DodgeBall like). The goal is to bring all your enemies in your jail. Once all your opponents are in jail, you win.",
+         "tags": [
+            "minigame",
+            "party game",
+            "pvp",
+            "teams"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.0_11_Fishball_512.jpg"
+      },
+      {
+         "code": "8929-4593-5089",
+         "creator": "hell",
+         "publishedDate": "2020-09-03T15:16:35+00:00",
+         "title": "Boxfight - Gungame -  Snakecreek!",
+         "description": "2 - 6 Players - Versus - Take on the ultimate Boxfight, Gungame And Aim Race!",
+         "tags": [
+            "boxfight",
+            "competitive",
+            "gun game",
+            "training"
+         ],
+         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.0_12_Shootout_512.jpg"
       }
    ]
 }

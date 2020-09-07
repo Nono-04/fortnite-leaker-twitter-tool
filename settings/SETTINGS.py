@@ -14,12 +14,16 @@ shop =              True
 shopimagetext =     f"Fortnite Item Shop" # Text in the Image
 shopimageurl =      "" # Need to be a URL | The best is a colored background
 #### OTHER Features ####
-newsfeed =          True
+brnews =            True
+stwnews =           True # Not every News can be posted because of Text length
+creativenews =      True # Might be SPAM if Creative and BR news are activated (same shop news)
 staging =           True
 blogposts =         True
 ingamebugmessage =  True
 featuredislands =   True
 playlist =          True
+compblog =          True
+tournament =        True
 intervall = 30 # Under 20 Seconds is not allowed.
 
 

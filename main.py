@@ -27,7 +27,7 @@ def check_leaks():
     try:
         with open('Cache/leaks.json', 'r') as file:
             Cached = json.load(file)
-        data = requests.get('https://peely.de/api/leaks/lastupdate')
+        data = requests.get('https://api.peely.de/v1/leaks')
         new = data.json()
         if data.status_code != 200:
             return
@@ -39,19 +39,19 @@ def check_leaks():
         if SETTINGS.leaksimageurl or SETTINGS.leaksimagetext != "":
             url = f"https://peely.de/api/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}"
         try:
-            MODULES.tweet_image(url=url, message=get_text("shop"))
+            print("NEW Leaks")
+            MODULES.tweet_image(url=url, message=get_text("leaks"))
         except Exception as ex:
             raise tweepy.TweepError(ex)
         with open('Cache/leaks.json', 'w') as file:
             json.dump(new, file, indent=3)
-        print("Leaks posted")
 
 
 def check_shop():
     try:
         with open('Cache/shop.json', 'r') as file:
             Cached = json.load(file)
-        data = requests.get('https://peely.de/api/shop/lastupdate')
+        data = requests.get('https://api.peely.de/v1/shop')
         new = data.json()
         if data.status_code != 200:
             return
@@ -62,33 +62,33 @@ def check_shop():
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
             url = f"https://peely.de/api/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}"
         try:
+            print("NEW Shop")
             MODULES.tweet_image(url=url, message=get_text("shop"))
         except Exception as ex:
             raise tweepy.TweepError(ex)
         with open('Cache/shop.json', 'w') as file:
             json.dump(new, file, indent=3)
-        print("Item Shop posted")
 
 
 def emergencynotice():
     try:
-        with open('Cache/content.json', 'r') as file:
+        with open('Cache/notice.json', 'r') as file:
             Cached = json.load(file)
         data = requests.get(
-            f'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game?lang={SETTINGS.lang}')
+            f'https://api.peely.de/v1/notices?lang={SETTINGS.lang}')
         new = data.json()
         if data.status_code != 200:
             return
     except:
         return
-    if new["emergencynotice"]["news"]["messages"] != Cached["emergencynotice"]["news"]["messages"]:
-        for i in new["emergencynotice"]["news"]["messages"]:
-            if i not in Cached["emergencynotice"]["news"]["messages"]:
+    if new["data"]["messages"] != Cached["data"]["messages"]:
+        for i in new["data"]["messages"]:
+            if i not in Cached["data"]["messages"]:
                 title = i["title"]
                 body = i["body"]
                 MODULES.post_text(text=f"{title}\n{body}")
-        print("emergencynotice posted")
-    with open('Cache/content.json', 'w') as file:
+        print("NEW Notice")
+    with open('Cache/notice.json', 'w') as file:
         json.dump(new, file, indent=3)
 
 
@@ -97,23 +97,24 @@ def blogpost():
         with open('Cache/blog.json', 'r', encoding="utf8") as file:
             Cached = json.load(file)
         data = requests.get(
-            f'https://www.epicgames.com/fortnite/api/blog/getPosts?category=&postsPerPage=6&offset=0&locale={SETTINGS.lang}')
+            f'https://api.peely.de/v1/blogposts/normal?lang={SETTINGS.lang}')
         new = data.json()
         if data.status_code != 200:
             return
     except:
         return
-    if Cached["blogList"] != new["blogList"]:
-        print("Blog Update")
-        for i in new["blogList"]:
+    if Cached["data"]["blogposts"] != new["data"]["blogposts"]:
+        for i in new["data"]["blogposts"]:
             old = False
-            for i2 in Cached["blogList"]:
-                if i["_id"] == i2["_id"]:
+            for i2 in Cached["data"]["blogposts"]:
+                if i["url"] == i2["url"]:
                     old = True
             if old is True:
                 continue
             else:
-                MODULES.tweet_image(url=i["image"], message=get_text("blogpost") + f'\nhttps://www.epicgames.com/fortnite{i["urlPattern"]}')
+                print("NEW Blogpost")
+                MODULES.tweet_image(url=i["url"], message=get_text(
+                    "blogpost") + f'\n\n{i["url"]}')
         with open('Cache/blog.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 
@@ -136,11 +137,12 @@ def staging():
             json.dump(new, file, indent=3)
 
 
-def news():
-    with open('Cache/news.json', 'r', encoding="utf8") as file:
+def brnews():
+    with open('Cache/brnews.json', 'r', encoding="utf8") as file:
         old = json.load(file)
     try:
-        req = requests.get(f"https://fortnite-api.com/v2/news/br?lang={SETTINGS.lang}")
+        req = requests.get(
+            f"https://api.peely.de/v1/br/news?lang={SETTINGS.lang}")
         if req.status_code != 200:
             return
         new = req.json()
@@ -150,11 +152,12 @@ def news():
         try:
             for i in new["data"]["motds"]:
                 if not i in old["data"]["motds"]:
-                    print("NEW news feed")
-                    MODULES.tweet_image(url=i["image"], message=get_text("news") + f"\n{i['title']}\n{i['body']}")
+                    print("NEW BR news feed")
+                    MODULES.tweet_image(url=i["image"], message=get_text(
+                        "brnews") + f"\n\n{i['title']}\n{i['body']}")
         except:
             pass
-        with open('Cache/news.json', 'w', encoding="utf8") as file:
+        with open('Cache/brnews.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 
 
@@ -171,8 +174,9 @@ def featuredislands():
     if old != new:
         for i in new["featured_islands"]:
             if not i in old["featured_islands"]:
+                print("NEW Featured Island")
                 MODULES.tweet_image(url=i["image"],
-                                    message=get_text("featuredislands") + f"\n{i['title']}\n{i['code']}")
+                                    message=get_text("featuredislands") + f"\n\n{i['title']}\n{i['code']}")
     with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
         json.dump(new, file, indent=3)
 
@@ -182,28 +186,132 @@ def playlist():
         with open('Cache/playlist.json', 'r') as file:
             Cached = json.load(file)
         data = requests.get(
-            f'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game?lang={SETTINGS.lang}')
+            f'https://api.peely.de/v1/playlists?lang={SETTINGS.lang}')
         new = data.json()
         if data.status_code != 200:
             return
     except:
         return
-    if new["playlistinformation"]["playlist_info"]["playlists"] != Cached["playlistinformation"]["playlist_info"][
-        "playlists"]:
-        for i in new["playlistinformation"]["playlist_info"]["playlists"]:
-            if i not in Cached["playlistinformation"]["playlist_info"]["playlists"]:
+    if new["data"]["playlists"] != Cached["data"]["playlists"]:
+        for i in new["data"]["playlists"]:
+            if i not in Cached["data"]["playlists"]:
+                print("NEW Playlist")
                 try:
-                    playlist_name = i["playlist_name"]
+                    playlist_id = i["playlist_id"]
                     _type = i["_type"]
                     image = i["image"]
                     MODULES.tweet_image(
                         url=i["image"],
                         message=get_text(
-                            "playlist") + f"\n\nName:\n{playlist_name}\n\nType:\n {_type}\n\nLink:\n{image}")
+                            "playlist") + f"\n\nName:\n{playlist_id}\n\nLink:\n{image}")
                 except:
-                    MODULES.post_text(text=get_text("playlist") + f"\n\nName:\n{i['playlist_name']}")
-        print("Playlist gepostet")
+                    MODULES.post_text(text=get_text(
+                        "playlist") + f"\n\nName:\n{i['playlist_id']}")
     with open('Cache/playlist.json', 'w') as file:
+        json.dump(new, file)
+
+
+def stwnews():
+    with open('Cache/stwnews.json', 'r', encoding="utf8") as file:
+        old = json.load(file)
+    try:
+        req = requests.get(
+            f"https://api.peely.de/v1/stw/news?lang={SETTINGS.lang}")
+        if req.status_code != 200:
+            return
+        new = req.json()
+    except:
+        return
+    if old != new:
+        try:
+            for i in new["data"]["messages"]:
+                if not i in old["data"]["messages"]:
+                    print("NEW STW news feed")
+                    MODULES.tweet_image(url=i["image"], message=get_text(
+                        "stwnews") + f"\n\n{i['title']}\n{i['body']}")
+        except:
+            pass
+        with open('Cache/stwnews.json', 'w', encoding="utf8") as file:
+            json.dump(new, file, indent=3)
+
+
+def creativenews():
+    with open('Cache/creativenews.json', 'r', encoding="utf8") as file:
+        old = json.load(file)
+    try:
+        req = requests.get(
+            f"https://api.peely.de/v1/creative/news?lang={SETTINGS.lang}")
+        if req.status_code != 200:
+            return
+        new = req.json()
+    except:
+        return
+    if old != new:
+        try:
+            for i in new["data"]["motds"]:
+                if not i in old["data"]["motds"]:
+                    print("NEW Creative news feed")
+                    MODULES.tweet_image(url=i["image"], message=get_text(
+                        "creativenews") + f"\n\n{i['title']}\n{i['body']}")
+        except:
+            pass
+        with open('Cache/creativenews.json', 'w', encoding="utf8") as file:
+            json.dump(new, file, indent=3)
+
+
+def compblog():
+    try:
+        with open('Cache/compblog.json', 'r', encoding="utf8") as file:
+            Cached = json.load(file)
+        data = requests.get(
+            f'api.peely.de/v1/blogposts/competitive?lang={SETTINGS.lang}')
+        new = data.json()
+        if data.status_code != 200:
+            return
+    except:
+        return
+    if Cached["data"]["blogposts"] != new["data"]["blogposts"]:
+        for i in new["data"]["blogposts"]:
+            old = False
+            for i2 in Cached["data"]["blogposts"]:
+                if i["url"] == i2["url"]:
+                    old = True
+            if old is True:
+                continue
+            else:
+                print("NEW Competitive Blogpost")
+                MODULES.tweet_image(url=i["url"], message=get_text(
+                    "compblogpost") + f'\n\n{i["url"]}')
+            
+        with open('Cache/compblog.json', 'w', encoding="utf8") as file:
+            json.dump(new, file, indent=3)
+
+def tournament():
+    try:
+        with open('Cache/tournament.json', 'r') as file:
+            Cached = json.load(file)
+        data = requests.get(
+            f'https://api.peely.de/v1/tournaments?lang={SETTINGS.lang}')
+        new = data.json()
+        if data.status_code != 200:
+            return
+    except:
+        return
+    if new["data"]["tournaments"] != Cached["data"]["tournaments"]:
+        for i in new["data"]["tournaments"]:
+            if i not in Cached["data"]["tournaments"]:
+                try:
+                    name = i["name"]
+                    short_description = i["short_description"]
+                    MODULES.tweet_image(
+                        url=i["image"],
+                        message=get_text(
+                            "tournament") + f"\n\nName:\n{name}\n\nDesc:\n{short_description}")
+                except:
+                    MODULES.post_text(text=get_text(
+                        "tournament") + f"\n\nName:\n{name}\n\Desc:\n{short_description}")
+        print("NEW Tournament")
+    with open('Cache/tournament.json', 'w') as file:
         json.dump(new, file)
 
 
@@ -213,20 +321,28 @@ if __name__ == "__main__":
         print("Checking...")
         if SETTINGS.leaks is True:
             check_leaks()
-        if SETTINGS.ingamebugmessage is True:
-            emergencynotice()
         if SETTINGS.shop is True:
             check_shop()
-        if SETTINGS.staging is True:
-            staging()
+        if SETTINGS.brnews is True:
+            brnews()
+        if SETTINGS.creativenews is True:
+            creativenews()
+        if SETTINGS.stwnews is True:
+            stwnews()
         if SETTINGS.blogposts is True:
             blogpost()
-        if SETTINGS.newsfeed is True:
-            news()
-        if SETTINGS.featuredislands is True:
-            featuredislands()
+        if SETTINGS.compblog is True:
+            compblog()
+        if SETTINGS.ingamebugmessage is True:
+            emergencynotice()
+        if SETTINGS.staging is True:
+            staging()
         if SETTINGS.playlist is True:
             playlist()
+        if SETTINGS.tournament is True:
+            tournament()
+        if SETTINGS.featuredislands is True:
+            featuredislands()
         # --------------------------------- #
         if SETTINGS.intervall < 20:
             time.sleep(20)
