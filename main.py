@@ -124,15 +124,15 @@ def staging():
         with open('Cache/staging.json', 'r', encoding="utf8") as file:
             Cached = json.load(file)
         data = requests.get(
-            'https://fortnite-public-service-stage.ol.epicgames.com/fortnite/api/version')
+            'https://api.peely.de/v1/staging')
         new = data.json()
         if data.status_code != 200:
             return
     except:
         return
-    if Cached["version"] != new["version"]:
-        print("Staging Server Updated")
-        MODULES.post_text(text=new["version"] + get_text("staging"))
+    if Cached["data"]["staging"] != new["data"]["staging"]:
+        print("NEW Staging Server")
+        MODULES.post_text(text=new["data"]["staging"] + f" " + get_text("staging"))
         with open('Cache/staging.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 
