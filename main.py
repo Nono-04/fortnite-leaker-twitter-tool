@@ -312,7 +312,7 @@ def tournament():
                         "tournament") + f"\n\nName:\n{name}\n\Desc:\n{short_description}")
         print("NEW Tournament")
     with open('Cache/tournament.json', 'w') as file:
-        json.dump(new, file)
+        json.dump(new, file, indent=3)
 
 
 if __name__ == "__main__":

@@ -26,8 +26,8 @@ def post_text(text: str):
     client = tweepy.API(auth)
     try:
         auth.get_username()
-    except tweepy.TweepError as ex:
-        raise ex
+    except:
+        raise KeyError("INVALID TWITTER KEYS")
     client.update_status(status=text)
     return
 
@@ -42,8 +42,8 @@ def tweet_image(url, message):
     client = tweepy.API(auth)
     try:
         auth.get_username()
-    except tweepy.TweepError as ex:
-        raise ex
+    except:
+        raise KeyError("INVALID TWITTER KEYS")
     request = requests.get(url, stream=True)
     if request.status_code == 200:
         with open("image.png", 'wb') as image:
@@ -54,12 +54,22 @@ def tweet_image(url, message):
     try:
         if SETTINGS.nopost is False:
             client.update_with_media("image.png", status=message)
+        else:
+            # pass
+            raise tweepy.TweepError("!!!SIMULATION!!!")
     except tweepy.TweepError as ex:
         print(ex)
-        for tint in range(2, 11):
-            temp = Image.open("image.png")
+        for tint in range(2, 10):
+            try:
+                temp = Image.open("image.png")
+            except Exception as ex:
+                return print(ex)
             x = int(round(temp.size[0] / tint))
+            if x <= 0:
+                x=1900
             y = int(round(temp.size[1] / tint))
+            if y <= 0:
+                y=1080
             temp = temp.resize((x, y), Image.ANTIALIAS)
             temp.save("image.png", optimize=True, quality=int(round(100 / tint)))
             temp.save(io.BytesIO(), format="PNG")
