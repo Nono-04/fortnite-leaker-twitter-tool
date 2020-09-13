@@ -5,7 +5,8 @@
       "messages": [],
       "platform_messages": {
          "EU": [],
-         "NA": []
+         "NA": [],
+         "switch": []
       },
       "region_messages": {}
    }

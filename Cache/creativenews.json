@@ -2,22 +2,30 @@
    "status": 200,
    "message": "Everything should work fine",
    "data": {
-      "image": "https://api.peely.de/cdn/unique/creative_news_95627495400368717274.gif",
+      "image": "https://api.peely.de/cdn/unique/creative_news_67866867136029546871.gif",
       "motds": [
          {
-            "image": "https://cdn2.unrealengine.com/14-0-11-fishball-1920x1080-1920x1080-914537937.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14-0-11-fishball-1024x512-1024x512-914537924.jpg",
-            "title": "FishBall",
-            "body": "Party Game, Minigame, PvP, Teams\nGo play the community made Featured Island by SD_Raymix",
-            "id": "FishBall New Featured Island",
+            "image": "https://cdn2.unrealengine.com/14br-social-razorkurohomura-motd-large-1920x1080-992904787.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-social-razorkurohomura-motd-small-1024x512-992901571.jpg",
+            "title": "Razor and Kurohomura",
+            "body": "Take back your kingdom with razor-sharp speed and fiery vengeance!",
+            "id": "Razor and Kurohomura links to Item Shop",
             "spotlight": false
          },
          {
-            "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-            "title": "Starflare",
-            "body": "Stars always burn bright, yet this flare shines even brighter.",
-            "id": "Starflare links to CID_808_Athena_Commando_F_ConstellationSun",
+            "image": "https://cdn2.unrealengine.com/14pr-dominicfike-announcmentmotd-1920x1080-1920x1080-957645259.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-dominicfike-announcmentmotd-1024x512-1024x512-957507156.jpg",
+            "title": "Spotlight Series: Dominic Fike",
+            "body": "Watch singer, rapper, and songwriter Dominic Fike from our brand new studio in Los Angeles at the Main Stage now!",
+            "id": "Dominic Fike Live Now ",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14-1-04-spy-games-deathrun-1920x1080-1920x1080-969923117.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14-1-04-spy-games-deathrun-1024x512-1024x512-969923109.jpg",
+            "title": "Spy Games: Deathrun",
+            "body": "Deathrun, Difficulty: Hard, Story, Stealth\nGo play the community made Featured Island by FCT_-",
+            "id": "Spy Games: Deathrun New Featured Island",
             "spotlight": false
          }
       ],
@@ -30,38 +38,6 @@
             "spotlight": false
          }
       ],
-      "platform_motds": {
-         "mac": [
-            {
-               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
-               "title": "Chapter 2 - Season 4 Notice",
-               "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
-               "id": "Apple Sustained Release",
-               "spotlight": false
-            }
-         ],
-         "androidGP": [
-            {
-               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
-               "title": "Chapter 2 - Season 4 Notice",
-               "body": "With the launch of Season 4, players on Google Play will be unable to play the new Season. On this platform, players can still play version v13.40.",
-               "id": "Google Sustained Release",
-               "spotlight": false
-            }
-         ],
-         "ios": [
-            {
-               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
-               "title": "Chapter 2 - Season 4 Notice",
-               "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
-               "id": "Apple Sustained Release",
-               "spotlight": false
-            }
-         ]
-      },
       "ads": []
    }
 }

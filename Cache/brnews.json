@@ -2,30 +2,30 @@
    "status": 200,
    "message": "Everything should work fine",
    "data": {
-      "image": "https://api.peely.de/cdn/unique/br_news_58383108632601913389.gif",
+      "image": "https://api.peely.de/cdn/unique/br_news_93073744844277548198.gif",
       "motds": [
          {
-            "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-            "title": "Starflare",
-            "body": "Stars always burn bright, yet this flare shines even brighter.",
-            "id": "Starflare links to Item Shop",
+            "image": "https://cdn2.unrealengine.com/14br-social-razorkurohomura-motd-large-1920x1080-992904787.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-social-razorkurohomura-motd-small-1024x512-992901571.jpg",
+            "title": "Razor and Kurohomura",
+            "body": "Take back your kingdom with razor-sharp speed and fiery vengeance!",
+            "id": "Razor and Kurohomura links to Item Shop",
             "spotlight": false
          },
          {
-            "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-            "title": "Tilted Taxis",
-            "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-            "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
+            "image": "https://cdn2.unrealengine.com/14pr-dominicfike-announcmentmotd-1920x1080-1920x1080-957645259.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-dominicfike-announcmentmotd-1024x512-1024x512-957507156.jpg",
+            "title": "Spotlight Series: Dominic Fike",
+            "body": "Watch a rebroadcast of Dominic Fike from our brand new studio in Los Angeles at the Main Stage on September 13 @ 1 AM ET & 1 PM ET.",
+            "id": "Dominic Fike Rebroadcasts ",
             "spotlight": false
          },
          {
-            "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
-            "title": "Doom's Domain",
-            "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
-            "id": "Dooms Domain",
+            "image": "https://cdn2.unrealengine.com/14br-starkindustries-poi-motd-1920x1080-1920x1080-977187399.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-starkindustries-poi-motd-1024x512-1024x512-970123216.jpg",
+            "title": "Stark Industries ",
+            "body": "Explore Stark Industries, fight off enemy drones, and take on Tony Stark to power up your game with new super-powers!",
+            "id": "Stark Industries New Location",
             "spotlight": false
          }
       ],
@@ -37,168 +37,6 @@
             "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
             "spotlight": false
          }
-      ],
-      "platform_motds": {
-         "switch": [
-            {
-               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-               "title": "Starflare",
-               "body": "Stars always burn bright, yet this flare shines even brighter.",
-               "id": "Starflare links to Item Shop",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-               "title": "Tilted Taxis",
-               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
-               "title": "Doom's Domain",
-               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
-               "id": "Dooms Domain",
-               "spotlight": false
-            }
-         ],
-         "windows": [
-            {
-               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-               "title": "Starflare",
-               "body": "Stars always burn bright, yet this flare shines even brighter.",
-               "id": "Starflare links to Item Shop",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-               "title": "Tilted Taxis",
-               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
-               "title": "Doom's Domain",
-               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
-               "id": "Dooms Domain",
-               "spotlight": false
-            }
-         ],
-         "android": [
-            {
-               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-               "title": "Starflare",
-               "body": "Stars always burn bright, yet this flare shines even brighter.",
-               "id": "Starflare links to Item Shop",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-               "title": "Tilted Taxis",
-               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
-               "title": "Doom's Domain",
-               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
-               "id": "Dooms Domain",
-               "spotlight": false
-            }
-         ],
-         "XBoxOne": [
-            {
-               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-               "title": "Starflare",
-               "body": "Stars always burn bright, yet this flare shines even brighter.",
-               "id": "Starflare links to Item Shop",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-               "title": "Tilted Taxis",
-               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
-               "title": "Doom's Domain",
-               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
-               "id": "Dooms Domain",
-               "spotlight": false
-            }
-         ],
-         "PS4": [
-            {
-               "image": "https://cdn2.unrealengine.com/14br-starflare-motd-1920x1080-1920x1080-908496901.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-starflare-motd-1024x512-1024x512-908496897.jpg",
-               "title": "Starflare",
-               "body": "Stars always burn bright, yet this flare shines even brighter.",
-               "id": "Starflare links to Item Shop",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-               "title": "Tilted Taxis",
-               "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-               "id": "Tilted Taxi links to Playlist_Nitrogen12_Trios",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1920x1080-1920x1080-891082253.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14br-bplaunch-poi-doomsdomain-motd-1024x512-1024x512-891082247.jpg",
-               "title": "Doom's Domain",
-               "body": "Infiltrate Doom\u2019s Domain and take down Doctor Doom to harness the power of chaos and wield powerful abilities.",
-               "id": "Dooms Domain",
-               "spotlight": false
-            }
-         ],
-         "mac": [
-            {
-               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
-               "title": "Chapter 2 - Season 4 Notice",
-               "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
-               "id": "Apple Sustained Release",
-               "spotlight": false
-            }
-         ],
-         "androidGP": [
-            {
-               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
-               "title": "Chapter 2 - Season 4 Notice",
-               "body": "With the launch of Season 4, players on Google Play will be unable to play the new Season. On this platform, players can still play version v13.40.",
-               "id": "Google Sustained Release",
-               "spotlight": false
-            }
-         ],
-         "ios": [
-            {
-               "image": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1920x1080-1920x1080-735237418.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/13br-freefortnite-motd-1024x512-1024x512-735237414.jpg",
-               "title": "Chapter 2 - Season 4 Notice",
-               "body": "Apple has blocked your ability to update Fortnite on the App Store, and has said they will terminate our ability to develop Fortnite for Apple devices. As a result, Chapter 2 - Season 4 (v14.00) is unavailable on your device.",
-               "id": "Apple Sustained Release",
-               "spotlight": false
-            }
-         ]
-      }
+      ]
    }
 }

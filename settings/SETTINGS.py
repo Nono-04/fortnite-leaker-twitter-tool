@@ -37,4 +37,4 @@ TWITTER_TOKEN = {
     "access_token_secret": "xxxx",
 }
 
-nopost = False  # A FUNCTION FOR TESTING! Leave it on False or the Bot dont work!!!!
+nopost = True  # A FUNCTION FOR TESTING! Leave it on False or the Bot dont work!!!!

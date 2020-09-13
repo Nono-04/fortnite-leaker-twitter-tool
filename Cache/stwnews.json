@@ -2,27 +2,27 @@
    "status": 200,
    "message": "Everything should work fine",
    "data": {
-      "image": "https://api.peely.de/cdn/unique/stw_news_31120889758321103988.gif",
+      "image": "https://api.peely.de/cdn/unique/stw_news_4153751025445677613.gif",
       "messages": [
          {
-            "image": "https://cdn2.unrealengine.com/11stw-swampknight-motd-1024x512-890962742.jpg",
-            "adspace": "SEASONAL EVENT",
-            "title": "Swamp Knight",
-            "body": "A mysterious hero whose Unearthly Treat perk gives him an edge against the Mist Monsters. ",
+            "image": "https://cdn2.unrealengine.com/14stw-igor-motd-1024x512-890962754.jpg",
+            "adspace": "EVENT STORE ",
+            "title": "Plague Doctor Igor",
+            "body": "The Doctor is in...",
             "spotlight": false
          },
          {
-            "image": "https://cdn2.unrealengine.com/11stw-dungeonsstarlight-motd-1024x512-926244121.jpg",
-            "adspace": "SEASONAL EVENT",
-            "title": "Dungeons",
-            "body": "Fight monsters, dodge traps, gear up and descend into the depths to confront the raging evil below. Complete Dungeons to unlock Heroes, Candy, a Loading Screen, and more!",
+            "image": "https://cdn2.unrealengine.com/stw06-motd-miniboss-vlad-1024x512-950332362.jpg",
+            "adspace": "SEASONAL QUEST",
+            "title": "Fortnitemares",
+            "body": "Vlads back at it again and we need your help to send him back to his \u201ceternal\u201d slumber! Complete these bone chilling events to unlock your fair share of Candy, Gold, and Heroes. ",
             "spotlight": false
          },
          {
-            "image": "https://cdn2.unrealengine.com/stw05-social-mythic-outlander-ragnarok-1024x512-1024x512-926318429.png",
-            "adspace": "EVENT STORE",
-            "title": "Ragnarok",
-            "body": "The cold harbinger of fate returns! Grab this Hero to unlock the \"Slow Your Roll\" Team Perk and slow down enemies.",
+            "image": "https://cdn2.unrealengine.com/14stw-fortnitemarespromote-motd-1024x512-890962747.jpg",
+            "adspace": "VENTURES SEASON",
+            "title": "Hexsylvania",
+            "body": "Go on your next great Venture in the Hexsylvania Zone! Commanders can re-experience leveling and resource progression as they climb to the top of each new Ventures Season!",
             "spotlight": false
          }
       ]

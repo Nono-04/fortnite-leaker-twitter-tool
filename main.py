@@ -37,7 +37,10 @@ def check_leaks():
     if new != Cached:
         url = "https://peely.de/leaks"
         if SETTINGS.leaksimageurl or SETTINGS.leaksimagetext != "":
-            url = f"https://peely.de/api/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}"
+            lang="en"
+            if SETTINGS.lang:
+                lang = SETTINGS.lang
+            url = f"https://api.peely.de/v1/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}&lang={lang}"
         try:
             print("NEW Leaks")
             MODULES.tweet_image(url=url, message=get_text("leaks"))
@@ -60,7 +63,10 @@ def check_shop():
     if new != Cached:
         url = new["discordurl"]
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
-            url = f"https://peely.de/api/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}"
+            lang = "en"
+            if SETTINGS.lang:
+                lang = SETTINGS.lang
+            url = f"https://api.peely.de/v1/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}&lang={lang}"
         try:
             print("NEW Shop")
             MODULES.tweet_image(url=url, message=get_text("shop"))
@@ -286,6 +292,7 @@ def compblog():
         with open('Cache/compblog.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 
+
 def tournament():
     try:
         with open('Cache/tournament.json', 'r') as file:
@@ -300,9 +307,9 @@ def tournament():
     if new["data"]["tournaments"] != Cached["data"]["tournaments"]:
         for i in new["data"]["tournaments"]:
             if i not in Cached["data"]["tournaments"]:
+                name = i["name"]
+                short_description = i["short_description"]
                 try:
-                    name = i["name"]
-                    short_description = i["short_description"]
                     MODULES.tweet_image(
                         url=i["image"],
                         message=get_text(
@@ -344,7 +351,7 @@ if __name__ == "__main__":
         if SETTINGS.featuredislands is True:
             featuredislands()
         # --------------------------------- #
-        if SETTINGS.intervall < 20:
+        if SETTINGS.intervall <= 20:
             time.sleep(20)
         else:
             time.sleep(SETTINGS.intervall)

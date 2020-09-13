@@ -4,6 +4,54 @@
    "data": {
       "tournaments": [
          {
+            "name": "HYPE NITE",
+            "description": "This tournament is open to all players and requires no Hype to enter! This tournament occurs across one round, so make it count. Hype will be awarded to the top ranked teams at the conclusion of the event. Full rules and eligibility details are available at www.epicgames.com/fortnite/competitive/news",
+            "short_description": "Hop into this tournament for a chance to boost your Hype!",
+            "id": "s14_hypenite_trios",
+            "image": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-poster-front-750x1080-975101774.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-modetile-1024x512-975101170.jpg"
+         },
+         {
+            "name": "Wild Wednesdays",
+            "description": "Reach Open League, Division 2 in Arena to unlock this event. Each event will feature a Limited Time Mode tournament! This LTM will vary each week, so hop in and adapt quickly to take home the prize. Full details are available at www.epicgames.com/fortnite/competitive/news.",
+            "short_description": "Mixing it up each week!",
+            "id": "s14_wild",
+            "image": "https://cdn2.unrealengine.com/14br-competitive-in-game-wildcup-poster-front-750x1080-974994806.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-competitive-in-game-wildcup-modetile-1024x512-974994703.jpg"
+         },
+         {
+            "name": "Platform Cash Cup",
+            "description": "Reach Contender League in Arena mode to unlock this event. This tournament occurs across one round, so make it count! You'll be matched against other PC players only. Full details are available at www.epicgames.com/fortnite/competitive/news. ",
+            "short_description": "Prove yourself each week! ",
+            "id": "s14_platformcup_pc",
+            "image": "https://cdn2.unrealengine.com/14br-competitive-in-game-platformcup-poster-front-750x1080-974960158.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-competitive-in-game-platformcup-modetile-1024x512-974960495.jpg"
+         },
+         {
+            "name": "Platform Cash Cup",
+            "description": "Reach Contender League in Arena mode to unlock this event. This tournament occurs across one round, so make it count! You'll be matched against other PlayStation, Xbox, Switch, and Mobile players only. Full details are available at www.epicgames.com/fortnite/competitive/news. ",
+            "short_description": "Prove yourself each week! ",
+            "id": "s14_platformcup_console",
+            "image": "https://cdn2.unrealengine.com/14br-competitive-in-game-platformcup-poster-front-750x1080-974960158.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-competitive-in-game-platformcup-modetile-1024x512-974960495.jpg"
+         },
+         {
+            "name": "Chopper's Champion Cup",
+            "description": "This event is only available for Champion League players. This tournament occurs across one round, so make it count! Full details are available at www.epicgames.com/fortnite/competitive/news.",
+            "short_description": "Prove yourself each week! ",
+            "id": "s14_cc_champion",
+            "image": "https://cdn2.unrealengine.com/14br-competitive-in-game-championcup-poster-front-750x1080-974918288.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-competitive-in-game-championcup-modetile-1024x512-974917286.jpg"
+         },
+         {
+            "name": "Castor's Contender Cup",
+            "description": "This event is only available for Contender League players. This tournament occurs across one round, so make it count! Full details are available at www.epicgames.com/fortnite/competitive/news.",
+            "short_description": "Prove yourself each week! ",
+            "id": "s14_cc_contender",
+            "image": "https://cdn2.unrealengine.com/14br-competitive-in-game-contendercup-poster-front-750x1080-974871591.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-competitive-in-game-contendercup-modetile-1024x512-974872146.jpg"
+         },
+         {
             "name": "New Season Hype Cup",
             "description": "Welcome to Chapter 2 - Season 4! This tournament is open to everyone and awards Hype to the top players. Full Details at https://www.epicgames.com/fortnite/competitive/",
             "short_description": "Gather your Trio and hop in the first tournament of the new Season!",
@@ -93,7 +141,7 @@
          },
          {
             "name": "Llobeti Cup",
-            "description": "Register to unlock this event. This tournament occurs across three rounds - Round 1, 2 & 3. The top 1000 teams during Round 1 will advance to Round 2. The top 300 teams during Round 2 will advance to Round 3. ",
+            "description": "Register to unlock this event. This tournament occurs across three rounds - Round 1, 2 & 3. The top 1000 teams during Round 1 will advance to Round 2. The top 100 teams during Round 2 will advance to Round 3. ",
             "short_description": "Jump in Llobeti4's Trios Cup and do your best! After you register, this event will appear in your Compete tab in-game.",
             "id": "s13_llobeti_cup",
             "image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-green-poster-front-750x1080-241440075.jpg",
