@@ -13,8 +13,8 @@ from settings import MODULES as MODULES
 
 
 def get_text(type: str):
-    with open("lang.json") as lang:
-        data = json.loads(lang.read())
+    with open('lang.json', mode='r', encoding="ISO-8859-1") as file:
+        data = json.load(file)
         try:
             output = str(data[type][SETTINGS.lang])
         except:
