@@ -1,30 +1,30 @@
 {
-   "status": 200,
-   "message": "Everything should work fine",
-   "data": {
-      "image": "https://api.peely.de/cdn/unique/stw_news_4153751025445677613.gif",
-      "messages": [
-         {
-            "image": "https://cdn2.unrealengine.com/14stw-igor-motd-1024x512-890962754.jpg",
-            "adspace": "EVENT STORE ",
-            "title": "Plague Doctor Igor",
-            "body": "The Doctor is in...",
-            "spotlight": false
-         },
-         {
-            "image": "https://cdn2.unrealengine.com/stw06-motd-miniboss-vlad-1024x512-950332362.jpg",
-            "adspace": "SEASONAL QUEST",
-            "title": "Fortnitemares",
-            "body": "Vlads back at it again and we need your help to send him back to his \u201ceternal\u201d slumber! Complete these bone chilling events to unlock your fair share of Candy, Gold, and Heroes. ",
-            "spotlight": false
-         },
-         {
-            "image": "https://cdn2.unrealengine.com/14stw-fortnitemarespromote-motd-1024x512-890962747.jpg",
-            "adspace": "VENTURES SEASON",
-            "title": "Hexsylvania",
-            "body": "Go on your next great Venture in the Hexsylvania Zone! Commanders can re-experience leveling and resource progression as they climb to the top of each new Ventures Season!",
-            "spotlight": false
-         }
-      ]
-   }
+  "status": 200,
+  "message": "Everything should work fine",
+  "data": {
+    "image": "https://api.peely.de/cdn/unique/stw_news_31039059820422130869.gif",
+    "messages": [
+      {
+        "image": "https://cdn2.unrealengine.com/14stw-igor-motd-1024x512-890962754.jpg",
+        "adspace": "EVENT STORE ",
+        "title": "Plague Doctor Igor",
+        "body": "The Doctor is in...",
+        "spotlight": false
+      },
+      {
+        "image": "https://cdn2.unrealengine.com/stw06-motd-miniboss-vlad-1024x512-950332362.jpg",
+        "adspace": "SEASONAL QUEST",
+        "title": "Fortnitemares",
+        "body": "Vlads back at it again and we need your help to send him back to his \u201ceternal\u201d slumber! Complete these bone chilling events to unlock your fair share of Candy, Gold, and Heroes. ",
+        "spotlight": false
+      },
+      {
+        "image": "https://cdn2.unrealengine.com/14stw-fortnitemarespromote-motd-1024x512-890962747.jpg",
+        "adspace": "VENTURES SEASON",
+        "title": "Hexsylvania",
+        "body": "Go on your next great Venture in the Hexsylvania Zone! Commanders can re-experience leveling and resource progression as they climb to the top of each new Ventures Season!",
+        "spotlight": false
+      }
+    ]
+  }
 }

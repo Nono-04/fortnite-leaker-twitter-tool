@@ -45,5 +45,9 @@
   "tournament": {
     "en": "New Tournament detected",
     "de": "Neues Turnier entdeckt"
+  },
+  "progress": {
+    "en": "days are left in the current season",
+    "de": "Tage sind noch übrig in der aktuellen Season"
   }
 }

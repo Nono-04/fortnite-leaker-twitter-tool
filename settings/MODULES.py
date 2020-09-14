@@ -1,5 +1,4 @@
 import io
-import os
 
 import requests
 
@@ -66,10 +65,10 @@ def tweet_image(url, message):
                 return print(ex)
             x = int(round(temp.size[0] / tint))
             if x <= 0:
-                x=1900
+                x = 1900
             y = int(round(temp.size[1] / tint))
             if y <= 0:
-                y=1080
+                y = 1080
             temp = temp.resize((x, y), Image.ANTIALIAS)
             temp.save("image.png", optimize=True, quality=int(round(100 / tint)))
             temp.save(io.BytesIO(), format="PNG")

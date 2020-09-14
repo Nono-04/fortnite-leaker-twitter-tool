@@ -1,74 +1,86 @@
 {
-   "informations_by": "https://fortniteapi.io",
-   "featured_islands": [
-      {
-         "code": "4293-6394-9381",
-         "creator": "hooshen",
-         "publishedDate": "2020-08-12T20:37:46+00:00",
-         "title": "PVP MASTER | BOXFIGHT | ZONEWARS | FFA",
-         "description": "Four different gamemodes in one map. Boxfight, ZoneWars, FFA and One in the Chamber.",
-         "tags": [
-            "boxfight",
-            "competitive",
-            "pvp",
-            "zonewars"
-         ],
-         "image": "https://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/4293-6394-9381.png"
-      },
-      {
-         "code": "1789-6677-4269",
-         "creator": "donwozi_btw",
-         "publishedDate": "2020-09-03T14:05:00+00:00",
-         "title": "Skaavok Aim training (Chapter 2)",
-         "description": "1 - 16 Players - Warm Up",
-         "tags": [
-            "aim course",
-            "battle royale",
-            "competitive",
-            "edit course"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/skaavokAimTrainer.jpg"
-      },
-      {
-         "code": "3665-9527-5636",
-         "creator": "ItsSpark",
-         "publishedDate": "2020-09-09T20:26:43+00:00",
-         "title": "Gun-Game: Spark Pictures",
-         "description": "2 - 10 Players - Versus - Gun-Game | Take a visit to Spark Pictures and fight on the sets of your favorite films. Lights, Camera, ACTION !",
-         "tags": [
-            "action",
-            "free for all",
-            "gun game"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/SparkPictures_512.jpg"
-      },
-      {
-         "code": "9469-6426-4822",
-         "creator": "SKTTLZ",
-         "publishedDate": "2020-09-09T13:54:03+00:00",
-         "title": "FIRE VS ICE - CAPTURE THE FLAG",
-         "description": "2 - 16 Players - Versus - CAPTURE 5 FLAGS FROM THE OTHER TEAMS TERRITORY GUARDED BY GIANT MONSTERS",
-         "tags": [
-            "action",
-            "artistic",
-            "capture the flag",
-            "teams"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.1_03_FIREvsICE_512.jpg"
-      },
-      {
-         "code": "8399-8375-7960",
-         "creator": "FCT_-",
-         "publishedDate": "2020-09-10T13:42:34+00:00",
-         "title": "Spy Games: Deathrun",
-         "description": "1 - 12 Players - Difficulty: Medium - Welcome to Spy Games: Deathrun! The most unique deathrun you'll ever play with a ton of amazing new levels and challenges and a ton of tech!",
-         "tags": [
-            "deathrun",
-            "difficulty: hard",
-            "stealth",
-            "story"
-         ],
-         "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.1_04_Spy_Games_Deathrun_512.jpg"
-      }
-   ]
+  "informations_by": "https://fortniteapi.io",
+  "featured_islands": [
+    {
+      "code": "4293-6394-9381",
+      "creator": "hooshen",
+      "publishedDate": "2020-08-12T20:37:46+00:00",
+      "title": "PVP MASTER | BOXFIGHT | ZONEWARS | FFA",
+      "description": "Four different gamemodes in one map. Boxfight, ZoneWars, FFA and One in the Chamber.",
+      "tags": [
+        "boxfight",
+        "competitive",
+        "pvp",
+        "zonewars"
+      ],
+      "image": "https://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/4293-6394-9381.png"
+    },
+    {
+      "code": "9469-6426-4822",
+      "creator": "SKTTLZ",
+      "publishedDate": "2020-09-09T13:54:03+00:00",
+      "title": "FIRE VS ICE - CAPTURE THE FLAG",
+      "description": "2 - 16 Players - Versus - CAPTURE 5 FLAGS FROM THE OTHER TEAMS TERRITORY GUARDED BY GIANT MONSTERS",
+      "tags": [
+        "action",
+        "artistic",
+        "capture the flag",
+        "teams"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.1_03_FIREvsICE_512.jpg"
+    },
+    {
+      "code": "8399-8375-7960",
+      "creator": "FCT_-",
+      "publishedDate": "2020-09-10T13:42:34+00:00",
+      "title": "Spy Games: Deathrun",
+      "description": "1 - 12 Players - Difficulty: Medium - Welcome to Spy Games: Deathrun! The most unique deathrun you'll ever play with a ton of amazing new levels and challenges and a ton of tech!",
+      "tags": [
+        "deathrun",
+        "difficulty: hard",
+        "stealth",
+        "story"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/14.1_04_Spy_Games_Deathrun_512.jpg"
+    },
+    {
+      "code": "2485-1823-3050",
+      "creator": "shride",
+      "publishedDate": "2020-09-09T20:52:05+00:00",
+      "title": "\"Creative Classics\" Party Games",
+      "description": "2 - 16 Players - Versus - This Party Game takes the players back in time to Creative's early stages. This map will bring back amazing memories!",
+      "tags": [
+        "free for all",
+        "party game"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/creativeClassics.jpg"
+    },
+    {
+      "code": "3737-9502-8307",
+      "creator": "kru6",
+      "publishedDate": "2020-09-13T23:01:56+00:00",
+      "title": "Blackheart's Reef",
+      "description": "2 -16 Players - Versus - Gun Game mode. 15 kills to win.",
+      "tags": [
+        "action",
+        "free for all",
+        "gun game"
+      ],
+      "image": "https://static-assets-prod.s3.amazonaws.com/fn/static/creative/blackheartsReef.jpg"
+    },
+    {
+      "code": "2403-7975-1306",
+      "creator": "mseymour7",
+      "publishedDate": "2020-01-20T23:13:57+00:00",
+      "title": "Corruption - Hide & Seek",
+      "description": "2-16 Players - 1 Player is Corrupted and must find and eliminate other players to Corrupt them too.",
+      "tags": [
+        "artistic",
+        "hide & seek",
+        "infection",
+        "pvp"
+      ],
+      "image": "https://fortnite-island-screenshots-live-cdn.ol.epicgames.com/screenshots/2403-7975-1306.png"
+    }
+  ]
 }

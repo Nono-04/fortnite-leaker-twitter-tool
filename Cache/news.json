@@ -1,45 +1,45 @@
 {
-   "status": 200,
-   "data": {
-      "hash": "9c415ae114e3d37e56946ac90caa1e798df42980",
-      "date": "2020-09-03T00:00:41Z",
-      "image": "https://cdn.fortnite-api.com/news/v2/9c415ae114e3d37e56946ac90caa1e798df42980.gif",
-      "motds": [
-         {
-            "id": "Flytrap links to Item Shop",
-            "title": "Flytrap",
-            "tabTitle": "New Back Bling",
-            "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
-            "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
-            "sortingPriority": 80
-         },
-         {
-            "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
-            "title": "Tilted Taxis",
-            "tabTitle": "New LTM ",
-            "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
-            "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
-            "sortingPriority": 60
-         },
-         {
-            "id": "Street Serpent Pack",
-            "title": "Street Serpent Pack",
-            "tabTitle": "New Pack ",
-            "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
-            "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
-            "sortingPriority": 55
-         }
-      ],
-      "messages": [
-         {
-            "title": "Keep Your Account Secure",
-            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
-            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
-            "adspace": null
-         }
-      ]
-   }
+  "status": 200,
+  "data": {
+    "hash": "9c415ae114e3d37e56946ac90caa1e798df42980",
+    "date": "2020-09-03T00:00:41Z",
+    "image": "https://cdn.fortnite-api.com/news/v2/9c415ae114e3d37e56946ac90caa1e798df42980.gif",
+    "motds": [
+      {
+        "id": "Flytrap links to Item Shop",
+        "title": "Flytrap",
+        "tabTitle": "New Back Bling",
+        "body": "An ally of the rain-forest and a master of entangling foes in wiry vines, this is one dangerous plant to cross.",
+        "image": "https://cdn2.unrealengine.com/13br-flytrap-motd-1920x1080-1920x1080-908496909.jpg",
+        "tileImage": "https://cdn2.unrealengine.com/13br-flytrap-motd-1024x512-1024x512-908496891.jpg",
+        "sortingPriority": 80
+      },
+      {
+        "id": "Tilted Taxi links to Playlist_Nitrogen12_Duos",
+        "title": "Tilted Taxis",
+        "tabTitle": "New LTM ",
+        "body": "Drive your worst, er, best! Get behind the wheel to complete taxi fares and rule the roads. But stay alert, the streets will get crazy quick.",
+        "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1920x1080-1920x1080-891070584.jpg",
+        "tileImage": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-891070581.jpg",
+        "sortingPriority": 60
+      },
+      {
+        "id": "Street Serpent Pack",
+        "title": "Street Serpent Pack",
+        "tabTitle": "New Pack ",
+        "body": "Sweep the streets with an unavoidable gaze and get 600 Vbucks with this new pack!",
+        "image": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1920x1080-1920x1080-890506822.jpg",
+        "tileImage": "https://cdn2.unrealengine.com/14br-streetserpent-social-motd-1024x512-1024x512-890505605.jpg",
+        "sortingPriority": 55
+      }
+    ],
+    "messages": [
+      {
+        "title": "Keep Your Account Secure",
+        "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+        "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+        "adspace": null
+      }
+    ]
+  }
 }

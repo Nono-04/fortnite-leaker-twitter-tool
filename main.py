@@ -37,7 +37,7 @@ def check_leaks():
     if new != Cached:
         url = "https://peely.de/leaks"
         if SETTINGS.leaksimageurl or SETTINGS.leaksimagetext != "":
-            lang="en"
+            lang = "en"
             if SETTINGS.lang:
                 lang = SETTINGS.lang
             url = f"https://api.peely.de/v1/leaks/custom?background={SETTINGS.leaksimageurl}&text={SETTINGS.leaksimagetext}&lang={lang}"
@@ -288,7 +288,7 @@ def compblog():
                 print("NEW Competitive Blogpost")
                 MODULES.tweet_image(url=i["url"], message=get_text(
                     "compblogpost") + f'\n\n{i["url"]}')
-            
+
         with open('Cache/compblog.json', 'w', encoding="utf8") as file:
             json.dump(new, file, indent=3)
 
@@ -322,6 +322,30 @@ def tournament():
         json.dump(new, file, indent=3)
 
 
+def progressbar():
+    try:
+        with open('Cache/progress.json', 'r') as file:
+            Cached = json.load(file)
+        data = requests.get(
+            f'https://api.peely.de/v1/br/progress/data')
+        new = data.json()
+        if data.status_code != 200:
+            return
+    except:
+        return
+    if new["data"]['DaysLeft'] != Cached["data"]['DaysLeft']:
+        try:
+            MODULES.tweet_image(
+                url=f"https://api.peely.de/v1/br/progress?color={SETTINGS.progresscolor}",
+                message=f"{new['data']['DaysLeft']} " + get_text(
+                    "progress") + f". ({round((new['data']['SeasonLength'] / 100) * new['data']['DaysGone'], 2)}%)")
+        except:
+            return
+        print("NEW Progressbar")
+    with open('Cache/progress.json', 'w') as file:
+        json.dump(new, file, indent=3)
+
+
 if __name__ == "__main__":
     print("Twitter Bot Ready")
     while True:
@@ -350,6 +374,8 @@ if __name__ == "__main__":
             tournament()
         if SETTINGS.featuredislands is True:
             featuredislands()
+        if SETTINGS.progressbar is True:
+            progressbar()
         # --------------------------------- #
         if SETTINGS.intervall <= 20:
             time.sleep(20)

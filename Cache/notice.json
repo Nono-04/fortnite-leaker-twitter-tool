@@ -1,13 +1,13 @@
 {
-   "status": 200,
-   "message": "Everything should work fine",
-   "data": {
-      "messages": [],
-      "platform_messages": {
-         "EU": [],
-         "NA": [],
-         "switch": []
-      },
-      "region_messages": {}
-   }
+  "status": 200,
+  "message": "Everything should work fine",
+  "data": {
+    "messages": [],
+    "platform_messages": {
+      "EU": [],
+      "NA": [],
+      "switch": []
+    },
+    "region_messages": {}
+  }
 }

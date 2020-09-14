@@ -1,43 +1,27 @@
 {
-   "status": 200,
-   "message": "Everything should work fine",
-   "data": {
-      "image": "https://api.peely.de/cdn/unique/creative_news_67866867136029546871.gif",
-      "motds": [
-         {
-            "image": "https://cdn2.unrealengine.com/14br-social-razorkurohomura-motd-large-1920x1080-992904787.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14br-social-razorkurohomura-motd-small-1024x512-992901571.jpg",
-            "title": "Razor and Kurohomura",
-            "body": "Take back your kingdom with razor-sharp speed and fiery vengeance!",
-            "id": "Razor and Kurohomura links to Item Shop",
-            "spotlight": false
-         },
-         {
-            "image": "https://cdn2.unrealengine.com/14pr-dominicfike-announcmentmotd-1920x1080-1920x1080-957645259.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14pr-dominicfike-announcmentmotd-1024x512-1024x512-957507156.jpg",
-            "title": "Spotlight Series: Dominic Fike",
-            "body": "Watch singer, rapper, and songwriter Dominic Fike from our brand new studio in Los Angeles at the Main Stage now!",
-            "id": "Dominic Fike Live Now ",
-            "spotlight": false
-         },
-         {
-            "image": "https://cdn2.unrealengine.com/14-1-04-spy-games-deathrun-1920x1080-1920x1080-969923117.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14-1-04-spy-games-deathrun-1024x512-1024x512-969923109.jpg",
-            "title": "Spy Games: Deathrun",
-            "body": "Deathrun, Difficulty: Hard, Story, Stealth\nGo play the community made Featured Island by FCT_-",
-            "id": "Spy Games: Deathrun New Featured Island",
-            "spotlight": false
-         }
-      ],
-      "messages": [
-         {
-            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
-            "messagetype": "normal",
-            "title": "Keep Your Account Secure",
-            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
-            "spotlight": false
-         }
-      ],
-      "ads": []
-   }
+  "status": 200,
+  "message": "Everything should work fine",
+  "data": {
+    "image": "https://api.peely.de/cdn/unique/creative_news_56433364389453527384.gif",
+    "motds": [
+      {
+        "image": "https://cdn2.unrealengine.com/br14-motd-beachbomber-1920x1080-1920x1080-977878416.jpg",
+        "tileImage": "https://cdn2.unrealengine.com/br14-motd-beachbomber-1024x512-1024x512-977878415.jpg",
+        "title": "Beach Bomber",
+        "body": "The queen of sunshine is ready to take on the summer by storm!",
+        "id": "Beach Bomber links to Item Shop",
+        "spotlight": false
+      }
+    ],
+    "messages": [
+      {
+        "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+        "messagetype": "normal",
+        "title": "Keep Your Account Secure",
+        "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+        "spotlight": false
+      }
+    ],
+    "ads": []
+  }
 }

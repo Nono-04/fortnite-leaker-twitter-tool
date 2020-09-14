@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "message": "Everything should work fine",
+  "data": {
+    "DaysLeft": 76,
+    "DaysGone": 18,
+    "SeasonLength": 95
+  }
+}
