@@ -66,7 +66,7 @@ def check_shop():
             lang = "en"
             if SETTINGS.lang:
                 lang = SETTINGS.lang
-            url = f"https://api.peely.de/v1/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}&lang={lang}"
+            url = f"https://api.peely.de/v1/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}&lang={lang}&featured={SETTINGS.shopfeaturedstring}&daily={SETTINGS.shopdailystring}"
         try:
             print("NEW Shop")
             MODULES.tweet_image(url=url, message=get_text("shop"))

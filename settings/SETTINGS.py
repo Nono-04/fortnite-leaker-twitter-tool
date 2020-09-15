@@ -11,6 +11,8 @@ leaksimagetext = f"Fortnite Leaks"  # Text in the Image
 leaksimageurl = ""  # Need to be a URL | The best is a colored background
 # Shop CONFIG
 shop = True
+shopfeaturedstring = "Featured"
+shopdailystring = "Daily"
 shopimagetext = f"Fortnite Item Shop"  # Text in the Image
 shopimageurl = ""  # Need to be a URL | The best is a colored background
 #### OTHER Features ####
