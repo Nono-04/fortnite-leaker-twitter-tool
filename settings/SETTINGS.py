@@ -22,7 +22,6 @@ creativenews = True  # Might be SPAM if Creative and BR news are activated (same
 staging = True
 blogposts = True
 ingamebugmessage = True
-featuredislands = True
 playlist = True
 compblog = True
 tournament = True

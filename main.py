@@ -167,26 +167,6 @@ def brnews():
             json.dump(new, file, indent=3)
 
 
-def featuredislands():
-    with open('Cache/featuredislands.json', 'r', encoding="utf8") as file:
-        old = json.load(file)
-    try:
-        req = requests.get("https://peely.de/api/featured_islands")
-        if req.status_code != 200:
-            return
-        new = req.json()
-    except:
-        return
-    if old != new:
-        for i in new["featured_islands"]:
-            if not i in old["featured_islands"]:
-                print("NEW Featured Island")
-                MODULES.tweet_image(url=i["image"],
-                                    message=get_text("featuredislands") + f"\n\n{i['title']}\n{i['code']}")
-    with open('Cache/featuredislands.json', 'w', encoding="utf8") as file:
-        json.dump(new, file, indent=3)
-
-
 def playlist():
     try:
         with open('Cache/playlist.json', 'r') as file:
@@ -372,8 +352,6 @@ if __name__ == "__main__":
             playlist()
         if SETTINGS.tournament is True:
             tournament()
-        if SETTINGS.featuredislands is True:
-            featuredislands()
         if SETTINGS.progressbar is True:
             progressbar()
         # --------------------------------- #
