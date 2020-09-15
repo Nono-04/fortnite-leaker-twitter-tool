@@ -26,7 +26,6 @@ featuredislands = True
 playlist = True
 compblog = True
 tournament = True
-progresscolor = (255, 255, 255)
 progressbar = True
 intervall = 30  # Under 20 Seconds is not allowed.
 
