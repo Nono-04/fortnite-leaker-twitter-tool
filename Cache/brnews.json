@@ -1,26 +1,42 @@
 {
-  "status": 200,
-  "message": "Everything should work fine",
-  "data": {
-    "image": "https://api.peely.de/cdn/unique/br_news_14847549580766521049.gif",
-    "motds": [
-      {
-        "image": "https://cdn2.unrealengine.com/br14-motd-beachbomber-1920x1080-1920x1080-977878416.jpg",
-        "tileImage": "https://cdn2.unrealengine.com/br14-motd-beachbomber-1024x512-1024x512-977878415.jpg",
-        "title": "Beach Bomber",
-        "body": "The queen of sunshine is ready to take on the summer by storm!",
-        "id": "Beach Bomber links to Item Shop",
-        "spotlight": false
-      }
-    ],
-    "messages": [
-      {
-        "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
-        "messagetype": "normal",
-        "title": "Keep Your Account Secure",
-        "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
-        "spotlight": false
-      }
-    ]
-  }
+   "status": 200,
+   "message": "Everything should work fine",
+   "data": {
+      "image": "https://api.peely.de/cdn/current/brnews_en.gif",
+      "motds": [
+         {
+            "image": "https://cdn2.unrealengine.com/14pr-slushii-announcment-motd-1920x1080-1920x1080-078698828.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-slushii-announcment-motd-1024x512-1024x512-078698805.jpg",
+            "title": "Slushii Concert ",
+            "body": "Celebrate Rocket League with the Slushii Concert live at the Main Stage on Saturday, September 26th at 5 PM ET. ",
+            "id": "Slushii Concert Announcement",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14pr-corruptedlegends-screenshot-motd-1920x1080-1920x1080-037725069.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-corruptedlegends-screenshot-motd-1024x512-1024x512-037725065.jpg",
+            "title": "Corrupted Legends Pack ",
+            "body": "What is your chaotic alignment? How will you balance the scales? Choose your level of corruption and watch it spread. ",
+            "id": "Corrupted Legends Pack links to Item Shop",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14pr-ltmstandoff-motd-1920x1080-1920x1080-010803532.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-ltmstandoff-motd-1024x512-1024x512-010802054.jpg",
+            "title": "Marvel Standoff",
+            "body": "Use mighty super-powers and fight a heroes battle. Take down opposing Heroes and Villains to win the day!",
+            "id": "Marvel Standoff links to Playlist_hightower_12",
+            "spotlight": false
+         }
+      ],
+      "messages": [
+         {
+            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+            "messagetype": "normal",
+            "title": "Keep Your Account Secure",
+            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+            "spotlight": false
+         }
+      ]
+   }
 }

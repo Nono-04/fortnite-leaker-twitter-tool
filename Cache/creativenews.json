@@ -1,27 +1,43 @@
 {
-  "status": 200,
-  "message": "Everything should work fine",
-  "data": {
-    "image": "https://api.peely.de/cdn/unique/creative_news_56433364389453527384.gif",
-    "motds": [
-      {
-        "image": "https://cdn2.unrealengine.com/br14-motd-beachbomber-1920x1080-1920x1080-977878416.jpg",
-        "tileImage": "https://cdn2.unrealengine.com/br14-motd-beachbomber-1024x512-1024x512-977878415.jpg",
-        "title": "Beach Bomber",
-        "body": "The queen of sunshine is ready to take on the summer by storm!",
-        "id": "Beach Bomber links to Item Shop",
-        "spotlight": false
-      }
-    ],
-    "messages": [
-      {
-        "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
-        "messagetype": "normal",
-        "title": "Keep Your Account Secure",
-        "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
-        "spotlight": false
-      }
-    ],
-    "ads": []
-  }
+   "status": 200,
+   "message": "Everything should work fine",
+   "data": {
+      "image": "error",
+      "motds": [
+         {
+            "image": "https://cdn2.unrealengine.com/14-1-14-raiders1v1editrace3-1920x1080-1920x1080-078519975.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14-1-14-raiders1v1editrace3-1024x512-1024x512-078519971.jpg",
+            "title": "Raider's 1V1 Edit Race Course 3",
+            "body": "Edit Course, 1v1, Edit Race, Competitive\nGo play the community made Featured Island by Raider464",
+            "id": "Raider's 1V1 Edit Race Course 3 New Featured Island",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14pr-bts-creativeisland-motd-1920x1080-1920x1080-078515972.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-bts-creativeisland-motd-1024x512-1024x512-078515962.jpg",
+            "title": "\"BTS (\ubc29\ud0c4\uc18c\ub144\ub2e8) Dynamite\" Map",
+            "body": "Explore the world of BTS\u2019 explosive single \u201cDynamite\u201d in today\u2019s Featured Island built by YU7A, SundayCW, and TreyJTH",
+            "id": "BTS Feature Island ",
+            "spotlight": false
+         },
+         {
+            "image": "https://cdn2.unrealengine.com/14pr-corruptedlegends-screenshot-motd-1920x1080-1920x1080-037725069.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14pr-corruptedlegends-screenshot-motd-1024x512-1024x512-037725065.jpg",
+            "title": "Corrupted Legends Pack ",
+            "body": "What is your chaotic alignment? How will you balance the scales? Choose your level of corruption and watch it spread. ",
+            "id": "Corrupted Legends Pack links to Item Shop",
+            "spotlight": false
+         }
+      ],
+      "messages": [
+         {
+            "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/battleroyalenews/v42/BR04_MOTD_Shield-1024x512-75eacc957ecc88e76693143b6256ba06159efb76.jpg",
+            "messagetype": "normal",
+            "title": "Keep Your Account Secure",
+            "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
+            "spotlight": false
+         }
+      ],
+      "ads": []
+   }
 }

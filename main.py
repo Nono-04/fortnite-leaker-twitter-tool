@@ -316,7 +316,7 @@ def progressbar():
     if new["data"]['DaysLeft'] != Cached["data"]['DaysLeft']:
         try:
             MODULES.tweet_image(
-                url=f"https://api.peely.de/v1/br/progress",
+                url=f"https://api.peely.de/v1/br/progress?lang={SETTINGS.lang}",
                 message=f"{new['data']['DaysLeft']} " + get_text(
                     "progress") + f". ({round((new['data']['SeasonLength'] / 100) * new['data']['DaysGone'], 2)}%)")
         except:
