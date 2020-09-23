@@ -160,7 +160,7 @@ def brnews():
                 if not i in old["data"]["motds"]:
                     print("NEW BR news feed")
                     MODULES.tweet_image(url=i["image"], message=get_text(
-                        "brnews") + f"\n\n{i['title']}\n{i['body']}")
+                        "brnews") + f"\n\n{i['title']}\n\n{i['body']}")
         except:
             pass
         with open('Cache/brnews.json', 'w', encoding="utf8") as file:
