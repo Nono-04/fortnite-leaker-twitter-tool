@@ -296,7 +296,7 @@ def tournament():
                             "tournament") + f"\n\nName:\n{name}\n\nDesc:\n{short_description}")
                 except:
                     MODULES.post_text(text=get_text(
-                        "tournament") + f"\n\nName:\n{name}\n\Desc:\n{short_description}")
+                        "tournament") + f"\n\nName:\n{name}\n\nDesc:\n{short_description}")
         print("NEW Tournament")
     with open('Cache/tournament.json', 'w') as file:
         json.dump(new, file, indent=3)
