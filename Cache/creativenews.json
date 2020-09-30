@@ -2,30 +2,22 @@
    "status": 200,
    "message": "Everything should work fine",
    "data": {
-      "image": "error",
+      "image": "https://api.peely.de/cdn/current/creativenews_en.gif",
       "motds": [
          {
-            "image": "https://cdn2.unrealengine.com/14-1-14-raiders1v1editrace3-1920x1080-1920x1080-078519975.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14-1-14-raiders1v1editrace3-1024x512-1024x512-078519971.jpg",
-            "title": "Raider's 1V1 Edit Race Course 3",
-            "body": "Edit Course, 1v1, Edit Race, Competitive\nGo play the community made Featured Island by Raider464",
-            "id": "Raider's 1V1 Edit Race Course 3 New Featured Island",
+            "image": "https://cdn2.unrealengine.com/14-2-06-blossomcity-1920x1080-1920x1080-106271358.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14-2-06-blossomcity-1024x512-1024x512-106271352.jpg",
+            "title": "Blossom City",
+            "body": "Objective, Attack, Defend, Action\nGo play the community made Featured Island by nibblesfnbr",
+            "id": "Blossom City New Featured Island",
             "spotlight": false
          },
          {
-            "image": "https://cdn2.unrealengine.com/14pr-bts-creativeisland-motd-1920x1080-1920x1080-078515972.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14pr-bts-creativeisland-motd-1024x512-1024x512-078515962.jpg",
-            "title": "\"BTS (\ubc29\ud0c4\uc18c\ub144\ub2e8) Dynamite\" Map",
-            "body": "Explore the world of BTS\u2019 explosive single \u201cDynamite\u201d in today\u2019s Featured Island built by YU7A, SundayCW, and TreyJTH",
-            "id": "BTS Feature Island ",
-            "spotlight": false
-         },
-         {
-            "image": "https://cdn2.unrealengine.com/14pr-corruptedlegends-screenshot-motd-1920x1080-1920x1080-037725069.jpg",
-            "tileImage": "https://cdn2.unrealengine.com/14pr-corruptedlegends-screenshot-motd-1024x512-1024x512-037725065.jpg",
-            "title": "Corrupted Legends Pack ",
-            "body": "What is your chaotic alignment? How will you balance the scales? Choose your level of corruption and watch it spread. ",
-            "id": "Corrupted Legends Pack links to Item Shop",
+            "image": "https://cdn2.unrealengine.com/14br-abstrakt-motd-1920x1080-1920x1080-106350955.jpg",
+            "tileImage": "https://cdn2.unrealengine.com/14br-abstrakt-motd-1024x512-1024x512-106350951.jpg",
+            "title": "Abstrakt",
+            "body": "Uses the mark of the shadow to tag and track his enemies.",
+            "id": "Abstrakt links to Item Shop",
             "spotlight": false
          }
       ],

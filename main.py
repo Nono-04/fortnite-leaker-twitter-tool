@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 import time
 
@@ -62,6 +63,8 @@ def check_shop():
         return
     if new != Cached:
         url = new["discordurl"]
+        if SETTINGS.shopimagedate is True:
+            SETTINGS.shopimagetext = "Item Shop from " + str(datetime.utcnow().__format__('%d.%m'))
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
             lang = "en"
             if SETTINGS.lang:
@@ -69,6 +72,7 @@ def check_shop():
             url = f"https://api.peely.de/v1/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}&lang={lang}&featured={SETTINGS.shopfeaturedstring}&daily={SETTINGS.shopdailystring}"
         try:
             print("NEW Shop")
+            print(url)
             MODULES.tweet_image(url=url, message=get_text("shop"))
         except Exception as ex:
             raise tweepy.TweepError(ex)

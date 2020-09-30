@@ -4,12 +4,36 @@
    "data": {
       "blogposts": [
          {
-            "title": "Light It Up Like Dynamite: BTS Arrives in Fortnite Party Royale!",
-            "description": "On September 25 @ 8 PM EDT (Saturday, September 26 @ 9 AM KST), jump into Party Royale for the world premiere of BTS\u2019 explosive single \u201cDynamite\u201d Music Video Choreography Version!",
+            "title": "Fortnite\u2019s 3rd Birthday Bash for Battle Royale",
+            "description": "Celebrate Fortnite's 3rd Birthday Bash for Battle Royale! Complete birthday challenges for exclusive Items, receive an Emote for logging on, and more!",
             "author": "The Fortnite Team",
-            "url": "https://www.epicgames.com/fortnite/blog/light-it-up-like-dynamite-bts-arrives-in-fortnite-party-royale",
-            "image": "https://cdn2.unrealengine.com/14pr-bts-social-newsthumb-576x576-039000258.jpg",
-            "date": "2020-09-21T06:00:00.000Z"
+            "url": "https://www.epicgames.com/fortnite/blog/fortnite-s-3rd-birthday-bash-for-battle-royale",
+            "image": "https://cdn2.unrealengine.com/14br-keyart-keyart-newsthumb-576x576-108944178.jpg",
+            "date": "2020-09-26T14:00:00.000Z"
+         },
+         {
+            "title": "Princess Castle Creative Contest",
+            "description": "Participate in the latest Fortnite Creative Contest by submitting awesome new aesthetic creations using the new Princess Castle set.",
+            "author": "The Fortnite Team",
+            "url": "https://www.epicgames.com/fortnite/blog/princess-castle-creative-contest",
+            "image": "https://cdn2.unrealengine.com/11br-evergreens-lime-newsthumbnail-576x576-969782477.jpg",
+            "date": "2020-09-26T12:55:00.000Z"
+         },
+         {
+            "title": "Blade the Vampire Hunter Daybreaks into Fortnite",
+            "description": "Half-human, half-vampire, Blade the Daywalker has arisen in Fortnite! Check out the new Blade Outfit, Sword of the Daywalker Pickaxe and Back Bling, Dayflier Glider, and Daywalker\u2019s Kata Emote.",
+            "author": "The Fortnite Team",
+            "url": "https://www.epicgames.com/fortnite/blog/blade-the-vampire-hunter-daybreaks-into-fortnite",
+            "image": "https://cdn2.unrealengine.com/newsthumb-576x576-095923576.jpg",
+            "date": "2020-09-25T00:00:00.000Z"
+         },
+         {
+            "title": "Team Up to Take Over the Map in the Marvel Takeover LTM!",
+            "description": "Fortnite v14.20 introduces the Marvel Takeover LTM. Use your superpowers to capture outposts with your team while in a moving Storm Shield!",
+            "author": "The Fortnite Team",
+            "url": "https://www.epicgames.com/fortnite/blog/team-up-to-take-over-the-map-in-the-marvel-takeover-ltm",
+            "image": "https://cdn2.unrealengine.com/14br-marveltakeoverltm-newsthumb-576x576-086301644.jpg",
+            "date": "2020-09-23T12:00:00.000Z"
          },
          {
             "title": "SAVE THE WORLD | HOMEBASE STATUS REPORT 9.23.2020",
@@ -36,7 +60,7 @@
             "date": "2020-09-22T13:00:00.000Z"
          },
          {
-            "title": "Llama-Rama Brings Fortnite and Rocket League Together!",
+            "title": "Llama-Rama Brings Fortnite and Rocket League Together",
             "description": "The Llama-Rama crossover event for Fortnite and Rocket League begins on September 26th. Complete Rocket League Challenges and earn rewards in both games!",
             "author": "The Fortnite Team",
             "url": "https://www.epicgames.com/fortnite/blog/llama-rama-brings-fortnite-and-rocket-league-together",
@@ -50,6 +74,14 @@
             "url": "https://www.epicgames.com/fortnite/blog/slushii-spotlight-series-content-creator-guide",
             "image": "https://cdn2.unrealengine.com/14pr-slushii-announcment-newsthumb-576x576-070591345.jpg",
             "date": "2020-09-22T12:00:00.000Z"
+         },
+         {
+            "title": "Light It Up Like Dynamite: BTS Arrives in Fortnite Party Royale!",
+            "description": "On September 25 @ 8 PM EDT (Saturday, September 26 @ 9 AM KST), jump into Party Royale for the world premiere of BTS\u2019 explosive single \u201cDynamite\u201d Music Video Choreography Version!",
+            "author": "The Fortnite Team",
+            "url": "https://www.epicgames.com/fortnite/blog/light-it-up-like-dynamite-bts-arrives-in-fortnite-party-royale",
+            "image": "https://cdn2.unrealengine.com/14pr-bts-social-newsthumb-576x576-039000258.jpg",
+            "date": "2020-09-21T06:00:00.000Z"
          },
          {
             "title": "Your First Drop Into Party Royale: Getting to the Main Stage",
@@ -3488,6 +3520,14 @@
             "url": "https://www.epicgames.com/fortnite/blog/creative-island-codes-how-to-play",
             "image": "https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fcreative-island-codes-how-to-play%2F08CM_Evergreen_Green_NewsThumbnail-576x576-800ccf037180c27fbb869eb4b5c06174cac18676.jpg",
             "date": "2016-04-13T18:24:16.563Z"
+         },
+         {
+            "title": "Princess Castle Creative Contest - Official Rules",
+            "description": "Official Rules",
+            "author": "The Fortnite Team",
+            "url": "https://www.epicgames.com/fortnite/blog/princess-castle-contest-official-rules",
+            "image": "https://cdn2.unrealengine.com/13br-evergreens-purpink-newsthumb-576x576-106865522.jpg",
+            "date": "2015-09-25T13:00:00.000Z"
          },
          {
             "title": "Fortnite World Cup Bonus Creative Competitions Official Rules",

@@ -2,8 +2,8 @@
    "status": 200,
    "message": "Everything should work fine",
    "data": {
-      "DaysLeft": 68,
-      "DaysGone": 26,
+      "DaysLeft": 60,
+      "DaysGone": 34,
       "SeasonLength": 95
    }
 }

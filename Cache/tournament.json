@@ -4,6 +4,30 @@
    "data": {
       "tournaments": [
          {
+            "name": "Fortnite Champion Series",
+            "description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. The top teams from Round Three in each region will advance to the Season Finals. Teams will also accumulate Series Points based on each Week's results, and top performers will also be invited to the Season Finals. Full rules and advancements for each round can be found at fortnite.com/competitive",
+            "short_description": "Compete in the Fortnite Champion Series: Chapter 2 - Season 4 for a share of the $5,000,000 total prize pool.",
+            "id": "s14_fncs_week3",
+            "image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-poster-front-750x1080-097515678.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-modetile-1024x512-097528772.jpg"
+         },
+         {
+            "name": "Fortnite Champion Series",
+            "description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. The top teams from Round Three in each region will advance to the Season Finals. Teams will also accumulate Series Points based on each Week's results, and top performers will also be invited to the Season Finals. Full rules and advancements for each round can be found at fortnite.com/competitive",
+            "short_description": "Compete in the Fortnite Champion Series: Chapter 2 - Season 4 for a share of the $5,000,000 total prize pool.",
+            "id": "s14_fncs_week2",
+            "image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week4-poster-front-750x1080-097528911.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week4-modetile-1024x512-097541529.jpg"
+         },
+         {
+            "name": "Fortnite Champion Series",
+            "description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. The top teams from Round Three in each region will advance to the Season Finals. Teams will also accumulate Series Points based on each Week's results, and top performers will also be invited to the Season Finals. Full rules and advancements for each round can be found at fortnite.com/competitive",
+            "short_description": "Compete in the Fortnite Champion Series: Chapter 2 - Season 4 for a share of the $5,000,000 total prize pool.",
+            "id": "s14_fncs_week1",
+            "image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week2-poster-front-750x1080-097515678.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week2-modetile-1024x512-097528786.jpg"
+         },
+         {
             "name": "DreamHack Online Open Featuring Fortnite",
             "description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
             "short_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
@@ -90,6 +114,14 @@
             "id": "s14_comp_solo",
             "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_Poster_Front-750x1080-3fcd795f59a70c0f1104d7b91428c333ae0de719.jpg",
             "thumbnail": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_ModeTile-1024x512-b6da7350cd4a5552d597cf047973f8c767ef90f8.jpg"
+         },
+         {
+            "name": "Fortnite Champion Series Warmup",
+            "description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. This event is a practice tournament and has no cash prizes.",
+            "short_description": "Grab your trio and warm up for the upcoming Fortnite Champion Series!",
+            "id": "s14_fncs_warmup",
+            "image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-poster-front-750x1080-088996367.jpg",
+            "thumbnail": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-modetile-1024x512-088996529.jpg"
          },
          {
             "name": "Gamers Club Cup",
