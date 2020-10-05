@@ -69,7 +69,7 @@ def check_shop():
             lang = "en"
             if SETTINGS.lang:
                 lang = SETTINGS.lang
-            url = f"https://api.peely.de/v1/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}&lang={lang}&featured={SETTINGS.shopfeaturedstring}&daily={SETTINGS.shopdailystring}"
+            url = f"https://api.peely.de/v1/shop/custom?background={SETTINGS.shopimageurl}&text={SETTINGS.shopimagetext}&lang={lang}"
         try:
             print("NEW Shop")
             print(url)
