@@ -64,7 +64,7 @@ def check_shop():
     if new != Cached:
         url = new["discordurl"]
         if SETTINGS.shopimagedate is True:
-            SETTINGS.shopimagetext = "Item Shop from " + str(datetime.utcnow().__format__('%d.%m'))
+            SETTINGS.shopimagetext = "Item Shop from " + str(datetime.utcnow().__format__('%d.%m.%Y'))
         if SETTINGS.shopimageurl or SETTINGS.shopimagetext != "":
             lang = "en"
             if SETTINGS.lang:
