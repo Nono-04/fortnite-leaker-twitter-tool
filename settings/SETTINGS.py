@@ -11,8 +11,6 @@ leaksimagetext = f"Fortnite Leaks"  # Text in the Image
 leaksimageurl = ""  # Need to be a URL | The best is a colored background
 # Shop CONFIG
 shop = True
-shopfeaturedstring = "Featured"
-shopdailystring = "Daily"
 shopimagetext = f"Fortnite Item Shop"  # Text in the Image
 shopimagedate = True # Note: That will disable the Item Shop Text AND Multi Lang is not supported (only EN) but you are able to change the source code (Line: 64)
 shopimageurl = ""  # Need to be a URL | The best is a colored background
